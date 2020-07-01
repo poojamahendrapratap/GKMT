@@ -1,0 +1,71 @@
+footer {
+	background-color: rgb(59, 59, 59);
+}
+
+footer .container > div {
+	width: 280px;
+}
+
+footer .about-div div {
+	color: white;
+	font-size: 0.85rem;
+}
+
+footer .quick-links .quick-links-title {
+	font-size: 1.2rem;
+	color: white;
+}
+
+footer .quick-links div ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+footer .quick-links div ul li a {
+	color: white;
+	font-size: 0.8rem;
+	line-height: 1.5;
+}
+
+footer .services .services-title {
+	font-size: 1.2rem;
+	color: white;
+}
+
+footer .services ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+footer .services ul li {
+	color: white;
+	font-size: 0.8rem;
+	line-height: 2.5;
+}
+
+footer .contact-info .contact-info-title {
+	font-size: 1.2rem;
+	color: white;
+}
+
+footer .contact-info i,
+footer .contact-info span {
+	color: white;
+}
+
+footer .contact-info span {
+	margin-left: 5px;
+	font-size: 0.7rem;
+}
+
+/* ********** Bottom Footer **********8 */
+
+.bottom-footer {
+	background-color: black;
+	color: white;
+	font-size: 0.8rem;
+}
+
+.bottom-footer a {
+	color: white;
+}

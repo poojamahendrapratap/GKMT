@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="fontawesome/css/all.css" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+		<script src="js/home.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/whyus.js"></script>
+		<script src="js/service_offered_js.js"></script>
+		<!-- Header -->
+		<link rel="stylesheet" href="css/header.css" />
+		<!-- Footer -->
+		<link rel="stylesheet" href="css/footer.css" />
+		<!-- Body -->
+		<link rel="stylesheet" href="css/body.css" />
+
+		<!-- portfolio -->
+		<!-- <link rel="stylesheet" href="dict/css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="dict/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="dict/css/animate.css" />
+		<!-- <link rel="stylesheet" href="dict/css/font-awesome.min.css"> -->
+		<!-- <link rel="stylesheet" href="dict/css/custom-icon.css"> -->
+		<link rel="stylesheet" href="dict/css/portfolio.css" />
+
+		<!-- on demand -->
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+		<link rel="stylesheet" href="scss/css/animate.css" />
+		<!-- <link rel="stylesheet" href="scss/css/owl.carousel.min.css"> -->
+		<link rel="stylesheet" href="scss/css/style.css" />
+
+		<title>GKMT Home</title>
+
+		<script>
+			$(document).ready(function () {
+				$(".bubble").click(function () {
+					$(".bubble").removeClass("active");
+					$(".bubble").addClass("normal");
+					$(this).toggleClass("active normal");
+				});
+
+				$(".bubble").click(function () {
+					$(".industry-description").addClass("d-none");
+					$(".industry-description").removeClass("d-flex");
+					var thisid = $(this).attr("id");
+					$("." + thisid).removeClass("d-none");
+					$("." + thisid).addClass("d-flex");
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav
+			id="navbar"
+			class="navbar container-fluid navbar-expand-lg navbar-light justify-content-lg-center"
+		>
+			<div class="container">
+				<!-- LOGO -->
+				<a
+					class="navbar-brand mr-lg-5 order-0 ml-1 ml-lg-0 d-flex align-items-center"
+					href="#"
+				>
+					<img id="logo" src="images/logo.png" />
+				</a>
+
+				<!-- Main navigation menu -->
+				<div class="nav-div order-3 order-lg-1">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">HOME </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="aboutus.html">ABOUT</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">SERVICES</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">CAREER</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">BLOG</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">COLLAB</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT US</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Get free quote button -->
+				<!--             <div class="get-free-quote order-1 order-lg-2 ml-auto ml-lg-1">
+				<button onclick="smoothScroll('.sixth-section', 1000)">GET FREE QUOTE</button>
+			</div> -->
+				<div class="get-free-quote order-1 order-lg-2 ml-auto ml-lg-1">
+					<a href="#" class="btn-get-started">GET FREE QUOTE</a>
+				</div>
+				<!-- Navbar toggle button -->
+				<button
+					class="navbar-toggler order-2 text-white"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</nav>
+
+		<!-- *************************** First Container *************************** -->
+
+		<div
+			class="container-fluid first-section d-flex align-items-center justify-content-lg-center"
+		>
+			<div class="container text-white">
+				<div class="">
+					DEVELOPED BY A
+					<br />
+					PROFICIENT CREW OF
+					<br />
+					GKMT IT
+				</div>
+				<!-- <button class="consult-us mt-3">CONSULT US <i class="fas fa-arrow-right"></i></button> -->
+				<a href="#" class="btn-get-started mt-4"
+					>CONSULT US <i class="fas fa-arrow-right"></i>
+				</a>
+			</div>
+			<!-- <a href="#" class="btn-get-started">GET FREE QUOTE</a> -->
+		</div>
+		<!-- *************************** First Section end ***************************-->
+
+		<!--********************************* Why Us section ************************************-->
+
+		<div
+			class="why-us-section container-fluid d-flex flex-column align-items-center justify-content-center"
+		>
+			<div class="container d-flex flex-wrap justify-content-center mt-lg-5">
+				<div class="hex-container">
+					<div class="flip-box hex1">
+						<div class="flip-box-inner">
+							<div class="flip-box-back">
+								<div class="triangle-up"></div>
+								<div class="content content-back">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+									non nisi voluptas tenetur beatae, possimus praesentium sint
+									perferendis? Maxime reprehenderit
+								</div>
+								<div class="triangle-down"></div>
+							</div>
+							<div class="flip-box-front">
+								<div class="triangle-up"></div>
+								<div class="content content-front">Certified Developers</div>
+								<div class="triangle-down"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="flip-box hex2">
+						<div class="flip-box-inner">
+							<div class="flip-box-back">
+								<div class="triangle-up"></div>
+								<div class="content content-back">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+									non nisi voluptas tenetur beatae, possimus praesentium sint
+									perferendis? Maxime reprehenderit
+								</div>
+								<div class="triangle-down"></div>
+							</div>
+							<div class="flip-box-front">
+								<div class="triangle-up"></div>
+								<div class="content content-front">Agile Work Model</div>
+								<div class="triangle-down"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="flip-box hex3">
+						<div class="flip-box-inner">
+							<div class="flip-box-back">
+								<div class="triangle-up"></div>
+								<div class="content content-back">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+									non nisi voluptas tenetur beatae, possimus praesentium sint
+									perferendis? Maxime reprehenderit
+								</div>
+								<div class="triangle-down"></div>
+							</div>
+							<div class="flip-box-front">
+								<div class="triangle-up"></div>
+								<div class="content content-front">Dive With Us</div>
+								<div class="triangle-down"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="flip-box hex4">
+						<div class="flip-box-inner">
+							<div class="flip-box-back">
+								<div class="triangle-up"></div>
+								<div class="content content-back">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+									non nisi voluptas tenetur beatae, possimus praesentium sint
+									perferendis? Maxime reprehenderit
+								</div>
+								<div class="triangle-down"></div>
+							</div>
+							<div class="flip-box-front">
+								<div class="triangle-up"></div>
+								<div class="content content-front">Certified Developers</div>
+								<div class="triangle-down"></div>
+							</div>
+						</div>
+					</div>
+
+					<div
+						class="wutext"
+						style="
+							color: rgb(30, 57, 87);
+							font-weight: bolder;
+							font-size: 3em;
+							font-family: 'Raleway', sans-serif;
+						"
+					>
+						WHY <span style="color: rgb(6, 154, 158);"> US? </span>
+					</div>
+
+					<div class="gai">
+						<h3
+							class="mt-3 gaitxt"
+							style="color: rgb(30, 57, 87); font-weight: bold;"
+						>
+							Got an idea, want an app for it?
+						</h3>
+						<br />
+						<span class="gaqbtn">
+							<a href="#" class="btn-get-started scrollto"> GET QUOTE </a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid bluebg mt-3 p-5 d-flex justify-content-center">
+			<div class="container d-flex justify-content-center">
+				<div
+					class="btngroup d-flex flex-column flex-lg-row flex-md-row align-items-center"
+				>
+					<button
+						class="btn buttons d-flex justify-content-center align-items-center"
+					>
+						<div>
+							<i class="fa fa-rocket"></i>
+						</div>
+						<div>
+							Project Delivery
+						</div>
+					</button>
+					<button
+						class="btn buttons d-flex justify-content-center align-items-center"
+					>
+						<div>
+							<i class="far fa-smile-beam"></i>
+						</div>
+						<div>
+							Happy Clients
+						</div>
+					</button>
+					<button
+						class="btn buttons d-flex justify-content-center align-items-center"
+					>
+						<div>
+							<i class="fa fa-trophy"></i>
+						</div>
+						<div>
+							Years Of Experience
+						</div>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- ************************On demand  e-commerce *********************** -->
+
+		<!-- try on demand -->
+
+		<section class="home-slider js-fullheight owl-carousel bg-white">
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+					<div
+						class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div class="numbertext">1 / 3</div>
+
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="background-image: url(images/portfolio.jpg);"
+						>
+							<div class="overlay"></div>
+						</div>
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">01</div>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">
+									FitNutro
+									<span style="color: white;"
+										><br />
+										FitNutro</span
+									>
+								</h1>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+									Culpa obcaecati perspiciatis assumenda nostrum dolores dolor
+									tenetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum Beef</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+					<div
+						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="
+								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
+							"
+						>
+							<div class="overlay"></div>
+						</div>
+
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">02</div>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">Invest Expert</h1>
+								<p>
+									accusamus omnis impedit provident fugit. Ducimus dolores quia
+									blanditiis corporis similique., dolor sit amet consectetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+					<div
+						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="
+								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
+							"
+						>
+							<div class="overlay"></div>
+						</div>
+
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">03</div>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">Archithrones</h1>
+								<p>
+									accusamus omnis impedit provident fugit. Ducimus dolores quia
+									blanditiis corporis similique., dolor sit amet consectetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+					<div
+						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="
+								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
+							"
+						>
+							<div class="overlay"></div>
+						</div>
+
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">04</div>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">Zedin Elma</h1>
+								<p>
+									accusamus omnis impedit provident fugit. Ducimus dolores quia
+									blanditiis corporis similique., dolor sit amet consectetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+					<div
+						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="
+								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
+							"
+						>
+							<div class="overlay"></div>
+						</div>
+
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">05</div>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">Primeiros Passos</h1>
+								<p>
+									accusamus omnis impedit provident fugit. Ducimus dolores quia
+									blanditiis corporis similique., dolor sit amet consectetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+					<div
+						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="
+								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
+							"
+						>
+							<div class="overlay"></div>
+						</div>
+
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">06</div>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">Pearl Cab</h1>
+								<p>
+									accusamus omnis impedit provident fugit. Ducimus dolores quia
+									blanditiis corporis similique., dolor sit amet consectetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- *********************************** Services we offer ********************************* -->
+
+		<div class="container-fluid service-we-offer pt-5">
+			<div class="container p-3">
+				<center>
+					<div class="heading">
+						SERVICES<span> WE OFFERED </span>
+						<div class="underline"></div>
+					</div>
+				</center>
+			</div>
+
+			<div class="section mt-0 row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+					<div id="egg">
+						<div id="mad" class="tabcontent active">
+							<br />
+							<img
+								src="icons/icons8-iphone-x-96.png"
+								id="weserveicons"
+								alt=""
+							/>
+							<br />
+							<h6 id="weserveh6">
+								Mobile APP DEVELOPMENT
+							</h6>
+
+							<p id="servicep1">
+								Mobile app development is the act or process
+								<br />by which a mobile app is developed for <br />mobile
+								devices, such as personal digital <br />assistants, enterprise
+								digital assistants <br />or mobile phones.
+							</p>
+							<input
+								type="button"
+								id="weservebtn"
+								class="btn btn-warning"
+								value="More"
+							/>
+						</div>
+
+						<div id="wdd" class="tabcontent">
+							<br />
+							<img
+								src="icons/icons8-linux-server-80.png"
+								id="weserveicons"
+								alt=""
+							/>
+							<br />
+							<h6 id="weserveh6">
+								Web Design Development
+							</h6>
+
+							<p id="servicep1">
+								Mobile app development is the act or process
+								<br />by which a mobile app is developed for <br />mobile
+								devices, such as personal digital <br />assistants, enterprise
+								digital assistants
+							</p>
+							<input
+								type="button"
+								id="weservebtn"
+								class="btn btn-warning"
+								value="More"
+							/>
+						</div>
+						<div id="Dmb" class="tabcontent">
+							<br />
+							<img
+								src="icons/icons8-marketing-64.png"
+								id="weserveicons"
+								class="weserveicons"
+								width="90px"
+								height="90px"
+								alt=""
+							/>
+							<br />
+							<h6 id="weserveh6">
+								Digital Marketing Branding
+							</h6>
+
+							<p id="servicep1">
+								Mobile app development is the act or process
+								<br />by which a mobile app is developed for <br />mobile
+								devices, such as personal digital <br />assistants, enterprise
+								digital assistants <br />or mobile phones.
+							</p>
+							<input
+								type="button"
+								id="weservebtn"
+								class="btn btn-warning"
+								value="More"
+							/>
+						</div>
+						<div id="Ui" class="tabcontent">
+							<br />
+							<img
+								src="icons/icons8-blueprint-with-pen-100.png"
+								id="weserveicons"
+								alt=""
+							/>
+							<br />
+							<h6 id="weserveh6">
+								UI/UX Design
+							</h6>
+
+							<p id="servicep1">
+								Mobile app development is the act or process
+								<br />by which a mobile app is developed for <br />mobile
+								devices, such as personal digital <br />assistants, enterprise
+								digital assistants <br />or mobile phones.
+							</p>
+							<input
+								type="button"
+								id="weservebtn"
+								class="btn btn-warning"
+								value="More"
+							/>
+						</div>
+
+						<div id="Sd" class="tabcontent">
+							<br />
+							<br />
+							<h6 id="weserveh6">
+								Software Development
+							</h6>
+
+							<p id="servicep1">
+								Mobile app development is the act or process
+								<br />by which a mobile app is developed for <br />mobile
+								devices, such as personal digital <br />assistants, enterprise
+								digital assistants <br />or mobile phones.
+							</p>
+							<input
+								type="button"
+								id="weservebtn"
+								class="btn btn-warning"
+								value="More"
+							/>
+						</div>
+
+						<div id="Ods" class="tabcontent">
+							<br />
+							<br />
+							<h6 id="weserveh6">
+								On Demand Service
+							</h6>
+
+							<p id="servicep1">
+								Mobile app development is the act or process
+								<br />by which a mobile app is developed for <br />mobile
+								devices, such as personal digital <br />assistants, enterprise
+								digital assistants <br />or mobile phones.
+							</p>
+							<input
+								type="button"
+								id="weservebtn"
+								class="btn btn-warning"
+								value="More"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12" id="servicemydiv">
+					<div class="tab">
+						<div
+							id="innerdiv"
+							class="serviceboxes default"
+							onclick="content(event, 'mad')"
+						>
+							<span>1</span>
+							<br />
+							<span id="serviceh4" style="margin-left: 5px; cursor: pointer;"
+								>Mad</span
+							>
+							<br />
+							<span class="weofferspan" style="margin-left: 5px;">
+								Mobile App</span
+							>
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Development</span
+							>
+						</div>
+						<div
+							id="innerdiv1"
+							class="serviceboxes"
+							onclick="content(event, 'wdd')"
+						>
+							<span>2</span>
+							<br />
+							<span id="serviceh4" style="margin-left: 5px; cursor: pointer;"
+								>Wdd</span
+							>
+							<br />
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Web Design</span
+							>
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Development</span
+							>
+						</div>
+						<div
+							id="innerdiv2"
+							class="serviceboxes"
+							onclick="content(event, 'Dmb')"
+						>
+							<span>3</span>
+							<br />
+							<span id="serviceh4">Dmb</span>
+							<br />
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Digital Marketing</span
+							>
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Branding</span
+							>
+						</div>
+						<div
+							id="innerdiv3"
+							class="serviceboxes"
+							onclick="content(event, 'Ui')"
+						>
+							<span>4</span>
+							<br />
+							<span id="serviceh4">UI/UX</span>
+							<br />
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Graphics Design</span
+							>
+
+							<span class="weofferspan" style="margin-left: 5px;"
+								>UI/UX Design</span
+							>
+						</div>
+						<div
+							id="innerdiv4"
+							class="serviceboxes"
+							onclick="content(event, 'Sd')"
+						>
+							<span>5</span>
+							<br />
+							<span id="serviceh4">Sd</span>
+							<br />
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Software</span
+							>
+							<span class="weofferspan" style="margin-left: 5px;"
+								>Development</span
+							>
+						</div>
+						<div
+							id="innerdiv5"
+							class="serviceboxes"
+							onclick="content(event, 'Ods')"
+						>
+							<span>6</span>
+							<br />
+							<span id="serviceh4">Ods</span>
+							<br />
+							<span class="weofferspan" style="margin-left: 5px;"
+								>On demand
+							</span>
+
+							<span class="weofferspan" style="margin-left: 5px;">Server</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script>
+				function content(evt, cityName) {
+					var i, tabcontent, tablinks;
+					tabcontent = document.getElementsByClassName("tabcontent");
+					for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+					}
+					tablinks = document.getElementsByClassName("serviceboxes");
+					for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace("active", "");
+					}
+					document.getElementById(cityName).style.display = "block";
+					evt.currentTarget.className += " active";
+				}
+				document.getElementById("innerdiv").click();
+			</script>
+		</div>
+
+		<!-- ********************************* Work Flow ******************************* -->
+
+		<section
+			class="hero-area work-flow p-2 p-lg-4 mt-3"
+			style="
+				background-image: url(images/workflow.jpg);
+				background-size: cover;
+				background-position: center;
+				height: 30vmax;
+			"
+		>
+			<div class="work-flow">
+				<!-- Single Hero Slide -->
+				<div class="work-flow bg-img">
+					<!-- <div class="heading mt-2 mb-3 p-3 w-100 text-center">OUR<span>PORTFOLIO</span></div> -->
+					<div class="container">
+						<center>
+							<div class="heading">
+								WORK <span>FLOW</span>
+								<div class="underline"></div>
+							</div>
+						</center>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ******************************industries we serve Section ******************************** -->
+
+		<div
+			class="industries-we-serve-section container-fluid p-4 d-flex flex-column align-items-center justify-content-lg-center"
+		>
+			<div class="heading mt-2 p-3">
+				INDUSTRIES <span>WE SERVE</span>
+				<div class="underline"></div>
+			</div>
+
+			<div class="container d-flex flex-wrap justify-content-center">
+				<div class="insustry-tabs">
+					<div id="toprow" class="flex-container">
+						<div>
+							<div class="bubble f active" id="e-commerce-content">
+								<div><img src="images/ecommerce.png" /></div>
+							</div>
+							<p id="label" style="text-align: center;">E-Commerce</p>
+						</div>
+						<div>
+							<div class="bubble s normal" id="education-content">
+								<div>
+									<i
+										class="fa fa-graduation-cap"
+										aria-hidden="true"
+										style="color: white; font-size: 53px;"
+									></i>
+								</div>
+							</div>
+							<p id="label" style="text-align: center;">Education</p>
+						</div>
+						<div>
+							<div class="bubble t normal" id="entertainment-content">
+								<div><img src="images/entertainment.png" /></div>
+							</div>
+							<p id="label" style="text-align: center;">Entertainment</p>
+						</div>
+						<div>
+							<div class="bubble f normal" id="banking-content">
+								<div><img src="images/banking.png" /></div>
+							</div>
+							<p id="label" style="text-align: center;">Banking</p>
+						</div>
+						<div>
+							<div class="bubble s normal" id="digital-content">
+								<div><img src="images/digitalcontent.png" /></div>
+							</div>
+							<p id="label" style="text-align: center;">Digital Marketing</p>
+						</div>
+						<div>
+							<div class="bubble t normal" id="travel-content">
+								<div><img src="images/travel.png" /></div>
+							</div>
+							<p id="label" style="text-align: center;">Travel</p>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="industry-description d-flex e-commerce-content flex-column w-100"
+				>
+					<div class="tab-title">
+						E-commerce
+					</div>
+					<div class="tab-body row mt-3">
+						<div class="tab-desc col-12 col-lg-6 col-md-6">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+							obcaecati perspiciatis assumenda nostrum dolores dolor tenetur,
+							inventore exercitationem amet dolorem reiciendis veniam odit esse
+							quasi saepe quas, autem rem molestias delectus est deleniti? Illum
+							aspernatur tenetur fugit possimus, minus ducimus eos atque qui
+							explicabo. Illum ipsum consequatur aliquam veritatis accusamus
+							omnis impedit provident fugit. Ducimus dolores quia blanditiis
+							corporis similique.
+							<div class="tab-btn mt-3">
+								<a href="#" class="btn-get-started">ENQUIRE NOW</a>
+							</div>
+						</div>
+						<div
+							class="tab-images col-12 col-lg-6 col-md-6 mt-2 mt-lg-0 mt-md-0 d-flex justify-content-between flex-wrap"
+						>
+							<div>
+								<img src="images/android-app.svg" />
+								<div class="image-content">
+									Android App
+								</div>
+							</div>
+							<div>
+								<img src="images/ios-app.svg" />
+								<div class="image-content">
+									IOS App
+								</div>
+							</div>
+							<div>
+								<img src="images/website.svg" />
+								<div class="image-content">
+									Website
+								</div>
+							</div>
+							<div>
+								<img src="images/seo.svg" />
+								<div class="image-content">
+									SEO
+								</div>
+							</div>
+							<div>
+								<img src="images/smm.svg" />
+								<div class="image-content">
+									SMM
+								</div>
+							</div>
+							<div>
+								<img src="images/paid-campaign.svg" />
+								<div class="image-content">
+									Paid Campaign
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="industry-description d-none education-content flex-column w-100"
+				>
+					<div class="tab-title">
+						Education
+					</div>
+					<div class="tab-body row mt-3">
+						<div class="tab-desc col-12 col-lg-6 col-md-6">
+							It is a long established fact that a reader will be distracted by
+							the readable content of a page when looking at its layout. The
+							point of using Lorem Ipsum is that it has a more-or-less normal
+							distribution of letters, as opposed to using 'Content here,
+							content here', making it look like readable English. Many desktop
+							publishing packages and web page editors now use Lorem Ipsum as
+							their default model text, and a search for 'lorem ipsum' will
+							uncover many web sites still in their infancy.
+							<div class="tab-btn mt-3">
+								<a href="#" class="btn-get-started">ENQUIRE NOW</a>
+							</div>
+						</div>
+						<div
+							class="tab-images col-12 col-lg-6 col-md-6 mt-2 mt-lg-0 mt-md-0 d-flex justify-content-between flex-wrap"
+						>
+							<div>
+								<img src="images/ios-app.svg" />
+								<div class="image-content">
+									IOS App
+								</div>
+							</div>
+							<div>
+								<img src="images/android-app.svg" />
+								<div class="image-content">
+									Android App
+								</div>
+							</div>
+							<div>
+								<img src="images/seo.svg" />
+								<div class="image-content">
+									SEO
+								</div>
+							</div>
+							<div>
+								<img src="images/website.svg" />
+								<div class="image-content">
+									Website
+								</div>
+							</div>
+							<div>
+								<img src="images/paid-campaign.svg" />
+								<div class="image-content">
+									Paid Campaign
+								</div>
+							</div>
+							<div>
+								<img src="images/smm.svg" />
+								<div class="image-content">
+									SMM
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="industry-description d-none entertainment-content flex-column w-100"
+				>
+					<div class="tab-title">
+						Entertainment
+					</div>
+					<div class="tab-body row mt-3">
+						<div class="tab-desc col-12 col-lg-6 col-md-6">
+							But I must explain to you how all this mistaken idea of denouncing
+							pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth, the master-builder of human
+							happiness. No one rejects, dislikes, or avoids pleasure itself,
+							because it is pleasure, but because those who do not know how to
+							pursue pleasure rationally encounter consequences that are
+							extremely painful. Nor again is there anyone who loves or pursues
+							or desires to obtain pain of itself, because it is pain.
+							<div class="tab-btn mt-3">
+								<a href="#" class="btn-get-started">ENQUIRE NOW</a>
+							</div>
+						</div>
+						<div
+							class="tab-images col-12 col-lg-6 col-md-6 mt-2 mt-lg-0 mt-md-0 d-flex justify-content-between flex-wrap"
+						>
+							<div>
+								<img src="images/website.svg" />
+								<div class="image-content">
+									Website
+								</div>
+							</div>
+							<div>
+								<img src="images/seo.svg" />
+								<div class="image-content">
+									SEO
+								</div>
+							</div>
+							<div>
+								<img src="images/smm.svg" />
+								<div class="image-content">
+									SMM
+								</div>
+							</div>
+							<div>
+								<img src="images/android-app.svg" />
+								<div class="image-content">
+									Android App
+								</div>
+							</div>
+							<div>
+								<img src="images/ios-app.svg" />
+								<div class="image-content">
+									IOS App
+								</div>
+							</div>
+							<div>
+								<img src="images/paid-campaign.svg" />
+								<div class="image-content">
+									Paid Campaign
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="industry-description d-none banking-content flex-column w-100"
+				>
+					<div class="tab-title">
+						Banking
+					</div>
+					<div class="tab-body row mt-3">
+						<div class="tab-desc col-12 col-lg-6 col-md-6">
+							On the other hand, we denounce with righteous indignation and
+							dislike men who are so beguiled and demoralized by the charms of
+							pleasure of the moment, so blinded by desire, that they cannot
+							foresee the pain and trouble that are bound to ensue; and equal
+							blame belongs to those who fail in their duty through weakness of
+							will, which is the same as saying through shrinking from toil and
+							pain. These cases are perfectly simple and easy to distinguish. In
+							a free hour, when our power of choice is untrammelled.
+							<div class="tab-btn mt-3">
+								<a href="#" class="btn-get-started">ENQUIRE NOW</a>
+							</div>
+						</div>
+						<div
+							class="tab-images col-12 col-lg-6 col-md-6 mt-2 mt-lg-0 mt-md-0 d-flex justify-content-between flex-wrap"
+						>
+							<div>
+								<img src="images/paid-campaign.svg" />
+								<div class="image-content">
+									Paid Campaign
+								</div>
+							</div>
+							<div>
+								<img src="images/smm.svg" />
+								<div class="image-content">
+									SMM
+								</div>
+							</div>
+							<div>
+								<img src="images/seo.svg" />
+								<div class="image-content">
+									SEO
+								</div>
+							</div>
+							<div>
+								<img src="images/android-app.svg" />
+								<div class="image-content">
+									Android App
+								</div>
+							</div>
+							<div>
+								<img src="images/ios-app.svg" />
+								<div class="image-content">
+									IOS App
+								</div>
+							</div>
+							<div>
+								<img src="images/website.svg" />
+								<div class="image-content">
+									Website
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="industry-description d-none digital-content flex-column w-100"
+				>
+					<div class="tab-title">
+						Digital Content
+					</div>
+					<div class="tab-body row mt-3">
+						<div class="tab-desc col-12 col-lg-6 col-md-6">
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard dummy text
+							ever since the 1500s, when an unknown printer took a galley of
+							type and scrambled it to make a type specimen book. It has
+							survived not only five centuries, but also the leap into
+							electronic typesetting, remaining essentially unchanged. It was
+							popularised in the 1960s with the release of Letraset sheets
+							containing Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including versions of
+							Lorem Ipsum.
+							<div class="tab-btn mt-3">
+								<a href="#" class="btn-get-started">ENQUIRE NOW</a>
+							</div>
+						</div>
+						<div
+							class="tab-images col-12 col-lg-6 col-md-6 mt-2 mt-lg-0 mt-md-0 d-flex justify-content-between flex-wrap"
+						>
+							<div>
+								<img src="images/android-app.svg" />
+								<div class="image-content">
+									Android App
+								</div>
+							</div>
+							<div>
+								<img src="images/ios-app.svg" />
+								<div class="image-content">
+									IOS App
+								</div>
+							</div>
+							<div>
+								<img src="images/website.svg" />
+								<div class="image-content">
+									Website
+								</div>
+							</div>
+							<div>
+								<img src="images/seo.svg" />
+								<div class="image-content">
+									SEO
+								</div>
+							</div>
+							<div>
+								<img src="images/smm.svg" />
+								<div class="image-content">
+									SMM
+								</div>
+							</div>
+							<div>
+								<img src="images/paid-campaign.svg" />
+								<div class="image-content">
+									Paid Campaign
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="industry-description d-none travel-content flex-column w-100"
+				>
+					<div class="tab-title">
+						Travel
+					</div>
+					<div class="tab-body row mt-3">
+						<div class="tab-desc col-12 col-lg-6 col-md-6">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+							obcaecati perspiciatis assumenda nostrum dolores dolor tenetur,
+							inventore exercitationem amet dolorem reiciendis veniam odit esse
+							quasi saepe quas, autem rem molestias delectus est deleniti? Illum
+							aspernatur tenetur fugit possimus, minus ducimus eos atque qui
+							explicabo. Illum ipsum consequatur aliquam veritatis accusamus
+							omnis impedit provident fugit. Ducimus dolores quia blanditiis
+							corporis similique.
+							<div class="tab-btn mt-3">
+								<a href="#" class="btn-get-started">ENQUIRE NOW</a>
+							</div>
+						</div>
+						<div
+							class="tab-images col-12 col-lg-6 col-md-6 mt-2 mt-lg-0 mt-md-0 d-flex justify-content-between flex-wrap"
+						>
+							<div>
+								<img src="images/android-app.svg" />
+								<div class="image-content">
+									Android App
+								</div>
+							</div>
+							<div>
+								<img src="images/ios-app.svg" />
+								<div class="image-content">
+									IOS App
+								</div>
+							</div>
+							<div>
+								<img src="images/seo.svg" />
+								<div class="image-content">
+									SEO
+								</div>
+							</div>
+							<div>
+								<img src="images/website.svg" />
+								<div class="image-content">
+									Website
+								</div>
+							</div>
+							<div>
+								<img src="images/paid-campaign.svg" />
+								<div class="image-content">
+									Paid Campaign
+								</div>
+							</div>
+							<div>
+								<img src="images/smm.svg" />
+								<div class="image-content">
+									SMM
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ************************ still confused Section *********************** -->
+
+		<div
+			class="small-sections container-fluid d-flex justify-content-center py-4 h-auto"
+			style="
+				background-color: rgb(240, 240, 240);
+				font-family: 'Raleway', sans-serif;
+			"
+		>
+			<div class="container d-flex justify-content-between align-items-center">
+				<div
+					class="d-flex justify-content-start"
+					style="text-align: center; font-size: 2vmax;"
+				>
+					<p>
+						Still<span style="color: #ff6300; font-weight: bold;">
+							CONFUSED</span
+						>
+						about the<span style="color: #ff6300; font-weight: bold;">
+							WRITE CHOICE</span
+						>, We appreciate your
+						<span style="color: #ff6300; font-weight: bold;"> ENTHUSIASM</span>.
+						We are here to fulfill your quest by our<span
+							style="color: #ff6300; font-weight: bold;"
+						>
+							PROVEN TRACKS
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- *************************** Portfolio ************************************* -->
+
+		<!-- ##### Hero Area Start ##### -->
+		<section class="hero-area">
+			<div class="hero-slides owl-carousel">
+				<!-- Single Hero Slide -->
+				<div
+					class="single-hero-slide bg-img"
+					style="background-image: url(dict/img/bg-img/portfolio.jpg);"
+				>
+					<!-- <div class="heading mt-2 mb-3 p-3 w-100 text-center">OUR<span>PORTFOLIO</span></div> -->
+					<div class="container h-100">
+						<br /><br />
+						<center>
+							<div class="heading">
+								OUR <span>PORTFOLIO</span>
+								<div class="underline"></div>
+							</div>
+						</center>
+						<div class="row h-100 align-items-center">
+							<div class="col-12 col-md-9 col-lg-7 col-xl-6">
+								<div
+									class="hero-slides-content"
+									data-animation="fadeInUp"
+									data-delay="100ms"
+								>
+									<h2 data-animation="fadeInUp" data-delay="300ms">
+										Lorem ipsum
+									</h2>
+									<p data-animation="fadeInUp" data-delay="700ms">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Cras tristique nisl vitae luctus sollicitudin. Fusce
+										consectetur sem eget dui tristique, ac posuere arcu varius.
+									</p>
+									<!-- <a href="#" class="btn delicious-btn" data-animation="fadeInUp" data-delay="1000ms">VIEW
+                                    CASE STUDY</a> -->
+									<a href="#" class="btn-get-started">VIEW CASE STUDY</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Single Hero Slide -->
+				<div
+					class="single-hero-slide bg-img"
+					style="background-image: url(dict/img/bg-img/portfolio.jpg);"
+				>
+					<div class="container h-100">
+						<br /><br />
+						<center>
+							<div class="heading">
+								OUR <span>PORTFOLIO</span>
+								<div class="underline"></div>
+							</div>
+						</center>
+						<div class="row h-100 align-items-center">
+							<div class="col-12 col-md-9 col-lg-7 col-xl-6">
+								<div
+									class="hero-slides-content"
+									data-animation="fadeInUp"
+									data-delay="100ms"
+								>
+									<h2 data-animation="fadeInUp" data-delay="300ms">
+										Lorem ipsum
+									</h2>
+									<p data-animation="fadeInUp" data-delay="700ms">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Cras tristique nisl vitae luctus sollicitudin. Fusce
+										consectetur sem eget dui tristique, ac posuere arcu varius.
+									</p>
+									<!-- <a href="#" class="btn delicious-btn" data-animation="fadeInUp" data-delay="1000ms">VIEW
+                                    CASE STUDY</a> -->
+									<a href="#" class="btn-get-started">VIEW CASE STUDY</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Single Hero Slide -->
+				<div
+					class="single-hero-slide bg-img"
+					style="background-image: url(dict/img/bg-img/portfolio.jpg);"
+				>
+					<div class="container h-100">
+						<br /><br />
+						<center>
+							<div class="heading">
+								OUR <span>PORTFOLIO</span>
+								<div class="underline"></div>
+							</div>
+						</center>
+						<div class="row h-100 align-items-center">
+							<div class="col-12 col-md-9 col-lg-7 col-xl-6">
+								<div
+									class="hero-slides-content"
+									data-animation="fadeInUp"
+									data-delay="100ms"
+								>
+									<h2 data-animation="fadeInUp" data-delay="300ms">
+										Lorem ipsum
+									</h2>
+									<p data-animation="fadeInUp" data-delay="700ms">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Cras tristique nisl vitae luctus sollicitudin. Fusce
+										consectetur sem eget dui tristique, ac posuere arcu varius.
+									</p>
+									<!-- <a href="#" class="btn delicious-btn" data-animation="fadeInUp" data-delay="1000ms">VIEW
+                                    CASE STUDY</a> -->
+									<a href="#" class="btn-get-started">VIEW CASE STUDY</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ##### Hero Area End ##### -->
+
+		<!-- ********************************Want to collab ******************************* -->
+
+		<div
+			class="collab-section container-fluid d-flex justify-content-center p-0"
+		>
+			<div
+				class="collab-freelancer d-flex justify-content-start justify-content-lg-center justify-content-md-center p-2"
+				onclick="window.location.href='#'"
+			>
+				<div>
+					<div class="">Want to Collab as</div>
+					<p class="p-0 m-0">FREELANCER</p>
+				</div>
+			</div>
+
+			<div
+				class="text-white collab-agency d-flex justify-content-end justify-content-lg-center justify-content-md-center pr-2"
+				onclick="window.location.href='#'"
+			>
+				<div class="">
+					<div class="text-white">Want to Collab as</div>
+					<p class="p-0 m-0">AGENCY</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- ***************************** Social media presence *********************** -->
+		<div
+			class="social-media-section container-fluid mt-0 p-4 d-flex flex-column align-items-center justify-content-lg-center"
+			style="background-color: #1e3957; margin-top: -20px;"
+		>
+			<div class="heading mt-2 mb-3 p-3">
+				OUR <span>SOCIAL MEDIA</span> PRESENCE
+				<div class="underline"></div>
+			</div>
+
+			<div class="container mt-2 row">
+				<div
+					class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center"
+				>
+					<a href="https://www.facebook.com/GKMTIT/" target="_blank">
+						<img
+							src="images/facebookbadge.png"
+							width="150px"
+							height="150px"
+							class="badgeimg"
+							id="facebookbadge"
+							alt=""
+						/>
+					</a>
+					<a href="https://www.behance.net/user/?username=gkmt" target="_blank">
+						<img
+							src="images/behanvebadge.png"
+							width="150px"
+							height="150px"
+							class="badgeimg"
+							alt=""
+						/>
+					</a>
+					<a href="https://www.instagram.com/gkmt_it/" target="_blank">
+						<img
+							src="images/instagrambadge.png"
+							width="150px"
+							height="150px"
+							class="badgeimg"
+							alt=""
+						/>
+					</a>
+				</div>
+			</div>
+
+			<div class="container mt-0 row">
+				<div
+					class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center"
+				>
+					<a href="https://www.linkedin.com/company/glickmet/" target="_blank">
+						<img
+							src="images/linkedinbadge.png"
+							width="150px"
+							height="150px"
+							class="badgeimg"
+							id="linkedinbadge"
+							alt=""
+						/>
+					</a>
+					<a
+						href="https://www.youtube.com/channel/UClDFFvqxx278OaNmmJfJIxQ"
+						target="_blank"
+					>
+						<img
+							src="images/youtubebadge.png"
+							width="150px"
+							height="150px"
+							class="badgeimg"
+							id="youtubebadge"
+							alt=""
+						/>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- ************************ Our business presence *********************** -->
+		<div
+			class="our-business-presence-section container-fluid p-4 d-flex flex-column align-items-center justify-content-lg-center"
+		>
+			<div class="heading mt-2 p-3">
+				OUR <span>BUSINNESS PRESENCE</span>
+				<div class="underline"></div>
+			</div>
+
+			<div class="container mt-4 row">
+				<div
+					class="col-lg-8 col-md-12 col-12 business-image d-flex justify-content-center align-items-center"
+				>
+					<img src="images/clutch.png" alt="" />
+				</div>
+				<div
+					class="col-lg-4 col-md-12 col-12 mt-2 m-lg-0 m-md-0 d-flex flex-wrap badges align-items-center justify-content-around"
+				>
+					<img src="images/reliablecompany.png" />
+					<img src="images/topdeveloper.png" />
+					<img src="images/appfutura.png" />
+					<img src="images/goodfirms.png" />
+				</div>
+			</div>
+		</div>
+
+		<!-- ******************** Get Estimate Section ******************************8 -->
+
+		<div
+			class="small-sections get-estimate-team container-fluid d-flex justify-content-center py-4"
+		>
+			<div class="container d-flex justify-content-between align-items-center">
+				<div class="col-7 d-flex justify-content-start">
+					Ready With an Idea,
+					<br />
+					Need an experince hand
+				</div>
+				<div class="angle-block col-1"></div>
+				<div class="col-4 d-flex justify-content-end w-auto p-0">
+					<button class="px-lg-5 py-lg-3 px-md-4 py-md-3 px-2 py-3">
+						GET ESTIMATE
+					</button>
+				</div>
+			</div>
+			<div class="right-div"></div>
+		</div>
+
+		<!-- ******************************our blog Section ******************************** -->
+
+		<div
+			class="our-blog-section container-fluid p-2 p-lg-4 p-md-3 d-flex flex-column align-items-center justify-content-lg-center"
+		>
+			<div class="heading mt-2 p-3">
+				OUR <span>BLOG</span>
+				<div class="underline"></div>
+			</div>
+
+			<div class="container d-flex flex-wrap mt-4 justify-content-around">
+				<div class="cards">
+					<div class="body">
+						<div class="date">20 May 2020</div>
+						<div class="title">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						</div>
+						<div class="decsription">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+							assumenda maxime repudiandae...
+						</div>
+						<div class="btn-read-more">
+							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cards">
+					<div class="body">
+						<div class="date">20 May 2020</div>
+						<div class="title">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						</div>
+						<div class="decsription">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+							assumenda maxime repudiandae...
+						</div>
+						<div class="btn-read-more">
+							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cards">
+					<div class="body">
+						<div class="date">20 May 2020</div>
+						<div class="title">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						</div>
+						<div class="decsription">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+							assumenda maxime repudiandae...
+						</div>
+						<div class="btn-read-more">
+							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cards">
+					<div class="body">
+						<div class="date">20 May 2020</div>
+						<div class="title">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						</div>
+						<div class="decsription">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+							assumenda maxime repudiandae...
+						</div>
+						<div class="btn-read-more">
+							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section d-flex justify-content-center mt-4">
+				<a href="#" class="btn-get-started"
+					>VIEW MORE <i class="fas fa-arrow-right"></i
+				></a>
+			</div>
+		</div>
+
+		<!-- ******************** Join Us Section ****************************** -->
+
+		<div
+			class="small-sections join-our-team container-fluid d-flex justify-content-center py-4 py-lg-5 py-md-5"
+		>
+			<div class="container d-flex justify-content-between align-items-center">
+				<div class="col-7 d-flex justify-content-center">
+					Join Our Team
+				</div>
+				<div class="angle-block col-1"></div>
+				<div class="col-4 d-flex justify-content-center">
+					<button class="px-lg-5 py-lg-3 px-md-5 py-md-3 px-2 py-3">
+						Join
+					</button>
+				</div>
+			</div>
+			<div class="right-div"></div>
+		</div>
+
+		<!-- **************************** Footer ***************************** -->
+
+		<footer
+			class="container-fluid d-flex flex-wrap justify-content-center py-5"
+		>
+			<div class="container d-flex flex-column flex-lg-row flex-md-row">
+				<div class="about-div d-flex flex-column p-3">
+					<img src="images/logo.png" height="40px" width="100px" />
+					<div class="mt-4">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Exercitationem ea possimus distinctio suscipit voluptatum iste
+						laborum repellendus Quis, dolor voluptas.
+					</div>
+				</div>
+
+				<div class="quick-links p-3">
+					<div class="quick-links-title">QUICK LINKS</div>
+					<div class="d-flex mt-3">
+						<div class="">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Portfolio</a></li>
+							</ul>
+						</div>
+						<div class="ml-4">
+							<ul>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Collab</a></li>
+								<li><a href="#">Consult Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="services p-3">
+					<div class="services-title">
+						SERVICES
+					</div>
+					<div class="d-flex mt-3">
+						<ul>
+							<li>Mobile App Development</li>
+							<li>Web Design &amp; Development</li>
+							<li>Digital Marketing &amp; Branding</li>
+							<li>Graphic Design &amp; UI/UX Design</li>
+							<li>Software Development</li>
+							<li>On Demand Solution</li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-info p-3">
+					<div class="contact-info-title">
+						CONTACT INFO
+					</div>
+					<div>
+						<div class="mt-3">
+							<svg
+								class="bi bi-envelope-fill"
+								width="1em"
+								height="1em"
+								viewBox="0 0 16 16"
+								fill="currentColor"
+								xmlns="http://www.w3.org/2000/svg"
+								style="fill: white;"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+								/>
+							</svg>
+							<span> info@gkmtit.com</span>
+						</div>
+						<div class="mt-2">
+							<i class="fas fa-phone-alt"></i>
+							<span>+918112261381</span>
+						</div>
+						<div class="mt-2">
+							<i class="fas fa-envelope"></i>
+							<span>gkmt.social@gmail.com</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div
+			class="container-fluid bottom-footer d-flex flex-row flex-wrap w-100 p-4 justify-content-center"
+		>
+			Copyright &copy; 2020 - GKMT IT . All Rights Reserved.
+			<div class="mx-1">
+				<a href="#"> Refund Policy</a> | <a href="#">Privacy Policy</a> |
+				<a href="#">Terms & Conditions</a>
+			</div>
+		</div>
+
+		<!-- jQuery-2.2.4 js -->
+		<script src="dict/js/jquery/jquery-2.2.4.min.js"></script>
+		<!-- Popper js -->
+		<!-- <script src="dict/js/bootstrap/popper.min.js"></script> -->
+		<!-- Bootstrap js -->
+		<!-- <script src="dict/js/bootstrap/bootstrap.min.js"></script> -->
+		<!-- All Plugins js -->
+		<script src="dict/js/plugins/plugins.js"></script>
+		<!-- Active js -->
+		<script src="dict/js/active.js"></script>
+
+		<!-- JS ON DEMAND -->
+
+		<script src="scss/js/jquery.min.js"></script>
+		<script src="scss/js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="scss/js/bootstrap.min.js"></script>
+		<script src="scss/js/jquery.waypoints.min.js"></script>
+		<script src="scss/js/jquery.stellar.min.js"></script>
+		<script src="scss/js/owl.carousel.min.js"></script>
+		<script src="scss/js/aos.js"></script>
+		<script src="scss/js/scrollax.min.js"></script>
+		<script src="scss/js/main.js"></script>
+	</body>
+</html>

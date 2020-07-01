@@ -1,0 +1,214 @@
+#egg
+{
+    position:relative;
+    margin-top:10px;
+    width:360px;
+    height:420px;
+    margin-left:150px;
+    background-color:white;
+    display:block;
+    border-radius:70% 80% 90% 60% / 80% 80%  70%  60% ;
+}
+#ourclients
+{
+    margin:0;
+    padding:20px;
+    background-color:#1E3957;
+}
+#customerimg2{
+    margin-left:200px;
+}
+#customerimg3{
+    margin-left:340px;
+}
+#customerimg5{
+    margin-left:190px;
+}
+#customerimg6{
+    margin-left:460px;
+}
+#customerimg7{
+    margin-left:190px;
+}
+#customerimg7{
+    margin-left:320px;
+}
+#customerimg8{
+    margin-left:50px;
+    margin-top:-80px; 
+}
+.customerimg{
+    border-radius:30px;
+    cursor:pointer;
+}
+@media only screen and (max-width:420px){
+    #ourclients{
+        margin-top:300px;
+    }
+    #egg{
+        margin-left:60px;
+        margin-top:10px;
+        width:270px;
+        height:350px;
+    }
+    #customerimg2{
+        margin-left:300px;
+        margin-top:-80px;
+    }
+    #customerimg6{
+        margin-left:300px;
+        margin-top:-150px;
+    }
+    #customerimg9{
+        margin-left:150px;
+        margin-top:-80px;
+    }
+    #customerimg8{
+        margin-left:300px;
+        margin-top:-80px; 
+    }
+    #customerimg3{
+        margin-left:150px;
+        margin-top:-50px;
+    }
+    #customerimg4{
+        margin-left:0px;
+
+    }
+    #customerimg5{
+        margin-left:150px;
+
+    }
+    #customerimg10{
+        margin-left:70px;
+        margin-top:10px;
+    }
+    #customerimg7{
+        margin-left:0px;
+    }
+}
+@media only screen and (max-width:380px){
+    #egg{
+        margin-left:10px;
+        margin-top:10px;
+        width:300px;
+        height:400px;
+    }
+    #customerimg2{
+        margin-left:260px;
+        margin-top:-80px;
+    }
+    #customerimg6{
+        margin-left:260px;
+        margin-top:-150px;
+    }
+    #customerimg9{
+        margin-left:150px;
+        margin-top:-80px;
+    }
+    #customerimg8{
+        margin-left:260px;
+        margin-top:-80px; 
+    }
+    #customerimg3{
+        margin-left:150px;
+        margin-top:-50px;
+    }
+    #customerimg4{
+        margin-left:25px;
+    }
+    #customerimg5{
+        margin-left:150px;
+    }
+    #customerimg7{
+        margin-left:25px;
+    }
+    #customerimg1{
+        margin-top: 10px;
+        margin-left:25px;
+    }
+}
+@media only screen and (max-width:789px){
+    #egg
+    {
+        margin-left:20px;
+        margin-top:5px;
+        width:300px;
+        height:400px;
+    }
+    #customerimg2{
+        margin-left:260px;
+        margin-top:-70px;
+    }
+    #customerimg6{
+        margin-left:260px;
+        margin-top:-140px;
+    }
+    #customerimg9{
+        margin-left:150px;
+        margin-top:-70px;
+    }
+    #customerimg8{
+        margin-left:260px;
+        margin-top:-70px; 
+    }
+    #customerimg3{
+        margin-left:150px;
+        margin-top:-40px;
+    }
+    #customerimg4{
+        margin-left:25px;
+    }
+    #customerimg5{
+        margin-left:150px;
+    }
+    #customerimg7{
+        margin-left:25px;
+    }
+    #customerimg1{
+        margin-top: 10px;
+        margin-left:25px;
+    }
+}
+@media only screen and (max-width:1089px){
+    #egg
+    {
+        margin-left:30px;
+        margin-top:5px;
+        width:300px;
+        height:400px;
+    }
+    #customerimg2{
+        margin-left:260px;
+        margin-top:-80px;
+    }
+    #customerimg6{
+        margin-left:260px;
+        margin-top:-150px;
+    }
+    #customerimg9{
+        margin-left:150px;
+        margin-top:-80px;
+    }
+    #customerimg8{
+        margin-left:260px;
+        margin-top:-80px; 
+    }
+    #customerimg3{
+        margin-left:150px;
+        margin-top:-50px;
+    }
+    #customerimg4{
+        margin-left:25px;
+    }
+    #customerimg5{
+        margin-left:150px;
+    }
+    #customerimg7{
+        margin-left:25px;
+    }
+    #customerimg1{
+        margin-top: 45px;
+        margin-left:25px;
+    }
+}

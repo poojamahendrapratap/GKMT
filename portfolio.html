@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="fontawesome/css/all.css" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+		<script src="js/home.js"></script>
+		<!-- Header -->
+		<link rel="stylesheet" href="css/header.css" />
+		<!-- Footer -->
+		<link rel="stylesheet" href="css/footer.css" />
+		<!-- Body -->
+		<link rel="stylesheet" href="css/portfolio-body.css" />
+
+		<!-- portfolio -->
+		<link rel="stylesheet" href="dict/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="dict/css/animate.css" />
+
+		<title>GKMT Portfolio</title>
+		<script>
+			$(document).ready(function () {
+				// var owl = $(".owl-carousel");
+				// owl.owlCarousel({
+				// 	nav: true,
+				// 	items: 5,
+				// 	loop: true,
+				// 	margin: 10,
+				// 	autoplay: true,
+				// 	autoplayTimeout: 3000,
+				// 	autoplayHoverPause: true,
+				// });
+
+				jQuery("#carousel").owlCarousel({
+					autoplay: true,
+					lazyLoad: true,
+					loop: true,
+					margin: 20,
+					responsiveClass: true,
+					autoHeight: true,
+					autoplayTimeout: 3000,
+					nav: true,
+					navText: [
+						"<i class='fas fa-chevron-left'></i>",
+						"<i class='fas fa-chevron-right'></i>",
+					],
+					navClass: ["owl-prev", "owl-next"],
+					responsive: {
+						0: {
+							items: 3,
+						},
+
+						600: {
+							items: 3,
+						},
+
+						1024: {
+							items: 4,
+						},
+
+						1366: {
+							items: 5,
+						},
+					},
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav
+			id="navbar"
+			class="navbar container-fluid navbar-expand-lg navbar-light justify-content-lg-center"
+		>
+			<div class="container">
+				<!-- LOGO -->
+				<a
+					class="navbar-brand mr-lg-5 order-0 ml-1 ml-lg-0 d-flex align-items-center"
+					href="#"
+				>
+					<img id="logo" src="images/logo.png" />
+				</a>
+
+				<!-- Main navigation menu -->
+				<div class="nav-div order-3 order-lg-1">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">HOME </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="aboutus.html">ABOUT</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">SERVICES</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link active" href="portfolio.html">PORTFOLIO</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">CAREER</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">BLOG</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">COLLAB</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT US</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="get-free-quote order-1 order-lg-2 ml-auto ml-lg-1">
+					<a href="#" class="btn-get-started">GET FREE QUOTE</a>
+				</div>
+				<!-- Navbar toggle button -->
+				<button
+					class="navbar-toggler order-2 text-white"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</nav>
+
+		<!-- *************************** First Container *************************** -->
+
+		<div
+			class="container-fluid first-section d-flex align-items-center justify-content-lg-center"
+		>
+			<div class="container text-white">
+				<div class="">
+					DEVELOPED BY A
+					<br />
+					PROFICIENT CREW OF
+					<br />
+					GKMT IT
+				</div>
+				<!-- <button class="consult-us mt-3">CONSULT US <i class="fas fa-arrow-right"></i></button> -->
+				<a href="#" class="btn-get-started mt-4"
+					>CONSULT US <i class="fas fa-arrow-right"></i
+				></a>
+			</div>
+			<!-- <a href="#" class="btn-get-started">GET FREE QUOTE</a> -->
+		</div>
+		<!-- *************************** First Section end ***************************-->
+
+		<div
+			class="logo-carousel container-fluid d-flex justify-content-center align-items-center"
+		>
+			<div class="owl-carousel container owl-theme" id="carousel">
+				<div>
+					<img src="images/portfolio-images/knowbilityresearchlogo.png" />
+				</div>
+				<div>
+					<img src="images/portfolio-images/asciconlogo.png" />
+				</div>
+				<div>
+					<img src="images/portfolio-images/opraahfxlogo.png" />
+				</div>
+				<div>
+					<img src="images/portfolio-images/imotologo.png" />
+				</div>
+				<div>
+					<img src="images/portfolio-images/chundarilogo.png" />
+				</div>
+			</div>
+		</div>
+
+		<!-- ******************************* Logo Carousel end ************************* -->
+
+		<!-- ****************************** Projects ************************** -->
+
+		<div class="d-flex flex-row flex-wrap w-100 knowbility sections">
+			<div
+				class="area col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center p-lg-5 p-md-3 p-sm-3 p-4 order-1 order-sm-1 content-div"
+			>
+				<div class="about-project py-5">
+					<div class="heading">KNOWBILITY <span>RESEARCH</span></div>
+					<div class="content">
+						Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
+						aliquip ex ea commodo con sequat.
+					</div>
+					<div class="visit-website">
+						<button class="btn-visit">VISIT WEBSITE</button>
+					</div>
+				</div>
+
+				<ul class="circles">
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+				</ul>
+			</div>
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-3 p-4 order-0 order-sm-1 image-div"
+			>
+				<div class="images d-flex justify-content-center py-5">
+					<img
+						class="laptop"
+						src="images/portfolio-images/knowbilitylappi.png"
+					/>
+					<img
+						class="mobile"
+						src="images/portfolio-images/knowbilitymoblie.png"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<div class="d-flex flex-row flex-wrap w-100 ascion sections">
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-3 p-4 image-div py-5"
+			>
+				<div class="images d-flex justify-content-center">
+					<img class="laptop" src="images/portfolio-images/asciconlappi.png" />
+					<img class="mobile" src="images/portfolio-images/asciconmobile.png" />
+				</div>
+			</div>
+
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center p-lg-5 p-md-3 p-sm-3 p-4 content-div"
+			>
+				<div class="about-project py-5">
+					<div class="heading">ACSICON <span>2020</span></div>
+					<div class="content">
+						Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
+						aliquip ex ea commodo con sequat.
+					</div>
+					<div class="visit-website">
+						<button class="btn-visit">VISIT WEBSITE</button>
+					</div>
+				</div>
+
+				<ul class="circles">
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="d-flex flex-row flex-wrap w-100 opraahfx sections">
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center p-lg-5 p-md-3 p-sm-3 p-4 order-1 order-sm-1 content-div"
+			>
+				<div class="about-project py-5">
+					<div class="heading">OPRAAHFX <span>ADTECH PVT. LTD</span>.</div>
+					<div class="content">
+						Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
+						aliquip ex ea commodo con sequat.
+					</div>
+					<div class="visit-website">
+						<button class="btn-visit">VISIT WEBSITE</button>
+					</div>
+				</div>
+
+				<ul class="circles">
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+				</ul>
+			</div>
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-3 p-4 order-0 order-sm-1 image-div"
+			>
+				<div class="images d-flex justify-content-center py-5">
+					<img class="laptop" src="images/portfolio-images/opraahlappi.png" />
+					<img class="mobile" src="images/portfolio-images/opraahmobile.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="d-flex flex-row flex-wrap w-100 imoto sections">
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-3 p-4 image-div"
+			>
+				<div class="images d-flex justify-content-center py-5">
+					<img class="mobile1" src="images/portfolio-images/imotomobile1.png" />
+					<img class="mobile" src="images/portfolio-images/imotomobile.png" />
+				</div>
+			</div>
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center p-lg-5 p-md-3 p-sm-3 p-4 content-div"
+			>
+				<div class="about-project py-5">
+					<div class="heading">IMOTO</div>
+					<div class="content">
+						Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
+						aliquip ex ea commodo con sequat.
+					</div>
+					<div class="visit-website">
+						<button class="btn-visit">VISIT WEBSITE</button>
+					</div>
+				</div>
+
+				<ul class="circles">
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="d-flex flex-row flex-wrap w-100 chundri sections">
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center p-lg-5 p-md-3 p-sm-3 p-4 order-1 order-sm-1 content-div"
+			>
+				<div class="about-project py-5">
+					<div class="heading">CHUNDRI <span>BY KIRAN</span></div>
+					<div class="content">
+						Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
+						aliquip ex ea commodo con sequat.
+					</div>
+					<div class="visit-website">
+						<button class="btn-visit">VISIT WEBSITE</button>
+					</div>
+				</div>
+
+				<ul class="circles">
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+					<li><img src="images/portfolio-images/ascicon1.png" /></li>
+				</ul>
+			</div>
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-3 p-4 order-0 order-sm-1 image-div"
+			>
+				<div class="images d-flex justify-content-center py-5">
+					<img class="laptop" src="images/portfolio-images/chundrilaptop.png" />
+					<img class="mobile" src="images/portfolio-images/chundrimobile.png" />
+				</div>
+			</div>
+		</div>
+
+		<!-- ***************************** Projects End ********************************* -->
+
+		<!-- **************************** Footer ***************************** -->
+
+		<footer
+			class="container-fluid d-flex flex-wrap justify-content-center py-5"
+		>
+			<div class="container d-flex flex-column flex-lg-row flex-md-row">
+				<div class="about-div d-flex flex-column p-3">
+					<img src="images/logo.png" height="40px" width="100px" />
+					<div class="mt-4">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Exercitationem ea possimus distinctio suscipit voluptatum iste
+						laborum repellendus Quis, dolor voluptas.
+					</div>
+				</div>
+
+				<div class="quick-links p-3">
+					<div class="quick-links-title">QUICK LINKS</div>
+					<div class="d-flex mt-3">
+						<div class="">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Portfolio</a></li>
+							</ul>
+						</div>
+						<div class="ml-4">
+							<ul>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Collab</a></li>
+								<li><a href="#">Consult Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="services p-3">
+					<div class="services-title">
+						SERVICES
+					</div>
+					<div class="d-flex mt-3">
+						<ul>
+							<li>Mobile App Development</li>
+							<li>Web Design &amp; Development</li>
+							<li>Digital Marketing &amp; Branding</li>
+							<li>Graphic Design &amp; UI/UX Design</li>
+							<li>Software Development</li>
+							<li>On Demand Solution</li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-info p-1">
+					<div class="contact-info-title">
+						CONTACT INFO
+					</div>
+					<div>
+						<div class="mt-3">
+							<svg
+								class="bi bi-envelope-fill"
+								width="1em"
+								height="1em"
+								viewBox="0 0 16 16"
+								fill="currentColor"
+								xmlns="http://www.w3.org/2000/svg"
+								style="fill: white;"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+								/>
+							</svg>
+							<span> info@gkmtit.com</span>
+						</div>
+						<div class="mt-2">
+							<i class="fas fa-phone-alt"></i>
+							<span>+918112261381</span>
+						</div>
+						<div class="mt-2">
+							<i class="fas fa-envelope"></i>
+							<span>gkmt.social@gmail.com</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div
+			class="container-fluid bottom-footer d-flex flex-row flex-wrap w-100 p-4 justify-content-center"
+		>
+			Copyright &copy; 2020 - GKMT IT . All Rights Reserved.
+			<div class="mx-1">
+				<a href="#"> Refund Policy</a> | <a href="#">Privacy Policy</a> |
+				<a href="#">Terms & Conditions</a>
+			</div>
+		</div>
+
+		<!-- jQuery-2.2.4 js -->
+		<script src="dict/js/jquery/jquery-2.2.4.min.js"></script>
+		<!-- Popper js -->
+		<!-- <script src="dict/js/bootstrap/popper.min.js"></script> -->
+		<!-- Bootstrap js -->
+		<!-- <script src="dict/js/bootstrap/bootstrap.min.js"></script> -->
+		<!-- All Plugins js -->
+		<script src="dict/js/plugins/plugins.js"></script>
+		<!-- Active js -->
+		<script src="dict/js/active.js"></script>
+	</body>
+</html>
