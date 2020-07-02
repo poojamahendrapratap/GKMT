@@ -11,7 +11,6 @@ a:hover {
 }
 
 .btn-get-started {
-	position: relative;
 	font-family: "Jost", sans-serif;
 	font-weight: 500;
 	font-size: 15px;
@@ -108,10 +107,11 @@ nav {
 
 @media screen and (max-width: 991px) {
 	nav {
-		position: fixed;
+		position: unset !important;
 		padding: 0px !important;
 		background-color: #1e3957 !important;
 		height: 60px;
+		z-index: 10000;
 	}
 
 	.nav-div {
@@ -119,6 +119,7 @@ nav {
 		width: 100vw !important;
 		margin: 0px !important;
 		background-color: rgb(30, 57, 87);
+		z-index: 10000;
 	}
 
 	.navbar-brand img {
