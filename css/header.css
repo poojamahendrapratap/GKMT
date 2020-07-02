@@ -6,6 +6,9 @@
 a:hover {
 	text-decoration: none;
 }
+.nav-link:focus {
+	background-color: white;
+}
 
 .btn-get-started {
 	position: relative;
