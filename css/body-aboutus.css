@@ -129,7 +129,7 @@ a:hover {
 }
 
 .third-section .heading {
-	font-size: 1.8rem;
+	font-size: 5vmin;
 	color: rgb(255, 255, 255);
 	font-weight: 600;
 }
@@ -141,22 +141,11 @@ a:hover {
 .third-section .heading span::after {
 	content: "";
 	position: absolute;
-	transform: translate(-220px, 40px);
-	margin-left: 70px;
-	width: 100px;
+	left: 50%;
+	transform: translate(-50%, 6.5vmin);
+	width: 15vmin;
 	height: 2px;
 	background-color: white;
-}
-
-@media screen and (max-width: 576px) {
-	.third-section .heading {
-		font-size: 1.5rem !important;
-	}
-
-	.third-section .heading span::after {
-		width: 80px;
-		transform: translate(-200px, 35px);
-	}
 }
 
 .ambition-div {
@@ -201,6 +190,10 @@ a:hover {
 	width: 50px;
 	height: 2px;
 	background-color: black;
+}
+
+.ambition-div:hover:before {
+	background-color: white;
 }
 
 .ambition-div:nth-child(odd):before {
