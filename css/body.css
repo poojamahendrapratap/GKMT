@@ -320,7 +320,7 @@
 .buttons:hover {
 	background-color: rgb(255, 99, 0);
 	color: white;
-	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.534);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.801);
 }
 
 .buttons:focus {
@@ -569,6 +569,10 @@
 
 /* ********************************** Services We Offer ********************************** */
 
+.service-we-offer {
+	overflow-x: hidden;
+}
+
 .service-we-offer .heading {
 	font-size: 5vmin;
 	color: #1e3957;
@@ -625,6 +629,17 @@
 /*.active{
     background-color:pink;
 }*/
+
+#egg {
+	position: relative;
+}
+#img1 {
+	height: auto;
+	max-height: 600px;
+	width: 700px;
+	/* max-width: 100vw; */
+	/* margin-left: -20px; */
+}
 .serviceboxes {
 	background-color: white;
 	max-width: 140px;
@@ -633,18 +648,21 @@
 	outline: 1px solid #eee;
 }
 #servicep1 {
-	font-size: 15px;
+	font-size: 0.9rem;
 	color: white;
 	text-align: justify;
 }
 #weserveh6 {
 	font-size: 25px;
 	color: white;
+	text-align: left;
 }
 .tabcontent {
 	position: absolute;
-	top: 50px;
-	left: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 15%;
+	width: 70%;
 }
 #serviceh4 {
 	font-size: 25px;
@@ -701,7 +719,7 @@
 	margin-left: -140px;
 }
 
-#servicemydiv .active {
+#servicemydiv .tab .active {
 	background-color: #1e3957;
 	color: white;
 }
@@ -1579,13 +1597,12 @@
 	font-family: "Jost", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 6px;
 }
 
 .get-estimate-team .container button:hover {
-	background-color: white;
-	color: #1e3957;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+	border: 1px solid black;
+	/* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.519); */
 }
 
 .get-estimate-team .right-div {
@@ -1781,12 +1798,11 @@
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 8px;
 }
 .join-our-team .container button:hover {
-	background-color: white;
-	color: #1e3957;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+	border: 1px solid black;
+	/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719); */
 }
 
 .join-our-team .right-div {
