@@ -628,6 +628,27 @@
 .serviceboxes {
 	background-color: white;
 	max-width: 140px;
+
+	height: 130px;
+	outline: 1px solid #eee;
+}
+#servicep1 {
+	font-size: 15px;
+	color: white;
+	text-align: justify;
+}
+#weserveh6 {
+	font-size: 25px;
+	color: white;
+}
+.tabcontent {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+#serviceh4 {
+	font-size: 25px;
+	font-weight: 700;
 	border: 1px solid;
 }
 
