@@ -578,15 +578,18 @@
 
 .service-we-offer .heading span {
 	color: #07999f;
+	font-family: "Raleway", sans-serif;
 }
 
 .service-we-offer .heading .underline {
+	content: "";
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 40vmin;
+	width: 20vmin;
 	height: 2px;
 	background-color: #07999f;
+	font-weight: bold;
 }
 
 .service-we-offer .heading .underline::after {
@@ -596,41 +599,68 @@
 	height: 4px;
 	background-color: #1e3957;
 	transform: translateY(-1px);
-	animation: underline1 6s ease-in-out infinite;
+	animation: underline3 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
 
-@keyframes underline1 {
+@keyframes underline3 {
 	0% {
 		right: 0;
 	}
 	50% {
-		right: calc(40vmin - 15px);
+		right: calc(20vmin - 15px);
 	}
 	100% {
 		right: 0;
 	}
 }
 
+/*
 #egg {
-	width: 500px;
-	height: 400px;
-	background: #1e3957;
-	display: block;
-	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
-	border-radius: 0% 100% 100% 0% /0% 30% 70% 0%;
-	margin-left: -20px;
-}
-
+    width: 780px;
+    height: 450px;
+    background: #1E3957;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 0% 90% 70% 0% /0% 70% 40% 0%;
+    margin-left: -20px;
+    margin-bottom: 60px;
+}  */
 /*.active{
     background-color:pink;
 }*/
+
+#egg {
+	position: relative;
+}
+#img1 {
+	height: 460px;
+	width: 810px;
+	margin-left: -20px;
+}
 .serviceboxes {
 	background-color: white;
 	max-width: 140px;
-	border: 1px solid;
+	height: 130px;
+	outline: 1px solid #eee;
 }
-
+#servicep1 {
+	font-size: 18px;
+	color: white;
+}
+#weserveh6 {
+	font-size: 28px;
+	color: white;
+}
+.tabcontent {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+#serviceh4 {
+	font-size: 25px;
+	font-weight: 700;
+}
 #industryhr1 {
 	background-color: #07999f;
 	width: 10%;
@@ -645,30 +675,26 @@
 
 #innerdiv1 {
 	position: relative;
-
 	float: left;
 }
 
 #innerdiv2 {
 	position: relative;
-
 	float: left;
-	margin-top: 112px;
+	margin-top: 129px;
 	margin-left: -140px;
 }
 
 #innerdiv3 {
 	position: relative;
-
 	float: left;
-	margin-top: 112px;
+	margin-top: 129px;
 }
 
 #innerdiv4 {
 	position: relative;
-
 	float: left;
-	margin-top: 225px;
+	margin-top: 259px;
 	margin-left: -280px;
 }
 
@@ -676,50 +702,57 @@
 	position: relative;
 	width: 140px;
 	float: left;
-	margin-top: 225px;
+	margin-top: 259px;
 	margin-left: -140px;
 }
 
 #servicemydiv .active {
 	background-color: #1e3957;
 	color: white;
+	outline: 1px solid #eee;
 }
-
+#weserveicons {
+	height: 80px;
+	width: 80px;
+}
 @media only screen and (max-width: 850px) {
 	#egg {
-		width: 370px;
-		height: 300px;
+		position: relative;
+		width: 448px;
 	}
 
-	#innerdiv {
+	.tabcontent {
+		padding-top: 15px;
+	}
+	#weserveh6 {
+		font-size: 20px;
+	}
+	#servicep1 {
+		font-size: 17px;
 	}
 
 	#innerdiv1 {
 		position: relative;
-
 		float: left;
 	}
-
 	#innerdiv2 {
 		position: relative;
-
 		float: left;
-		margin-top: 113px;
+		margin-top: 129px;
 		margin-left: -140px;
 	}
 
 	#innerdiv3 {
 		position: relative;
-
 		float: left;
-		margin-top: 113px;
+		margin-top: 257px;
+		margin-left: -140px;
 	}
 
 	#innerdiv4 {
 		position: relative;
-
 		float: left;
-		margin-top: 228px;
+		margin-top: 387px;
 		margin-left: -280px;
 	}
 
@@ -727,22 +760,24 @@
 		position: relative;
 		width: 140px;
 		float: left;
-		margin-top: 228px;
+		margin-top: 387px;
 		margin-left: -140px;
 	}
 }
 
 @media only screen and (max-width: 420px) {
 	#egg {
-		width: 330px;
-		height: 250px;
+		position: relative;
+		width: 400px;
 	}
 
 	#serviceh4 {
 		font-size: 15px;
 		font-weight: bold;
 	}
-
+	#weserveh6 {
+		font-size: 15px;
+	}
 	#servicep1 {
 		font-size: 12px;
 	}
@@ -795,24 +830,28 @@
 	}
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 389px) {
 	#egg {
-		width: 300px;
-		height: 220px;
+		position: relative;
+		width: 340px;
 	}
 
 	#serviceh4 {
 		font-size: 15px;
 		font-weight: bold;
 	}
-
+	#weserveh6 {
+		font-size: 20px;
+	}
+	.tabcontent {
+		padding-top: 60px;
+	}
 	.weofferspan {
 		font-size: 10px;
 	}
-
 	#innerdiv {
 		width: 105px;
-		margin-left: 40px;
+		margin-left: 65px;
 		margin-top: 15px;
 	}
 
