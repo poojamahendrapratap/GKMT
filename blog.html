@@ -1,277 +1,1001 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>blog</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-	    <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="fontawesomes/css/all.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<html lang="en">
+	<head>
+		<title>GKMT Blog</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="fontawesome/css/all.css" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
+		<!-- Blog char css-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lovers+Quarrel"
+			rel="stylesheet"
+		/>
+		<!-- Header -->
+		<link rel="stylesheet" href="css/header.css" />
+		<!-- Footer -->
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="scss/css/animate.css" />
+		<link rel="stylesheet" href="scss/css/icomoon.css" />
+		<link rel="stylesheet" href="scss/css/blog.css" />
+		<!-- <link rel="stylesheet" href="scss/css/body-aboutus.css"> -->
 
-<!-- Blog char css-->
-     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
- 
-</head>
+		<!-- Custom stylesheet -  -->
+		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
 
-<body>
+		<script src="js/home.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/whyus.js"></script>
+		<script src="js/service_offered_js.js"></script>
+		<!-- Header -->
+		<link rel="stylesheet" href="css/header.css" />
+		<!-- Footer -->
+		<link rel="stylesheet" href="css/footer.css" />
+		<!-- Body -->
+		<link rel="stylesheet" href="css/body.css" />
+		<title>GKMT Home</title>
 
+		<script>
+			$(document).ready(function () {
+				$(".bubble").click(function () {
+					$(".bubble").removeClass("active");
+					$(".bubble").addClass("normal");
+					$(this).toggleClass("active normal");
+				});
 
-   
+				$(".bubble").click(function () {
+					$(".industry-description").addClass("d-none");
+					$(".industry-description").removeClass("d-flex");
+					var thisid = $(this).attr("id");
+					$("." + thisid).removeClass("d-none");
+					$("." + thisid).addClass("d-flex");
+				});
+			});
+		</script>
+		<style>
+			.blog-entry > a::before {
+				content: "";
+				position: absolute;
+				background-color: rgba(89, 89, 252, 0.39);
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			.blog-entry > a {
+				position: relative;
+			}
+			.blog-entry > a:hover::before {
+				display: block;
+			}
+		</style>
+	</head>
 
+	<body>
+		<nav
+			id="navbar"
+			class="navbar container-fluid navbar-expand-lg navbar-light justify-content-lg-center"
+		>
+			<div class="container">
+				<!-- LOGO -->
+				<a
+					class="navbar-brand mr-lg-5 order-0 ml-1 ml-lg-0 d-flex align-items-center"
+					href="#"
+				>
+					<img id="logo" src="images/logo.png" />
+				</a>
 
-    <!-- *************************** blog cart *************************** -->
+				<!-- Main navigation menu -->
+				<div class="nav-div order-3 order-lg-1">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="home.html">HOME </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="aboutus.html">ABOUT</a>
+							</li>
 
+							<li class="nav-item">
+								<a class="nav-link" href="#">SERVICES</a>
+							</li>
 
-   
+							<li class="nav-item">
+								<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+							</li>
 
-<div class="row">
+							<li class="nav-item">
+								<a class="nav-link" href="#">CAREER</a>
+							</li>
 
-	<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
-<!--<div class="inner">-->
+							<li class="nav-item active">
+								<a class="nav-link" href="blog.html">BLOG</a>
+							</li>
 
+							<li class="nav-item">
+								<a class="nav-link" href="#">COLLAB</a>
+							</li>
 
-    <div class="hovereffect">
-  <img src="images/blog-medium.jpg"  class="img-fluid" alt="">
-                <div class="overlay">
-</div>
-</div>
- 
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT US</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p> <a href="#" class="read-more-btn">By Admin</a>      <span> 
-<svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>	</span></p>
-	</div>	
-	</div>
+				<!-- Get free quote button -->
+				<div class="get-free-quote order-1 order-lg-2 ml-auto ml-lg-1">
+					<a href="#" class="btn-get-started">GET FREE QUOTE</a>
+				</div>
 
- <div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
-     <div class="hovereffect">
+				<!-- Navbar toggle button -->
+				<button
+					class="navbar-toggler order-2 text-white"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</nav>
 
-	<img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
+		<!-- *************************** First Container *************************** -->
 
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+		<div
+			class="container-fluid first-section d-flex align-items-center justify-content-lg-center"
+		>
+			<div class="container text-white">
+				<div class="">
+					DEVELOPED BY A
+					<br />
+					PROFICIENT CREW OF
+					<br />
+					GKMT IT
+				</div>
+				<!-- <button class="consult-us mt-3">CONSULT US <i class="fas fa-arrow-right"></i></button> -->
+				<a href="#" class="btn-get-started"
+					>CONSULT US <i class="fas fa-arrow-right"></i
+				></a>
+			</div>
+		</div>
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a>
-	 <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    </div>	
-	</div>
- <div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- <div class="hovereffect">
+		<!-- *************************** Blogs Section start ***************************-->
 
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+		<section class="ftco-section bg-light">
+			<div class="container d-block blog-section section1" id="">
+				<div class="row">
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20 card-image"
+								style="background-image: url('scss/images/person_1.jpg');"
+							>
+								<div class="blue-drop"></div>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a>
-	 <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    </div>	
-	</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_1.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_1.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_1.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_1.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_1.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters my-5">
+					<div class="col text-center">
+						<div class="block-27">
+							<!--               <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container d-none blog-section section2" id="">
+				<div class="row">
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20 card-image"
+								style="background-image: url('scss/images/person_2.jpg');"
+							>
+								<div class="blue-drop"></div>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
 
-<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- <div class="hovereffect">
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_2.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_2.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_2.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_2.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_2.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters my-5">
+					<div class="col text-center">
+						<div class="block-27">
+							<!--               <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul> -->
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+			<div class="container d-none blog-section section3" id="">
+				<div class="row">
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20 card-image"
+								style="background-image: url('scss/images/person_3.jpg');"
+							>
+								<div class="blue-drop"></div>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a> <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    
-	</div>	
-	</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_3.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_3.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_3.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_3.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="blog-entry">
+							<a
+								href="#"
+								class="block-20"
+								style="background-image: url('scss/images/person_3.jpg');"
+							>
+							</a>
+							<div class="text px-4 pt-3 pb-4">
+								<div class="meta">
+									<div><a href="#">by shufflehound</a></div>
+									<div><a href="#">November 23,2016</a></div>
+								</div>
+								<h3 class="heading"><a href="#">Craftsmen at work</a></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam in eros scelerisque, scelerisque nisl sit amet,
+									molestie…
+								</p>
+								<p class="clearfix">
+									<a href="#" class="float-left read">People, Travel</a>
+									<a href="#" class="float-right meta-chat"
+										><span class="icon-chat"></span> 3</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters my-5">
+					<div class="col text-center">
+						<div class="block-27">
+							<!--               <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul> -->
+						</div>
+					</div>
+				</div>
+			</div>
 
-<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- <div class="hovereffect">
+			<!-- ***************************Pagination****************** -->
 
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+			<div
+				class="container pagination-div d-flex justify-content-center align-items-center"
+			>
+				<div class="pagination-button-div d-flex px-3 py-2">
+					<button class="pagination-button btn" id="prev-section">Prev</button>
+					<button
+						class="p-2 d-flex jump-btn active justify-content-center align-items-center"
+						id="jump-btn1"
+					>
+						1
+					</button>
+					<button
+						class="p-2 d-flex jump-btn justify-content-center align-items-center"
+						id="jump-btn2"
+					>
+						2
+					</button>
+					<button
+						class="p-2 d-flex jump-btn justify-content-center align-items-center"
+						id="jump-btn3"
+					>
+						3
+					</button>
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a> <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    
-	</div>	
-	</div>
+					<button class="pagination-button btn" id="next-section">Next</button>
+				</div>
+			</div>
+		</section>
+		<style>
+			.pagination-button-div {
+				background-color: lightgray;
+				border-radius: 10px;
+			}
+			.jump-btn {
+				border-radius: 50px;
+				background-color: #1e3957;
+				color: white;
+				border: 0;
+				margin: 0px 5px;
+			}
+			.pagination-button-div .active {
+				background-color: #ff6300;
+			}
+		</style>
+		<script>
+			$(document).ready(function () {
+				var currentSection = 1;
 
+				if (currentSection < 3) {
+					$("#next-section").css("display", "block");
+				}
+				if (currentSection == 1) {
+					$("#prev-section").css("display", "none");
+				}
+				if (currentSection == 3) {
+					$("#next-section").css("display", "none");
+				}
+				if (currentSection > 1) {
+					$("#prev-section").css("display", "block");
+				}
 
-<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- <div class="hovereffect">
+				// For next button
+				$("#next-section").click(function () {
+					if (currentSection != 3) {
+						currentSection += 1;
+						$(".blog-section").removeClass("d-block");
+						$(".blog-section").addClass("d-none");
+						$(".section" + currentSection).removeClass("d-none");
+						$(".section" + currentSection).addClass("d-block");
+						$(".jump-btn").removeClass("active");
+						$("#jump-btn" + currentSection).addClass("active");
+					}
+					if (currentSection == 3) {
+						$("#next-section").css("display", "none");
+					}
+					if (currentSection > 1) {
+						$("#prev-section").css("display", "block");
+					}
+				});
 
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+				// For previous button
+				$("#prev-section").click(function () {
+					if (currentSection != 1) {
+						currentSection -= 1;
+						$(".blog-section").removeClass("d-block");
+						$(".blog-section").addClass("d-none");
+						$(".section" + currentSection).removeClass("d-none");
+						$(".section" + currentSection).addClass("d-block");
+						$(".jump-btn").removeClass("active");
+						$("#jump-btn" + currentSection).addClass("active");
+					}
+					if (currentSection < 3) {
+						$("#next-section").css("display", "block");
+					}
+					if (currentSection == 1) {
+						$("#prev-section").css("display", "none");
+					}
+				});
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a> <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    
-	</div>	
-	</div>
+				// For Jump buttons
+				$(".jump-btn").click(function () {
+					// alert($(this).html());
 
+					currentSection = parseInt($(this).html());
+					// alert(currentSection);
+					$(".blog-section").removeClass("d-block");
+					$(".blog-section").addClass("d-none");
+					$(".section" + currentSection).removeClass("d-none");
+					$(".section" + currentSection).addClass("d-block");
+					$(".jump-btn").removeClass("active");
+					$(this).addClass("active");
+					console.log(".section" + currentSection);
+					if (currentSection == 3) {
+						$("#next-section").css("display", "none");
+					}
+					if (currentSection > 1) {
+						$("#prev-section").css("display", "block");
+					}
+					if (currentSection < 3) {
+						$("#next-section").css("display", "block");
+					}
+					if (currentSection == 1) {
+						$("#prev-section").css("display", "none");
+					}
+				});
+			});
+		</script>
 
-<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- <div class="hovereffect">
+		<!-- *************************** Blogs Section end ***************************-->
 
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
+		<!-- **************************** Footer ***************************** -->
 
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a> <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    </span>
-	</div>	
-	</div>
+		<footer
+			class="container-fluid d-flex flex-wrap justify-content-center py-5"
+		>
+			<div class="container d-flex flex-column flex-lg-row flex-md-row">
+				<div class="about-div d-flex flex-column p-3">
+					<img src="images/logo.png" height="40px" width="100px" />
+					<div class="mt-4">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Exercitationem ea possimus distinctio suscipit voluptatum iste
+						laborum repellendus Quis, dolor voluptas.
+					</div>
+				</div>
 
+				<div class="quick-links p-3">
+					<div class="quick-links-title">QUICK LINKS</div>
+					<div class="d-flex mt-3">
+						<div class="">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Portfolio</a></li>
+							</ul>
+						</div>
+						<div class="ml-4">
+							<ul>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Collab</a></li>
+								<li><a href="#">Consult Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
-<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- <div class="hovereffect">
+				<div class="services p-3">
+					<div class="services-title">
+						SERVICES
+					</div>
+					<div class="d-flex mt-3">
+						<ul>
+							<li>Mobile App Development</li>
+							<li>Web Design &amp; Development</li>
+							<li>Digital Marketing &amp; Branding</li>
+							<li>Graphic Design &amp; UI/UX Design</li>
+							<li>Software Development</li>
+							<li>On Demand Solution</li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-info p-3">
+					<div class="contact-info-title">
+						CONTACT INFO
+					</div>
+					<div>
+						<div class="mt-3">
+							<svg
+								class="bi bi-envelope-fill"
+								width="1em"
+								height="1em"
+								viewBox="0 0 16 16"
+								fill="currentColor"
+								xmlns="http://www.w3.org/2000/svg"
+								style="fill: white;"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+								/>
+							</svg>
+							<span> info@gkmtit.com</span>
+						</div>
+						<div class="mt-2">
+							<i class="fas fa-phone-alt"></i>
+							<span>+918112261381</span>
+						</div>
+						<div class="mt-2">
+							<i class="fas fa-envelope"></i>
+							<span>gkmt.social@gmail.com</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div
+			class="container-fluid bottom-footer d-flex flex-row flex-wrap w-100 p-4 justify-content-center"
+		>
+			Copyright &copy; 2020 - GKMT IT . All Rights Reserved.
+			<div class="mx-1">
+				<a href="#"> Refund Policy</a> | <a href="#">Privacy Policy</a> |
+				<a href="#">Terms & Conditions</a>
+			</div>
+		</div>
+	</body>
 
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
-
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a> <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    
-	</div>	
-	</div>
-
-<div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-	<div class="single-blog">
- 
- <div class="hovereffect">
-
-    <img src="images/blog-medium.jpg">
-      <div class="overlay">
-   </div>
-    </div>
-		<p class="blog-meta">By Admin <span>june 07,2020</span></p>	
-
-	<h2><a href="">Lear how to make website</a></h2>
-	<p class="blog-text">Demo Text Page Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	<p><a href="#" class="read-more-btn">Admin</a> <span> 
-    <svg width="8em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-</svg>  </span></p>
-    
- 	</div>	
-	</div>
-
-
-
-</div>
-
-
-     
-
-
- <ul class="pager list-unstyled d-flex align-items-center justify-content-between bs-example">
-              <!--  <li class="previous"><a href="#" class="btn btn-template-outlined">← Older</a></li>-->
-                  
-             <li class="page-item"><a href="#" class="page-link">Previous</a></li>
-            <li class="page-item"><a href="#" class="page-link">1</a></li>
-            <li class="page-item"><a href="#" class="page-link">2</a></li>
-            <li class="page-item"><a href="#" class="page-link">3</a></li>
-            <li class="page-item"><a href="#" class="page-link">4</a></li>
-            <li class="page-item"><a href="#" class="page-link">5</a></li>
-            <li class="page-item"><a href="#" class="page-link">Next</a></li>
- <!--
-                <li class="next disabled"><a href="#" class="btn btn-template-outlined">Newer →</a></li>-->
-              </ul>
-</div>
-
-
-
- <!-- **************************** Footer ***************************** -->
-
-   
-</body>
+	<script src="scss/js/jquery.min.js"></script>
+	<script src="scss/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="scss/js/jquery.waypoints.min.js"></script>
+	<script src="scss/js/jquery.stellar.min.js"></script>
+	<script src="scss/js/owl.carousel.min.js"></script>
+	<script src="scss/js/aos.js"></script>
+	<script src="scss/js/scrollax.min.js"></script>
+	<script src="scss/js/main.js"></script>
 </html>
