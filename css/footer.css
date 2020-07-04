@@ -2,12 +2,42 @@ footer {
 	background-color: rgb(59, 59, 59);
 }
 
-footer .container > div {
-	width: 280px;
+footer .container .subscribe-div {
+	width: 300px;
+}
+footer .container .quick-links {
+	width: 200px;
+}
+footer .container .contact-info {
+	width: 250px;
+}
+footer .container .services {
+	width: 250px;
 }
 
-footer .about-div div {
+footer .subscribe-div div {
+	width: 90%;
 	color: white;
+	font-size: 0.8rem;
+}
+
+footer .subscribe-div form {
+	background-color: white;
+	border-radius: 5px;
+}
+
+footer .subscribe-div form input {
+	width: 60%;
+	border: 0;
+	font-size: 0.9rem;
+}
+
+footer .subscribe-div form button {
+	width: 37%;
+	border: 1px solid #ff6300;
+	background-color: white;
+	color: #ff6300;
+	border-radius: 5px;
 	font-size: 0.85rem;
 }
 
@@ -24,7 +54,6 @@ footer .quick-links div ul {
 footer .quick-links div ul li a {
 	color: white;
 	font-size: 0.8rem;
-	line-height: 1.5;
 }
 
 footer .services .services-title {
@@ -54,8 +83,14 @@ footer .contact-info span {
 }
 
 footer .contact-info span {
-	margin-left: 5px;
-	font-size: 0.7rem;
+	margin-left: 15px;
+	font-size: 0.9rem;
+}
+
+footer .social-icons img {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
 }
 
 /* ********** Bottom Footer **********8 */

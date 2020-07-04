@@ -2,10 +2,17 @@ footer {
 	background-color: rgb(59, 59, 59);
 }
 
-footer .container .subscribe-div,
-footer .container .quick-links,
-footer .container .contact-info {
+footer .container .subscribe-div {
 	width: 300px;
+}
+footer .container .quick-links {
+	width: 200px;
+}
+footer .container .contact-info {
+	width: 250px;
+}
+footer .container .services {
+	width: 250px;
 }
 
 footer .subscribe-div div {
@@ -47,6 +54,22 @@ footer .quick-links div ul {
 footer .quick-links div ul li a {
 	color: white;
 	font-size: 0.8rem;
+}
+
+footer .services .services-title {
+	font-size: 1.2rem;
+	color: white;
+}
+
+footer .services ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+footer .services ul li {
+	color: white;
+	font-size: 0.8rem;
+	line-height: 2.5;
 }
 
 footer .contact-info .contact-info-title {

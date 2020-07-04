@@ -3,7 +3,7 @@ $(document).ready(function () {
 	if (scroll > 100 && $(window).width() > 600) {
 		$("nav").css({
 			"background-color": "rgb(30, 57, 87)",
-			"box-shadow": "0px 0px 4px rgba(255,255,255,0.5)",
+			"box-shadow": "0px 0px 10px rgba(0,0,0,0.5)",
 		});
 	} else {
 		$("nav").css({
@@ -17,7 +17,7 @@ $(document).ready(function () {
 		if (scroll > 100 && $(window).width() > 600) {
 			$("nav").css({
 				"background-color": "rgb(30, 57, 87)",
-				"box-shadow": "0px 0px 4px rgba(255,255,255,0.5)",
+				"box-shadow": "0px 0px 10px rgba(0,0,0,0.5)",
 			});
 		} else {
 			$("nav").css({
