@@ -645,11 +645,12 @@
 	outline: 1px solid #eee;
 }
 #servicep1 {
-	font-size: 18px;
+	font-size: 15px;
 	color: white;
+	text-align: justify;
 }
 #weserveh6 {
-	font-size: 28px;
+	font-size: 25px;
 	color: white;
 }
 .tabcontent {
