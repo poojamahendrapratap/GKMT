@@ -306,9 +306,9 @@
 .btngroup .buttons {
 	background-color: white;
 	color: rgb(30, 57, 87);
-	width: 12.5rem;
-	height: 4rem;
-	border-radius: 0px;
+	width: 15rem;
+	height: 5rem;
+	border-radius: 10px;
 	text-align: left;
 }
 
@@ -320,7 +320,7 @@
 .buttons:hover {
 	background-color: rgb(255, 99, 0);
 	color: white;
-	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.534);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.801);
 }
 
 .buttons:focus {
@@ -569,6 +569,10 @@
 
 /* ********************************** Services We Offer ********************************** */
 
+.service-we-offer {
+	overflow-x: hidden;
+}
+
 .service-we-offer .heading {
 	font-size: 5vmin;
 	color: #1e3957;
@@ -578,15 +582,18 @@
 
 .service-we-offer .heading span {
 	color: #07999f;
+	font-family: "Raleway", sans-serif;
 }
 
 .service-we-offer .heading .underline {
+	content: "";
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 40vmin;
+	width: 20vmin;
 	height: 2px;
 	background-color: #07999f;
+	font-weight: bold;
 }
 
 .service-we-offer .heading .underline::after {
@@ -596,41 +603,82 @@
 	height: 4px;
 	background-color: #1e3957;
 	transform: translateY(-1px);
-	animation: underline1 6s ease-in-out infinite;
+	animation: underline3 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
 
-@keyframes underline1 {
+@keyframes underline3 {
 	0% {
 		right: 0;
 	}
 	50% {
-		right: calc(40vmin - 15px);
+		right: calc(20vmin - 15px);
 	}
 	100% {
 		right: 0;
 	}
 }
 
+/*
 #egg {
-	width: 500px;
-	height: 400px;
-	background: #1e3957;
-	display: block;
-	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
-	border-radius: 0% 100% 100% 0% /0% 30% 70% 0%;
-	margin-left: -20px;
-}
-
+    width: 780px;
+    height: 450px;
+    background: #1E3957;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 0% 90% 70% 0% /0% 70% 40% 0%;
+    margin-left: -20px;
+    margin-bottom: 60px;
+}  */
 /*.active{
     background-color:pink;
 }*/
+
+#egg {
+	position: relative;
+}
+#img1 {
+	height: auto;
+	max-height: 600px;
+	min-width: 700px;
+	max-width: 90vw;
+	/* max-width: 100vw; */
+	/* margin-left: -20px; */
+}
 .serviceboxes {
 	background-color: white;
 	max-width: 140px;
-	border: 1px solid;
+	height: 130px;
+	outline: 1px solid #eee;
 }
-
+#servicep1 {
+	font-size: 0.9rem;
+	color: white;
+	text-align: justify;
+}
+#weserveh6 {
+	font-size: 25px;
+	color: white;
+	text-align: left;
+}
+.tabcontent {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 15%;
+	width: 70%;
+}
+@media screen and (max-width: 600px) {
+	.tabcontent {
+		width: 50%;
+		right: 50%;
+		transform: translateX(-50%);
+	}
+}
+#serviceh4 {
+	font-size: 25px;
+	font-weight: 700;
+}
 #industryhr1 {
 	background-color: #07999f;
 	width: 10%;
@@ -645,30 +693,26 @@
 
 #innerdiv1 {
 	position: relative;
-
 	float: left;
 }
 
 #innerdiv2 {
 	position: relative;
-
 	float: left;
-	margin-top: 112px;
+	margin-top: 129px;
 	margin-left: -140px;
 }
 
 #innerdiv3 {
 	position: relative;
-
 	float: left;
-	margin-top: 112px;
+	margin-top: 129px;
 }
 
 #innerdiv4 {
 	position: relative;
-
 	float: left;
-	margin-top: 225px;
+	margin-top: 259px;
 	margin-left: -280px;
 }
 
@@ -676,178 +720,19 @@
 	position: relative;
 	width: 140px;
 	float: left;
-	margin-top: 225px;
+	margin-top: 259px;
 	margin-left: -140px;
 }
-
-#servicemydiv .active {
+#servicemydiv {
+}
+#servicemydiv .tab .active {
 	background-color: #1e3957;
 	color: white;
+	outline: 1px solid #eee;
 }
-
-@media only screen and (max-width: 850px) {
-	#egg {
-		width: 370px;
-		height: 300px;
-	}
-
-	#innerdiv {
-	}
-
-	#innerdiv1 {
-		position: relative;
-
-		float: left;
-	}
-
-	#innerdiv2 {
-		position: relative;
-
-		float: left;
-		margin-top: 113px;
-		margin-left: -140px;
-	}
-
-	#innerdiv3 {
-		position: relative;
-
-		float: left;
-		margin-top: 113px;
-	}
-
-	#innerdiv4 {
-		position: relative;
-
-		float: left;
-		margin-top: 228px;
-		margin-left: -280px;
-	}
-
-	#innerdiv5 {
-		position: relative;
-		width: 140px;
-		float: left;
-		margin-top: 228px;
-		margin-left: -140px;
-	}
-}
-
-@media only screen and (max-width: 420px) {
-	#egg {
-		width: 330px;
-		height: 250px;
-	}
-
-	#serviceh4 {
-		font-size: 15px;
-		font-weight: bold;
-	}
-
-	#servicep1 {
-		font-size: 12px;
-	}
-
-	#industryhr1 {
-		width: 10%;
-	}
-
-	.weofferspan {
-		font-size: 13px;
-	}
-
-	#innerdiv {
-		width: 110px;
-		margin-left: 0px;
-		margin-top: 15px;
-	}
-
-	#industryhr1 {
-		width: 20%;
-	}
-
-	#innerdiv1 {
-		width: 110px;
-		margin-top: 15px;
-	}
-
-	#innerdiv2 {
-		width: 110px;
-		margin-left: -110px;
-		margin-top: 118px;
-	}
-
-	#innerdiv3 {
-		width: 110px;
-		margin-left: 0px;
-		margin-top: 118px;
-	}
-
-	#innerdiv4 {
-		width: 110px;
-		margin-left: -220px;
-		margin-top: 221px;
-	}
-
-	#innerdiv5 {
-		width: 110px;
-		margin-left: -110px;
-		margin-top: 221px;
-	}
-}
-
-@media only screen and (max-width: 340px) {
-	#egg {
-		width: 300px;
-		height: 220px;
-	}
-
-	#serviceh4 {
-		font-size: 15px;
-		font-weight: bold;
-	}
-
-	.weofferspan {
-		font-size: 10px;
-	}
-
-	#innerdiv {
-		width: 105px;
-		margin-left: 40px;
-		margin-top: 15px;
-	}
-
-	#innerdiv1 {
-		width: 105px;
-		margin-top: 15px;
-	}
-
-	#innerdiv2 {
-		width: 105px;
-		margin-left: -210px;
-		margin-top: 119px;
-	}
-
-	#innerdiv3 {
-		width: 105px;
-		margin-left: -105px;
-		margin-top: 119px;
-	}
-
-	#innerdiv4 {
-		width: 105px;
-		margin-left: -210px;
-		margin-top: 223px;
-	}
-
-	#innerdiv5 {
-		width: 105px;
-		margin-left: -105px;
-		margin-top: 223px;
-	}
-
-	#eggcontent {
-		font-size: 10px;
-	}
+#weserveicons {
+	height: 80px;
+	width: 80px;
 }
 
 /* ***************************** Workflow ***************************** */
@@ -1558,13 +1443,12 @@
 	font-family: "Jost", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 6px;
 }
 
 .get-estimate-team .container button:hover {
-	background-color: white;
-	color: #1e3957;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+	border: 1px solid black;
+	/* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.519); */
 }
 
 .get-estimate-team .right-div {
@@ -1760,12 +1644,11 @@
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 8px;
 }
 .join-our-team .container button:hover {
-	background-color: white;
-	color: #1e3957;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+	border: 1px solid black;
+	/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719); */
 }
 
 .join-our-team .right-div {
