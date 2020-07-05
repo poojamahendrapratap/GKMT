@@ -230,7 +230,7 @@
           .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before, .owl-carousel.home-slider .owl-nav .owl-prev:focus span:before {
             font-size: 20px;
             margin-top: 7px;
-            color: #f34949; }
+            color: #ff6300; }
       .owl-carousel.home-slider .owl-nav .owl-next {
         top: 0 !important;
         right: 0 !important; }
@@ -243,7 +243,7 @@
           .owl-carousel.home-slider .owl-nav .owl-next:hover span:before, .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
             font-size: 24px;
             margin-top: 7px;
-            color: #f34949; }
+            color: #ff6300; }
     .owl-carousel.home-slider .owl-dots {
       position: absolute;
       left: 0;
@@ -276,7 +276,7 @@
   background: #fff !important; }
 
 .bg-primary {
-  background: #f34949; }
+  background: #ff6300; }
 
 .btn {
   cursor: pointer;
@@ -290,20 +290,20 @@
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f34949;
-    border: 1px solid #f34949;
+    background: #ff6300;
+    border: 1px solid #ff6300;
     color: #fff; }
     .btn.btn-primary:hover {
-      border: 1px solid #f34949;
+      border: 1px solid #ff6300;
       background: transparent;
-      color: #f34949; }
+      color: #ff6300; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #f34949;
+      border: 1px solid #ff6300;
       background: transparent;
-      color: #f34949; }
+      color: #ff6300; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #f34949;
+        background: #ff6300;
         color: #fff; }
   .btn.btn-white {
     background: #fff;
@@ -311,7 +311,7 @@
     color: #000000; }
     .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active {
       border: 1px solid #fff;
-      color: #f34949; }
+      color: #ff6300; }
     .btn.btn-white.btn-outline-white {
       border-color: rgba(255, 255, 255, 0.8);
       background: none;
@@ -320,7 +320,7 @@
       .btn.btn-white.btn-outline-white:hover, .btn.btn-white.btn-outline-white:focus, .btn.btn-white.btn-outline-white:active {
         background: #fff;
         border-color: #fff;
-        color: #f34949; }
+        color: #ff6300; }
   .btn.btn-black {
     background: #000000;
     border: 1px solid #fff;
@@ -336,7 +336,7 @@
       .btn.btn-black.btn-outline-black:hover, .btn.btn-black.btn-outline-black:focus, .btn.btn-black.btn-outline-black:active {
         background: #fff;
         border-color: #fff;
-        color: #f34949; }
+        color: #ff6300; }
 
 .btn-custom {
   font-weight: 500;
@@ -395,4 +395,3 @@
  
  
 /* Blog*/
- */*/
