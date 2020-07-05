@@ -594,20 +594,22 @@
 	height: 2px;
 	background-color: #07999f;
 	font-weight: bold;
+	border-radius: 10px;
 }
 
 .service-we-offer .heading .underline::after {
 	content: "";
 	position: absolute;
 	width: 15px;
-	height: 4px;
+	height: 6px;
 	background-color: #1e3957;
-	transform: translateY(-1px);
-	animation: underline3 6s ease-in-out infinite;
+	transform: translateY(-2px);
+	animation: underline1 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
+	border-radius: 10px;
 }
 
-@keyframes underline3 {
+@keyframes underline1 {
 	0% {
 		right: 0;
 	}
@@ -650,6 +652,14 @@
 	max-width: 140px;
 	height: 130px;
 	outline: 1px solid #eee;
+	cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+	.serviceboxes {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
 #servicep1 {
 	font-size: 0.9rem;
@@ -761,6 +771,7 @@
 	width: 10vmin;
 	height: 2px;
 	background-color: #fff;
+	border-radius: 10px;
 }
 
 .work-flow .heading .underline::after {
@@ -770,6 +781,7 @@
 	height: 4px;
 	background-color: #07999f;
 	transform: translateY(-1px);
+	border-radius: 10px;
 	animation: underline2 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
@@ -825,6 +837,7 @@
 	height: 2px;
 	background-color: #07999f;
 	font-weight: bold;
+	border-radius: 10px;
 }
 
 .industries-we-serve-section .heading .underline::after {
@@ -834,6 +847,7 @@
 	height: 4px;
 	background-color: #1e3957;
 	transform: translateY(-1px);
+	border-radius: 10px;
 	animation: underline3 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
@@ -1062,6 +1076,7 @@
 	width: 20vmin;
 	height: 2px;
 	background-color: white;
+	border-radius: 10px;
 }
 
 .single-hero-slide .heading .underline::after {
@@ -1069,6 +1084,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #07999f;
 	transform: translateY(-1px);
 	animation: underline4 6s ease-in-out infinite;
@@ -1249,6 +1265,7 @@
 	width: 30vmin;
 	height: 2px;
 	background-color: #ffffff;
+	border-radius: 10px;
 }
 
 .social-media-section .heading .underline::after {
@@ -1256,6 +1273,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #07999f;
 	transform: translateY(-1px);
 	animation: underline5 6s ease-in-out infinite;
@@ -1365,6 +1383,7 @@
 	width: 30vmin;
 	height: 2px;
 	background-color: #07999f;
+	border-radius: 10px;
 }
 
 .our-business-presence-section .heading .underline::after {
@@ -1372,6 +1391,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #1e3957;
 	transform: translateY(-1px);
 	animation: underline6 6s ease-in-out infinite;
@@ -1517,6 +1537,7 @@
 	width: 10vmin;
 	height: 2px;
 	background-color: #fff;
+	border-radius: 10px;
 }
 
 .our-blog-section .heading .underline::after {
@@ -1524,6 +1545,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #07999f;
 	transform: translateY(-1px);
 	animation: underline7 6s ease-in-out infinite;
