@@ -4,8 +4,7 @@
 #menubut:hover {
 	background-color: #ff6300;
 }
-.normal {
-}
+
 #indusdiv3 .active {
 	background-color: #ff4800;
 }
@@ -17,7 +16,10 @@
 	margin-top: 15px;
 	border-radius: 10px;
 }
+#playicon{margin-left:122px;
+	margin-top:-58px;
 
+}
 .indusdiv2 {
 	width: 400px;
 	height: 270px;
@@ -108,14 +110,24 @@
 .cursor {
 	cursor: pointer;
 }
+@media only screen and (max-width: 800px){
+#indusdiv3{
+		  margin-top:173px;
+		  margin-left:180px;
+}
+
 @media only screen and (max-width: 420px) {
 	#indusimg1 {
 		width: 230px;
 		height: 320px;
 	}
+	#playicon{
+		
+		margin-left:118px;
+	}
 	#indusdiv1 {
-		width: 230px;
-		height: 320px;
+		width: 240px;
+		height: 340px;
 	}
 	.indusdiv2 {
 		margin-left: 150px;
