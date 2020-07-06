@@ -189,7 +189,7 @@
 						>
 							6
 						</div>
-						<div class="ball c-ball overflow-hidden">
+						<div class="c-ball overflow-hidden">
 							<img
 								src="icons/icons8-linux-server-80.png"
 								height="100%"
@@ -224,7 +224,8 @@
 			.ball-container {
 				border: 2px dashed gray;
 				height: 220px;
-				width: 220px;
+				min-width: 220px;
+				max-width: 220px;
 				border-radius: 50%;
 				position: relative;
 			}
@@ -296,6 +297,13 @@
 			}
 			.ball-container .c-ball {
 				/* position: absolute; */
+				border-radius: 50px;
+				background-color: #07999f;
+				position: absolute;
+				text-align: center;
+				color: white;
+				z-index: 10;
+				cursor: pointer;
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
@@ -318,7 +326,7 @@
 				top: 50%;
 				left: 12%;
 				transform: translateY(-50%);
-				width: 400px;
+				max-width: 400px;
 				background-color: #1e3957;
 				color: white;
 				border-radius: 10px;
