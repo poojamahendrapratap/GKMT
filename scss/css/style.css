@@ -4,14 +4,23 @@
 
 
 /* Number text (1/6etc) */
-.numbertext {
+/*.numbertext {
   color: #231C14;
   font-size: 23px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
+}*/
 
+
+/* Number text (1/6etc) */
+.numbertext {
+  color: #ff6300;
+  font-size: 23px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
 
    
