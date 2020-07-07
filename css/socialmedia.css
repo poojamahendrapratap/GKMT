@@ -1,0 +1,27 @@
+#facebookbadge{
+   
+}
+#behancebadge{
+    margin-left:25px;
+}
+#instagrambadge{
+    margin-left:25px;
+}
+
+#youtubebadge{
+    margin-left:25px;
+}
+/*
+SOCIAL MEDIA MEDIA QUERY
+*/
+@media only screen and (max-width: 375px){
+    #instagrambadge{
+        margin-left:30px;
+    }
+    
+#linkedinbadge{
+   margin-left:4px;
+}
+#youtubebadge{
+    margin-left:18px;
+}
