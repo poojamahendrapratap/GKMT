@@ -654,6 +654,13 @@
 	outline: 1px solid #eee;
 	cursor: pointer;
 }
+@media screen and (max-width: 1180px) {
+	.serviceboxes {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
 @media screen and (max-width: 991px) {
 	.serviceboxes {
 		position: relative;
@@ -661,6 +668,14 @@
 		transform: translateX(-50%);
 	}
 }
+@media screen and (max-width: 580px) {
+	.serviceboxes {
+		position: relative;
+		left: 0%;
+		transform: translateX(0%);
+	}
+}
+
 #servicep1 {
 	font-size: 0.9rem;
 	color: white;
@@ -680,9 +695,10 @@
 }
 @media screen and (max-width: 600px) {
 	.tabcontent {
-		width: 50%;
-		right: 50%;
-		transform: translateX(-50%);
+		width: 90vw;
+		/* left: 50%; */
+		transform: translateX(0%);
+		left: 5vw;
 	}
 }
 #serviceh4 {
@@ -732,6 +748,45 @@
 	float: left;
 	margin-top: 259px;
 	margin-left: -140px;
+}
+@media screen and (max-width: 444px) {
+	#innerdiv {
+		position: relative;
+		float: left;
+	}
+
+	#innerdiv1 {
+		position: relative;
+		float: left;
+	}
+
+	#innerdiv2 {
+		position: relative;
+		/* float: left; */
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	#innerdiv3 {
+		position: relative;
+		float: left;
+		margin-top: 0px;
+	}
+
+	#innerdiv4 {
+		position: relative;
+		float: left;
+		margin-top: 131px;
+		margin-left: -280px;
+	}
+
+	#innerdiv5 {
+		position: relative;
+		width: 140px;
+		float: left;
+		margin-top: 131px;
+		margin-left: -140px;
+	}
 }
 #servicemydiv {
 }
