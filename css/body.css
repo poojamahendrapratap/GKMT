@@ -321,6 +321,7 @@
 	background-color: rgb(255, 99, 0);
 	color: white;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.801);
+	transform: scale(1.1);
 }
 
 .buttons:focus {
@@ -594,20 +595,22 @@
 	height: 2px;
 	background-color: #07999f;
 	font-weight: bold;
+	border-radius: 10px;
 }
 
 .service-we-offer .heading .underline::after {
 	content: "";
 	position: absolute;
 	width: 15px;
-	height: 4px;
+	height: 6px;
 	background-color: #1e3957;
-	transform: translateY(-1px);
-	animation: underline3 6s ease-in-out infinite;
+	transform: translateY(-2px);
+	animation: underline1 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
+	border-radius: 10px;
 }
 
-@keyframes underline3 {
+@keyframes underline1 {
 	0% {
 		right: 0;
 	}
@@ -650,7 +653,30 @@
 	max-width: 140px;
 	height: 130px;
 	outline: 1px solid #eee;
+	cursor: pointer;
 }
+@media screen and (max-width: 1180px) {
+	.serviceboxes {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+@media screen and (max-width: 991px) {
+	.serviceboxes {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+@media screen and (max-width: 580px) {
+	.serviceboxes {
+		position: relative;
+		left: 0%;
+		transform: translateX(0%);
+	}
+}
+
 #servicep1 {
 	font-size: 0.9rem;
 	color: white;
@@ -670,9 +696,10 @@
 }
 @media screen and (max-width: 600px) {
 	.tabcontent {
-		width: 50%;
-		right: 50%;
-		transform: translateX(-50%);
+		width: 90vw;
+		/* left: 50%; */
+		transform: translateX(0%);
+		left: 5vw;
 	}
 }
 #serviceh4 {
@@ -723,6 +750,45 @@
 	margin-top: 259px;
 	margin-left: -140px;
 }
+@media screen and (max-width: 444px) {
+	#innerdiv {
+		position: relative;
+		float: left;
+	}
+
+	#innerdiv1 {
+		position: relative;
+		float: left;
+	}
+
+	#innerdiv2 {
+		position: relative;
+		/* float: left; */
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	#innerdiv3 {
+		position: relative;
+		float: left;
+		margin-top: 0px;
+	}
+
+	#innerdiv4 {
+		position: relative;
+		float: left;
+		margin-top: 131px;
+		margin-left: -280px;
+	}
+
+	#innerdiv5 {
+		position: relative;
+		width: 140px;
+		float: left;
+		margin-top: 131px;
+		margin-left: -140px;
+	}
+}
 #servicemydiv {
 }
 #servicemydiv .tab .active {
@@ -761,6 +827,7 @@
 	width: 10vmin;
 	height: 2px;
 	background-color: #fff;
+	border-radius: 10px;
 }
 
 .work-flow .heading .underline::after {
@@ -770,6 +837,7 @@
 	height: 4px;
 	background-color: #07999f;
 	transform: translateY(-1px);
+	border-radius: 10px;
 	animation: underline2 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
@@ -825,6 +893,7 @@
 	height: 2px;
 	background-color: #07999f;
 	font-weight: bold;
+	border-radius: 10px;
 }
 
 .industries-we-serve-section .heading .underline::after {
@@ -834,6 +903,7 @@
 	height: 4px;
 	background-color: #1e3957;
 	transform: translateY(-1px);
+	border-radius: 10px;
 	animation: underline3 6s ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
@@ -1062,6 +1132,7 @@
 	width: 20vmin;
 	height: 2px;
 	background-color: white;
+	border-radius: 10px;
 }
 
 .single-hero-slide .heading .underline::after {
@@ -1069,6 +1140,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #07999f;
 	transform: translateY(-1px);
 	animation: underline4 6s ease-in-out infinite;
@@ -1249,6 +1321,7 @@
 	width: 30vmin;
 	height: 2px;
 	background-color: #ffffff;
+	border-radius: 10px;
 }
 
 .social-media-section .heading .underline::after {
@@ -1256,6 +1329,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #07999f;
 	transform: translateY(-1px);
 	animation: underline5 6s ease-in-out infinite;
@@ -1365,6 +1439,7 @@
 	width: 30vmin;
 	height: 2px;
 	background-color: #07999f;
+	border-radius: 10px;
 }
 
 .our-business-presence-section .heading .underline::after {
@@ -1372,6 +1447,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #1e3957;
 	transform: translateY(-1px);
 	animation: underline6 6s ease-in-out infinite;
@@ -1517,6 +1593,7 @@
 	width: 10vmin;
 	height: 2px;
 	background-color: #fff;
+	border-radius: 10px;
 }
 
 .our-blog-section .heading .underline::after {
@@ -1524,6 +1601,7 @@
 	position: absolute;
 	width: 15px;
 	height: 4px;
+	border-radius: 10px;
 	background-color: #07999f;
 	transform: translateY(-1px);
 	animation: underline7 6s ease-in-out infinite;

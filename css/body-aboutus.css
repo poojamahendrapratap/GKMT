@@ -164,9 +164,9 @@ a:hover {
 	position: relative;
 	z-index: 10;
 	color: white;
-	transform: scale(1.1);
+	transform: scale(1.05);
 	background-color: #1e3957;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.63);
 }
 
 .ambition-div .ambition-icon i {
@@ -332,6 +332,137 @@ a:hover {
 	}
 }
 
+.industry-switching-tabs {
+	height: 300px;
+}
+.ball-container {
+	border: 2px dashed gray;
+	height: 220px;
+	min-width: 220px;
+	max-width: 220px;
+	border-radius: 50%;
+	position: relative;
+}
+.industry-switching-tabs .ball {
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	background-color: #07999f;
+	position: absolute;
+	text-align: center;
+	color: white;
+	z-index: 10;
+	cursor: pointer;
+	/* left: 50%; */
+	/* top: 50%; */
+	/* transform: translate(-50%, -50%); */
+}
+.industry-switching-tabs .line {
+	position: absolute;
+	width: 35%;
+	height: 2px;
+	background-color: #ff6300;
+	top: 50%;
+	left: 13%;
+	z-index: 1;
+	transform-origin: 80px;
+	transform: translateX(0%) rotateZ(90deg);
+	/* transition: all 100ms; */
+}
+
+.industry-switching-tabs .ball-container .active {
+	background-color: #ff6300;
+}
+.ball-container .ball1 {
+	/* position: absolute; */
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -15px);
+}
+.ball-container .ball2 {
+	/* position: absolute; */
+	right: 0;
+	top: 0;
+	transform: translate(0px, 50px);
+}
+.ball-container .ball3 {
+	/* position: absolute; */
+	bottom: 0;
+	right: 0;
+	transform: translate(0, -50px);
+}
+.ball-container .ball4 {
+	/* position: absolute; */
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 15px);
+}
+.ball-container .ball5 {
+	/* position: absolute; */
+	left: 0;
+	bottom: 0;
+	transform: translate(0, -50px);
+}
+.ball-container .ball6 {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	transform: translate(0, 50px);
+}
+.ball-container .c-ball {
+	/* position: absolute; */
+	border-radius: 50px;
+	background-color: #07999f;
+	position: absolute;
+	text-align: center;
+	color: white;
+	z-index: 10;
+	cursor: pointer;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 40px;
+	width: 40px;
+}
+
+.industry-desc-sec {
+	height: 350px;
+	position: relative;
+}
+.industry-desc-sec img {
+	height: 100%;
+	width: 250px;
+	border: 3px outset lightgray;
+	border-radius: 10px;
+}
+.industry-content {
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	transform: translateY(-50%);
+	max-width: 400px;
+	background-color: #1e3957;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.658);
+}
+.industry-content span {
+	font-size: 1rem;
+	font-weight: bold;
+}
+.industry-content p {
+	font-size: 0.8rem;
+	text-align: justify;
+}
+.industry-content button {
+	border: 0;
+	background-color: #ff6300;
+	color: white;
+	padding: 8px 15px;
+	border-radius: 6px;
+	font-size: 0.9rem;
+}
+
 /* *************************** Our clients section ************************** */
 
 .fifth-section {
@@ -469,7 +600,7 @@ a:hover {
 }
 
 .cards:hover .body {
-	transform: translateY(0px);
+	transform: translateY(5px);
 }
 
 .cards:hover .date,
@@ -513,6 +644,9 @@ a:hover {
 	width: 92%;
 	margin: auto;
 	resize: none;
+}
+.contact-form .form-control::placeholder {
+	color: rgb(201, 201, 201);
 }
 
 .contact-form .form-control:focus {
