@@ -489,6 +489,8 @@
 	animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+
+
 @media (max-width: 991px) {
 	#hero {
 		height: 100vh;
@@ -789,8 +791,7 @@
 		margin-left: -140px;
 	}
 }
-#servicemydiv {
-}
+
 #servicemydiv .tab .active {
 	background-color: #1e3957;
 	color: white;
@@ -975,6 +976,7 @@
 	border-radius: 3px;
 	font-size: 0.9rem;
 }
+
 
 #toprow .bubble {
 	margin: 30px;
@@ -1271,8 +1273,7 @@
 	border-left: 0px solid #1e3957;
 	border-top: 180px solid #1e3957;
 }
-.collab-section .collab-freelancer::before:hover {
-}
+
 
 @media screen and (max-width: 576px) {
 	.collab-section {
@@ -1347,8 +1348,7 @@
 		right: 0;
 	}
 }
-#facebookbadge {
-}
+
 
 #linkedinbadge {
 	margin-top: -30px;
