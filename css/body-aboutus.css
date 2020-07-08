@@ -635,7 +635,7 @@ a:hover {
 .contact-form .form-control {
 	position: relative;
 	font-size: 0.7rem;
-	padding: 20px;
+	height: 41px;
 	text-align: center;
 	border-bottom: 0px;
 	border-right: 0px;
@@ -685,6 +685,7 @@ a:hover {
 
 .contact-form .input-container textarea {
 	height: 60px;
+	padding: 20px;
 }
 .contact-form .textarea-right-half::before {
 	content: "";
