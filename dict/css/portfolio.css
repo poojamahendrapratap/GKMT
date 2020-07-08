@@ -35,7 +35,7 @@ h1 {
 	font-weight: 600;
 }
 
-a,
+/*a,
 a:hover,
 a:focus {
 	-webkit-transition-duration: 500ms;
@@ -46,7 +46,7 @@ a:focus {
 	font-weight: 600;
 	font-size: 14px;
 	color: #474747;
-}
+}*/
 
 ul,
 ol {
