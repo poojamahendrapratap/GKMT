@@ -41,7 +41,7 @@ a:hover {
 
 .second-section .about-us {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 5fr 4fr;
 	grid-template-areas:
 		"about-heading about-image"
 		"about-text about-image";
@@ -71,7 +71,7 @@ a:hover {
 
 .about-us .image {
 	grid-area: about-image;
-	filter: drop-shadow(3px 3px 3px black);
+	filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.162));
 }
 
 .about-us .text {

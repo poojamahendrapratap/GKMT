@@ -489,8 +489,6 @@
 	animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-
-
 @media (max-width: 991px) {
 	#hero {
 		height: 100vh;
@@ -977,7 +975,6 @@
 	font-size: 0.9rem;
 }
 
-
 #toprow .bubble {
 	margin: 30px;
 	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -1274,7 +1271,6 @@
 	border-top: 180px solid #1e3957;
 }
 
-
 @media screen and (max-width: 576px) {
 	.collab-section {
 		position: relative;
@@ -1348,7 +1344,6 @@
 		right: 0;
 	}
 }
-
 
 #linkedinbadge {
 	margin-top: -30px;
@@ -1633,6 +1628,7 @@
 	border-radius: 1rem;
 	overflow: hidden;
 	margin: 10px 0px;
+	cursor: pointer;
 }
 
 .cards .body {
