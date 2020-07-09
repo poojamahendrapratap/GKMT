@@ -47,6 +47,8 @@ a:hover {
 	border: 2px solid #ff6300;
 }
 
+
+
 /* mobile responsive*/
 @media (max-width: 767.98px) {
     .btn-get-started {
