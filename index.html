@@ -1702,29 +1702,98 @@
 
 		<!-- ********************************Want to collab ******************************* -->
 
-		<div
-			class="collab-section container-fluid d-flex justify-content-center p-0"
-		>
-			<div
-				class="collab-freelancer d-flex justify-content-start justify-content-lg-center justify-content-md-center p-2"
-				onclick="window.location.href='#'"
+		<div class="collab-section container-fluid p-0">
+			<a
+				href="#"
+				class="collab-freelancer d-flex align-items-center justify-content-start justify-content-lg-center justify-content-md-center p-2"
 			>
 				<div>
-					<div class="">Want to Collab as</div>
-					<p class="p-0 m-0">FREELANCER</p>
+					<h5 class="">Want to Collab as</h5>
+					<h1 class="p-0 m-0">FREELANCER</h1>
 				</div>
+			</a>
+			<div class="center-triangles">
+				<a href="#" class="left-triangle"></a>
+				<a href="#" class="right-triangle"></a>
 			</div>
-
-			<div
-				class="text-white collab-agency d-flex justify-content-end justify-content-lg-center justify-content-md-center pr-2"
-				onclick="window.location.href='#'"
+			<a
+				href="#"
+				class="collab-agency d-flex align-items-center justify-content-end justify-content-lg-center justify-content-md-center p-2"
 			>
 				<div class="">
-					<div class="text-white">Want to Collab as</div>
-					<p class="p-0 m-0">AGENCY</p>
+					<h5 class="">Want to Collab as</h5>
+					<h1 class="p-0 m-0">AGENCY</h1>
 				</div>
-			</div>
+			</a>
 		</div>
+
+		<script>
+			$(document).ready(function () {
+				$(".collab-freelancer").mouseenter(function () {
+					$(this).css("background-color", "#1e3957");
+					$(".collab-freelancer h5,.collab-freelancer h1").css(
+						"color",
+						"white"
+					);
+					$(".center-triangles .left-triangle").css(
+						"background-color",
+						"#1e3957"
+					);
+				});
+				$(".collab-freelancer").mouseleave(function () {
+					$(this).css("background-color", "white");
+					$(".collab-freelancer h5,.collab-freelancer h1").css(
+						"color",
+						"#1e3957"
+					);
+					$(".center-triangles .left-triangle").css(
+						"background-color",
+						"white"
+					);
+				});
+
+				$(".center-triangles .left-triangle ").mouseenter(function () {
+					$(".collab-freelancer").css("background-color", "#1e3957");
+					$(".collab-freelancer h5,.collab-freelancer h1").css(
+						"color",
+						"white"
+					);
+					$(this).css("background-color", "#1e3957");
+				});
+				$(".center-triangles .left-triangle ").mouseleave(function () {
+					$(".collab-freelancer h5,.collab-freelancer h1").css(
+						"color",
+						"#1e3957"
+					);
+					$(".collab-freelancer").css("background-color", "white");
+					$(this).css("background-color", "white");
+				});
+
+				$(".collab-agency").mouseenter(function () {
+					$(this).css("background-color", "#1e3957");
+					$(".center-triangles .right-triangle").css(
+						"background-color",
+						"#1e3957"
+					);
+				});
+				$(".collab-agency").mouseleave(function () {
+					$(this).css("background-color", "#ff6300");
+					$(".center-triangles .right-triangle").css(
+						"background-color",
+						"#ff6300"
+					);
+				});
+
+				$(".center-triangles .right-triangle ").mouseenter(function () {
+					$(".collab-agency").css("background-color", "#1e3957");
+					$(this).css("background-color", "#1e3957");
+				});
+				$(".center-triangles .right-triangle ").mouseleave(function () {
+					$(".collab-agency").css("background-color", "#ff6300");
+					$(this).css("background-color", "#ff6300");
+				});
+			});
+		</script>
 
 		<!-- ***************************** Social media presence *********************** -->
 		<div
@@ -1871,12 +1940,12 @@
 							assumenda maxime repudiandae...
 						</div>
 						<div class="btn-read-more">
-							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+							<span>Read more <i class="fas fa-arrow-right"></i></span>
 						</div>
 					</div>
 				</a>
 
-				<div class="cards" onclick="window.location.href='#'">
+				<a href="#" class="cards">
 					<div class="body">
 						<div class="date">20 May 2020</div>
 						<div class="title">
@@ -1887,12 +1956,12 @@
 							assumenda maxime repudiandae...
 						</div>
 						<div class="btn-read-more">
-							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+							<span>Read more <i class="fas fa-arrow-right"></i></span>
 						</div>
 					</div>
-				</div>
+				</a>
 
-				<div class="cards" onclick="window.location.href='#'">
+				<a href="#" class="cards">
 					<div class="body">
 						<div class="date">20 May 2020</div>
 						<div class="title">
@@ -1903,12 +1972,12 @@
 							assumenda maxime repudiandae...
 						</div>
 						<div class="btn-read-more">
-							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+							<span>Read more <i class="fas fa-arrow-right"></i></span>
 						</div>
 					</div>
-				</div>
+				</a>
 
-				<div class="cards" onclick="window.location.href='#'">
+				<a href="#" class="cards">
 					<div class="body">
 						<div class="date">20 May 2020</div>
 						<div class="title">
@@ -1919,10 +1988,10 @@
 							assumenda maxime repudiandae...
 						</div>
 						<div class="btn-read-more">
-							<a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+							<span>Read more <i class="fas fa-arrow-right"></i></span>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="section d-flex justify-content-center mt-4">
 				<a href="#" class="btn-get-started"
@@ -1956,10 +2025,10 @@
 			class="container-fluid d-flex flex-wrap justify-content-center align-items-center py-5"
 		>
 			<div
-				class="container d-flex flex-column flex-lg-row flex-md-row justify-content-between align-items-center"
+				class="container d-flex flex-column flex-lg-row flex-md-row justify-content-between align-items-center align-items-lg-start align-items-md-start"
 			>
 				<div class="subscribe-div d-flex flex-column p-3">
-					<img src="images/logo.png" height="40px" width="100px" />
+					<img src="images/logo.png" height="auto" width="100px" />
 					<div class="mt-4">
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 						Exercitationem ea possimus distinctio suscipit voluptatum iste
