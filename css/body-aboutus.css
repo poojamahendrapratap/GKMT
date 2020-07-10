@@ -41,7 +41,7 @@ a:hover {
 
 .second-section .about-us {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 5fr 4fr;
 	grid-template-areas:
 		"about-heading about-image"
 		"about-text about-image";
@@ -71,7 +71,7 @@ a:hover {
 
 .about-us .image {
 	grid-area: about-image;
-	filter: drop-shadow(3px 3px 3px black);
+	filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.162));
 }
 
 .about-us .text {
@@ -164,9 +164,9 @@ a:hover {
 	position: relative;
 	z-index: 10;
 	color: white;
-	transform: scale(1.05);
+	/* transform: scale(1.03); */
 	background-color: #1e3957;
-	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.63);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.63);
 }
 
 .ambition-div .ambition-icon i {
@@ -248,6 +248,18 @@ a:hover {
 	.ambition-div:nth-child(6) .ambition-icon svg {
 		fill: black;
 	}
+	.ambition-div:hover {
+		position: relative;
+		z-index: 10;
+		color: white;
+		/* transform: scale(1.1); */
+		background-color: #1e3957;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+	}
+
+	.ambition-div:hover:before {
+		background-color: white;
+	}
 }
 
 @media screen and (max-width: 576px) {
@@ -294,9 +306,13 @@ a:hover {
 		position: relative;
 		z-index: 10;
 		color: white;
-		transform: scale(1.1);
+		/* transform: scale(1.1); */
 		background-color: #1e3957;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+	}
+
+	.ambition-div:hover:before {
+		background-color: white;
 	}
 }
 
@@ -357,6 +373,10 @@ a:hover {
 	/* top: 50%; */
 	/* transform: translate(-50%, -50%); */
 }
+.industry-switching-tabs .ball:hover {
+	background-color: #ff6300;
+	/* filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.164)); */
+}
 .industry-switching-tabs .line {
 	position: absolute;
 	width: 35%;
@@ -365,9 +385,21 @@ a:hover {
 	top: 50%;
 	left: 13%;
 	z-index: 1;
+	border-radius: 50%;
 	transform-origin: 80px;
 	transform: translateX(0%) rotateZ(90deg);
-	/* transition: all 100ms; */
+	/* transition: all 10ms; */
+}
+.industry-switching-tabs .line::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	z-index: 3;
+	border-top: 5px solid transparent;
+	border-right: 15px solid #ff6300;
+	border-bottom: 5px solid transparent;
+	transform: translate(-4px, -4px);
 }
 
 .industry-switching-tabs .ball-container .active {
@@ -554,7 +586,7 @@ a:hover {
 	display: flex;
 	align-items: flex-end;
 	border: 1px solid #ff4800;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 	overflow: hidden;
 	margin: 10px 0px;
 }
@@ -616,15 +648,24 @@ a:hover {
 	position: relative;
 }
 
-.sixth-section .container .contact-image img,
-.sixth-section .container .contact-form {
-	box-shadow: 0px 0px 10px #1e39577e;
+.sixth-section .coffee-div .contact-image {
+	position: relative;
+	z-index: 10;
+	box-shadow: 0px 0px 10px #000000bd;
+}
+.coffee-div {
+	width: 60vw;
+	box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.438);
 }
 
 .contact-form {
 	background-color: white;
 }
-
+.input-container {
+	width: 75%;
+	position: relative;
+	margin: auto;
+}
 .contact-form .contact-heading {
 	color: #1e3957;
 	font-size: 1.6rem;
@@ -641,7 +682,7 @@ a:hover {
 	border-right: 0px;
 	border-left: 0px;
 	border-radius: 0px;
-	width: 92%;
+	width: 100%;
 	margin: auto;
 	resize: none;
 }
@@ -653,14 +694,15 @@ a:hover {
 	box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
 	border-color: #ced4da;
 }
-.left-half,
-.right-half,
-.textarea-right-half {
+.contact-form .left-half,
+.contact-form .right-half,
+.contact-form .textarea-right-half {
 	position: relative;
 }
 .contact-form .left-half::before {
 	content: "";
 	position: absolute;
+	left: -30px;
 	transform: translate(0px, 0px);
 	height: 42px;
 	width: 30px;
@@ -673,7 +715,7 @@ a:hover {
 .contact-form .right-half::before {
 	content: "";
 	position: absolute;
-	right: 0;
+	right: -30px;
 	transform: translate(0px, 0px);
 	height: 42px;
 	width: 30px;
@@ -691,7 +733,7 @@ a:hover {
 	content: "";
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -30px;
 	transform: translate(0px, 0px);
 	border-radius: 0px 50px 50px 0px;
 	border: 1px solid #ced4da;
