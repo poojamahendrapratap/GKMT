@@ -99,7 +99,7 @@ ol li {
 .hero-slides .single-hero-slide .hero-slides-content {
 	position: relative;
 	z-index: 1;
-	padding: 60px 50px;
+	padding: 80px 20px;
 	border-left: 3px solid #ff6300;
 	background-color: rgba(24, 24, 24, 0.54);
 }
@@ -114,6 +114,7 @@ ol li {
 	color: #ffffff;
 	margin-bottom: 30px;
 	font-weight: 600;
+	padding-top: 10px;
 }
 @media only screen and (max-width: 767px) {
 	.hero-slides .single-hero-slide .hero-slides-content h2 {
@@ -126,6 +127,7 @@ ol li {
 	font-size: 16px;
 	margin-bottom: 50px;
 	color: #ffffff;
+	padding-bottom: 
 }
 .hero-slides .owl-prev,
 .hero-slides .owl-next {
@@ -140,13 +142,17 @@ ol li {
 	position: absolute;
 	z-index: 10;
 	text-align: center;
-	font-size: 16px;
+	font-size: 0.01px;
 	font-weight: 600;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition-duration: 500ms;
 	transition-duration: 500ms;
 	border-bottom: 3px solid #ff6300;
+	  border: solid #ff6300;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
 @media only screen and (max-width: 767px) {
 	.hero-slides .owl-prev,
@@ -156,8 +162,18 @@ ol li {
 }
 .hero-slides .owl-next {
 	left: auto;
-	right: 4%;
+	right: 4%;	
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
+
+.hero-slides .owl-prev {
+	right: auto;
+	left: 4%;	
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 .hero-slides:hover .owl-prev,
 .hero-slides:hover .owl-next {
 	opacity: 1;
@@ -168,10 +184,10 @@ ol li {
 	display: -ms-flexbox;
 	display: flex;
 	position: absolute;
-	bottom: 50px;
+	bottom: 20px;
 	z-index: 10;
-	width: 80%;
-	left: 17%;
+	width: 10%;
+	left: 50%;
 }
 .hero-slides .owl-dots .owl-dot {
 	font-size: 16px;
