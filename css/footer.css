@@ -83,12 +83,11 @@ footer .contact-info .contact-info-title {
 }
 
 footer .contact-info i,
-footer .contact-info span {
+footer .contact-info a {
 	color: white;
 }
 
-footer .contact-info span {
-	margin-left: 15px;
+footer .contact-info a {
 	font-size: 0.9rem;
 }
 
