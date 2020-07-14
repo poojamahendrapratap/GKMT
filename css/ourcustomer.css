@@ -1,276 +1,262 @@
-#ourclients{
-    height:600px;
+#ourclients {
+	height: 600px;
 }
-#egg
-{
-    position:relative;
-    margin-top:10px;
-    width:360px;
-    height:420px;
-    margin-left:150px;
-    background-color:white;
-    display:block;
-    border-radius:70% 80% 90% 60% / 80% 80%  70%  60% ;
+#egg {
+	position: relative;
+	margin-top: 10px;
+	width: 360px;
+	height: 420px;
+	margin-left: 150px;
+	display: block;
+	border-radius: 70% 80% 90% 60% / 80% 80% 70% 60%;
 }
-#cloudimg{
-    margin-top:40px;
+#cloudimg {
+	margin-top: 40px;
 }
 
-
-
-
-	
-#ourclients
-{
-    margin:0;
-    padding:20px;
-    background-color:#1E3957;
+#ourclients {
+	margin: 0;
+	padding: 20px;
 }
-.customerimg:hover{
-    opacity:0.5;
+.customerimg:hover {
+	opacity: 0.5;
 }
-#customerimg1{
-    margin-left:130px;
-    margin-top:-480px;
+#customerimg1 {
+	margin-left: 130px;
+	margin-top: -480px;
 }
-#customerimg2{
-    margin-left:250px;
-    margin-top:-620px;
+#customerimg2 {
+	margin-left: 250px;
+	margin-top: -620px;
 }
-#customerimg3{
-    margin-left:340px;
-    margin-top:-500px;
+#customerimg3 {
+	margin-left: 340px;
+	margin-top: -500px;
 }
-#customerimg4{
-    margin-left:100px;
-    margin-top:-340px;
+#customerimg4 {
+	margin-left: 100px;
+	margin-top: -340px;
 }
-#customerimg5{
-    margin-left:190px;
-    margin-top:-500px;
+#customerimg5 {
+	margin-left: 190px;
+	margin-top: -500px;
 }
-#customerimg6{
-    margin-left:460px;
-    margin-top:-600px;
+#customerimg6 {
+	margin-left: 460px;
+	margin-top: -600px;
 }
 
-#customerimg7{
-    margin-left:320px;
-    margin-top:-500px;
+#customerimg7 {
+	margin-left: 320px;
+	margin-top: -500px;
 }
-#customerimg8{
-    margin-left:50px;
-    margin-top:-80px; 
-    margin-top:-700px;
+#customerimg8 {
+	margin-left: 50px;
+	margin-top: -80px;
+	margin-top: -700px;
 }
-.customerimg{
-    border-radius:30px;
-    cursor:pointer;
-}
-
-@media only screen and (max-width:1089px){
-    #egg
-    {
-        margin-left:30px;
-        margin-top:5px;
-        width:300px;
-        height:400px;
-    }
-    #cloudimg{
-        width:480px;
-        height:300px;
-        margin-top:50px;
-    }
-    #customerimg1{
-        margin-left:130px;
-        margin-top:-420px;
-    }
-    #customerimg2{
-        margin-left:230px;
-        margin-top:-580px;
-    }
-    #customerimg3{
-        margin-left:320px;
-        margin-top:-500px;
-    }
-    #customerimg4{
-        margin-left:100px;
-        margin-top:-340px;
-    }
-    #customerimg5{
-        margin-left:190px;
-        margin-top:-500px;
-    }
-    #customerimg6{
-        margin-left:390px;
-        margin-top:-500px;
-    }
-    
-    #customerimg7{
-        margin-left:280px;
-        margin-top:-500px;
-    }
-    #customerimg8{
-        margin-left:50px;
-        margin-top:-80px; 
-        margin-top:-700px;
-    }
-}
-@media only screen and (max-width:789px){
-    #ourclients{
-        margin-top:300px;
-        height:600px;
-    }
-    
-
-    #egg
-    {
-        margin-left:20px;
-        margin-top:5px;
-        width:300px;
-        height:400px;
-    }
-    #cloudimg{
-        width:360px;
-        height:320px;
-        margin-top:50px;
-    }
-    #customerimg1{
-        margin-left:130px;
-        margin-top:-420px;
-    }
-    #customerimg2{
-        margin-left:160px;
-        margin-top:-600px;
-    }
-    #customerimg3{
-        margin-left:250px;
-        margin-top:-500px;
-    }
-    #customerimg4{
-        margin-left:50px;
-        margin-top:-310px;
-    }
-    #customerimg5{
-        margin-left:150px;
-        margin-top:-470px;
-    }
-    #customerimg6{
-        margin-left:280px;
-        margin-top:-500px;
-    }
-    
-    #customerimg7{
-        margin-left:200px;
-        margin-top:-450px;
-    }
-    #customerimg8{
-        margin-left:50px;
-       
-        margin-top:-700px;
-    }
+.customerimg {
+	border-radius: 30px;
+	cursor: pointer;
 }
 
-@media only screen and (max-width:500px){
-    #ourclients{
-        margin-top:300px;
-        height:860px;
-    }
-    #egg{
-        margin-left:60px;
-        margin-top:10px;
-        width:300px;
-        height:400px;
-    }
-    #cloudimg{
-        width:380px;
-        height:300px;
-        margin-top:10px;
-    }
-    #customerimg1{
-        margin-left:130px;
-        margin-top:-420px;
-    }
-    #customerimg2{
-        margin-left:180px;
-        margin-top:-580px;
-    }
-    #customerimg3{
-        margin-left:250px;
-        margin-top:-500px;
-    }
-    #customerimg4{
-        margin-left:50px;
-        margin-top:-340px;
-    }
-    #customerimg5{
-        margin-left:200px;
-        margin-top:-480px;
-    }
-    #customerimg6{
-        margin-left:300px;
-        margin-top:-500px;
-    }
-    
-    #customerimg7{
-        margin-left:150px;
-        margin-top:-460px;
-    }
-    #customerimg8{
-        margin-left:50px;
-        margin-top:-80px; 
-        margin-top:-700px;
-    }
+@media only screen and (max-width: 1089px) {
+	#egg {
+		margin-left: 30px;
+		margin-top: 5px;
+		width: 300px;
+		height: 400px;
+	}
+	#cloudimg {
+		width: 480px;
+		height: 300px;
+		margin-top: 50px;
+	}
+	#customerimg1 {
+		margin-left: 130px;
+		margin-top: -420px;
+	}
+	#customerimg2 {
+		margin-left: 230px;
+		margin-top: -580px;
+	}
+	#customerimg3 {
+		margin-left: 320px;
+		margin-top: -500px;
+	}
+	#customerimg4 {
+		margin-left: 100px;
+		margin-top: -340px;
+	}
+	#customerimg5 {
+		margin-left: 190px;
+		margin-top: -500px;
+	}
+	#customerimg6 {
+		margin-left: 390px;
+		margin-top: -500px;
+	}
+
+	#customerimg7 {
+		margin-left: 280px;
+		margin-top: -500px;
+	}
+	#customerimg8 {
+		margin-left: 50px;
+		margin-top: -80px;
+		margin-top: -700px;
+	}
+}
+@media only screen and (max-width: 789px) {
+	#ourclients {
+		margin-top: 300px;
+		height: 600px;
+	}
+
+	#egg {
+		margin-left: 20px;
+		margin-top: 5px;
+		width: 300px;
+		height: 400px;
+	}
+	#cloudimg {
+		width: 360px;
+		height: 320px;
+		margin-top: 50px;
+	}
+	#customerimg1 {
+		margin-left: 130px;
+		margin-top: -420px;
+	}
+	#customerimg2 {
+		margin-left: 160px;
+		margin-top: -600px;
+	}
+	#customerimg3 {
+		margin-left: 250px;
+		margin-top: -500px;
+	}
+	#customerimg4 {
+		margin-left: 50px;
+		margin-top: -310px;
+	}
+	#customerimg5 {
+		margin-left: 150px;
+		margin-top: -470px;
+	}
+	#customerimg6 {
+		margin-left: 280px;
+		margin-top: -500px;
+	}
+
+	#customerimg7 {
+		margin-left: 200px;
+		margin-top: -450px;
+	}
+	#customerimg8 {
+		margin-left: 50px;
+
+		margin-top: -700px;
+	}
 }
 
-@media only screen and (max-width:380px){
-    #egg{
-        margin-left:10px;
-        margin-top:10px;
-        width:300px;
-        height:400px;
-    }
-    
+@media only screen and (max-width: 500px) {
+	#ourclients {
+		margin-top: 300px;
+		height: 860px;
+	}
+	#egg {
+		margin-left: 60px;
+		margin-top: 10px;
+		width: 300px;
+		height: 400px;
+	}
+	#cloudimg {
+		width: 380px;
+		height: 300px;
+		margin-top: 10px;
+	}
+	#customerimg1 {
+		margin-left: 130px;
+		margin-top: -420px;
+	}
+	#customerimg2 {
+		margin-left: 180px;
+		margin-top: -580px;
+	}
+	#customerimg3 {
+		margin-left: 250px;
+		margin-top: -500px;
+	}
+	#customerimg4 {
+		margin-left: 50px;
+		margin-top: -340px;
+	}
+	#customerimg5 {
+		margin-left: 200px;
+		margin-top: -480px;
+	}
+	#customerimg6 {
+		margin-left: 300px;
+		margin-top: -500px;
+	}
 
-    #cloudimg{
-        width:350px;
-        height:300px;
-        margin-top:10px;
-    }
-    #customerimg1{
-        margin-left:130px;
-        margin-top:-410px;
-    }
-    #customerimg2{
-        margin-left:160px;
-        margin-top:-580px;
-    }
-    #customerimg3{
-        margin-left:230px;
-        margin-top:-500px;
-    }
-    #customerimg4{
-        margin-left:50px;
-        margin-top:-340px;
-    }
-    #customerimg5{
-        margin-left:200px;
-        margin-top:-480px;
-    }
-    #customerimg6{
-        margin-left:280px;
-        margin-top:-460px;
-    }
-    
-    #customerimg7{
-        margin-left:140px;
-        margin-top:-460px;
-    }
-    #customerimg8{
-        margin-left:50px;
-        margin-top:-80px; 
-        margin-top:-700px;
-    }
+	#customerimg7 {
+		margin-left: 150px;
+		margin-top: -460px;
+	}
+	#customerimg8 {
+		margin-left: 50px;
+		margin-top: -80px;
+		margin-top: -700px;
+	}
 }
 
+@media only screen and (max-width: 380px) {
+	#egg {
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 300px;
+		height: 400px;
+	}
 
+	#cloudimg {
+		width: 350px;
+		height: 300px;
+		margin-top: 10px;
+	}
+	#customerimg1 {
+		margin-left: 130px;
+		margin-top: -410px;
+	}
+	#customerimg2 {
+		margin-left: 160px;
+		margin-top: -580px;
+	}
+	#customerimg3 {
+		margin-left: 230px;
+		margin-top: -500px;
+	}
+	#customerimg4 {
+		margin-left: 50px;
+		margin-top: -340px;
+	}
+	#customerimg5 {
+		margin-left: 200px;
+		margin-top: -480px;
+	}
+	#customerimg6 {
+		margin-left: 280px;
+		margin-top: -460px;
+	}
+
+	#customerimg7 {
+		margin-left: 140px;
+		margin-top: -460px;
+	}
+	#customerimg8 {
+		margin-left: 50px;
+		margin-top: -80px;
+		margin-top: -700px;
+	}
+}
