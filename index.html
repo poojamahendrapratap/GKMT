@@ -71,6 +71,10 @@
 		</script>
 
 		<style>
+
+		/* * number on-demand section css  **/
+		/*
+
 			.hiro-header-carousel .carousel-item-title::before {
 				content: attr(data-number);
 				position: absolute;
@@ -91,6 +95,25 @@
 					top: -30px;
 				}
 			}
+*/
+		
+
+		/* *  on-demand number section css  **/
+
+
+.text-2 .big {
+    position: absolute;
+            top: 40px;
+            left: -20px;
+            font-size: 100px;
+            font-family: "Abril Fatface", cursive;
+            line-height: .8;
+            z-index: 1;
+            color: rgba(161,161,161, 0.29);
+             }
+      
+ 
+
 		</style>
 	</head>
 	<body>
@@ -342,8 +365,8 @@
 
 		<!-- try on demand -->
 
-		<section class="home-slider js-fullheight owl-carousel bg-white">
-			<div class="slider-item js-fullheight">
+		<section class="home-slider  owl-carousel bg-white">
+			<div class="slider-item ">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
 					<div
@@ -353,33 +376,34 @@
 						data-interval="3500"
 					>
 						<div
-							class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+							class="row d-md-flex no-gutters slider-text  align-items-center justify-content-end"
 							data-scrollax-parent="true"
 						>
 							<div
-								class="one-third order-md-last img js-fullheight"
+								class="one-third order-md-last img "
 								style="background-image: url(images/portfolio.jpg);"
 							>
 								<div class="overlay"></div>
 							</div>
 							<div
-								class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+								class="one-forth d-flex align-items-center ftco-animate"
 								data-scrollax=" properties: { translateY: '70%' }"
-							>
-								<h3 class="numbertext">Fitness & Health</h3>
+							> 
+  							<div class="text mt-md-5">
 
-								<h1
-									class="carousel-item-title"
-									data-animation="animated fadeInRight"
-									data-number="01"
-								></h1>
-								<div class="text mt-md-5">
-									<h1 class="mb-4">FitNutro</h1>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-										Culpa obcaecati perspiciatis assumenda nostrum dolores dolor
-										tenetur.
-									</p>
+ 								<div class="text-2">
+
+ 							    <span class="big">01</span>
+ 							    <h4 class="mb-3">Fitness & Health</h4>
+		          	            
+
+								<h1 class="mb-4">FitNutro</h1>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+									Culpa obcaecati perspiciatis assumenda nostrum dolores dolor
+									tenetur.
+								</p>
+							</div>
 									<div class="thumb mt-4 mb-3 d-flex">
 										<a href="#" class="thumb-menu pr-md-4 text-center">
 											<div
@@ -411,21 +435,21 @@
 				</div>
 			</div>
 
-			<div class="slider-item js-fullheight">
+			<div class="slider-item ">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
-					<div
+					<!--<div
 						id=""
 						class="hiro-header-carousel carousel slide"
 						data-ride="carousel"
 						data-interval="3500"
-					>
+					>!-->
 						<div
-							class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+							class="row d-flex no-gutters slider-text align-items-center justify-content-end"
 							data-scrollax-parent="true"
 						>
 							<div
-								class="one-third order-md-last img js-fullheight"
+								class="one-third order-md-last img "
 								style="
 									background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
 								"
@@ -434,23 +458,30 @@
 							</div>
 
 							<div
-								class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+								class="one-forth d-flex align-items-center ftco-animate"
 								data-scrollax=" properties: { translateY: '70%' }"
 							>
-								<div class="numbertext">Social Media & Business</div>
-								<h1
+								<!--<div class="numbertext">Social Media & Business</div>
+								<!--<h1
 									class="carousel-item-title"
 									data-animation="animated fadeInRight"
 									data-number="03"
-								></h1>
+								></h1>!-->
+								 
 
 								<div class="text mt-md-5">
+
+								<div class="text-2">
+
+ 							    <span class="big">02</span>
+ 							    <h4 class="mb-3">Social Media & Business</h4>
 									<h1 class="mb-4">Archithrones</h1>
 									<p>
 										accusamus omnis impedit provident fugit. Ducimus dolores
 										quia blanditiis corporis similique., dolor sit amet
 										consectetur.
 									</p>
+								</div>
 									<div class="thumb mt-4 mb-3 d-flex">
 										<a href="#" class="thumb-menu pr-md-4 text-center">
 											<div
@@ -480,23 +511,22 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="slider-item js-fullheight">
+ 
+			<div class="slider-item ">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
-					<div
+				<!--	<div
 						id=""
 						class="hiro-header-carousel carousel slide"
 						data-ride="carousel"
 						data-interval="3500"
-					>
+					>-->
 						<div
-							class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+							class="row d-flex no-gutters slider-text align-items-center justify-content-end"
 							data-scrollax-parent="true"
 						>
 							<div
-								class="one-third order-md-last img js-fullheight"
+								class="one-third order-md-last img "
 								style="
 									background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
 								"
@@ -505,23 +535,31 @@
 							</div>
 
 							<div
-								class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+								class="one-forth d-flex align-items-center ftco-animate"
 								data-scrollax=" properties: { translateY: '70%' }"
 							>
-								<div class="numbertext">Banking & Finance</div>
-								<h1
+								<!--<div class="numbertext">Banking & Finance</div>
+								<!--<h1
 									class="carousel-item-title"
 									data-animation="animated fadeInRight"
 									data-number="03"
-								></h1>
+								></h1>!-->
 
 								<div class="text mt-md-5">
+
+								<div class="text-2">
+
+ 							    <span class="big">03</span>
+ 							    <h4 class="mb-3">Banking & Finance</h4>
+
+
 									<h1 class="mb-4">Invest Expert</h1>
 									<p>
 										accusamus omnis impedit provident fugit. Ducimus dolores
 										quia blanditiis corporis similique., dolor sit amet
 										consectetur.
 									</p>
+								</div>
 									<div class="thumb mt-4 mb-3 d-flex">
 										<a href="#" class="thumb-menu pr-md-4 text-center">
 											<div
@@ -550,23 +588,22 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="slider-item js-fullheight">
+ 			</div>
+			<div class="slider-item ">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
-					<div
+					<!--<div
 						id=""
 						class="hiro-header-carousel carousel slide"
 						data-ride="carousel"
 						data-interval="3500"
-					>
+					>!-->
 						<div
-							class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+							class="row d-flex no-gutters slider-text  align-items-center justify-content-end"
 							data-scrollax-parent="true"
 						>
 							<div
-								class="one-third order-md-last img js-fullheight"
+								class="one-third order-md-last img "
 								style="
 									background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
 								"
@@ -575,23 +612,31 @@
 							</div>
 
 							<div
-								class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+								class="one-forth d-flex  align-items-center ftco-animate"
 								data-scrollax=" properties: { translateY: '70%' }"
 							>
-								<div class="numbertext">Education</div>
-								<h1
+								<!--<div class="numbertext">Education</div>
+								<!--<h1
 									class="carousel-item-title"
 									data-animation="animated fadeInRight"
 									data-number="04"
-								></h1>
+								></h1>!-->
 
 								<div class="text mt-md-5">
+
+								<div class="text-2">
+
+ 							    <span class="big">04</span>
+ 							    <h4 class="mb-3">Education</h4>
+
+
 									<h1 class="mb-4">Zedin Elma</h1>
 									<p>
 										accusamus omnis impedit provident fugit. Ducimus dolores
 										quia blanditiis corporis similique., dolor sit amet
 										consectetur.
 									</p>
+								</div>
 									<div class="thumb mt-4 mb-3 d-flex">
 										<a href="#" class="thumb-menu pr-md-4 text-center">
 											<div
@@ -621,22 +666,21 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="slider-item js-fullheight">
+ 			<div class="slider-item ">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
-					<div
+				<!--	<div
 						id=""
 						class="hiro-header-carousel carousel slide"
 						data-ride="carousel"
 						data-interval="3500"
-					>
+					>!-->
 						<div
-							class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+							class="row d-flex no-gutters slider-text  align-items-center justify-content-end"
 							data-scrollax-parent="true"
 						>
 							<div
-								class="one-third order-md-last img js-fullheight"
+								class="one-third order-md-last img "
 								style="
 									background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
 								"
@@ -645,23 +689,31 @@
 							</div>
 
 							<div
-								class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+								class="one-forth d-flex  align-items-center ftco-animate"
 								data-scrollax=" properties: { translateY: '70%' }"
 							>
-								<div class="numbertext">Medical & Health</div>
-								<h1
+							<!--	<div class="numbertext">Medical & Health</div>
+								<!--<h1
 									class="carousel-item-title"
 									data-animation="animated fadeInRight"
 									data-number="05"
-								></h1>
+								></h1>!-->
 
 								<div class="text mt-md-5">
+									<div class="text-2">
+
+ 							      <span class="big">05</span>
+ 							     <h4 class="mb-3">Medical & Health</h4>
+
+
+								
 									<h1 class="mb-4">Primeiros Passos</h1>
 									<p>
 										accusamus omnis impedit provident fugit. Ducimus dolores
 										quia blanditiis corporis similique., dolor sit amet
 										consectetur.
 									</p>
+								</div>
 									<div class="thumb mt-4 mb-3 d-flex">
 										<a href="#" class="thumb-menu pr-md-4 text-center">
 											<div
@@ -692,21 +744,21 @@
 					</div>
 				</div>
 			</div>
-			<div class="slider-item js-fullheight">
+			<div class="slider-item">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
-					<div
+				<!--	<div
 						id=""
 						class="hiro-header-carousel carousel slide"
 						data-ride="carousel"
 						data-interval="3500"
-					>
+					>!-->
 						<div
-							class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+							class="row d-flex no-gutters slider-text align-items-center justify-content-end"
 							data-scrollax-parent="true"
 						>
 							<div
-								class="one-third order-md-last img js-fullheight"
+								class="one-third order-md-last img "
 								style="
 									background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
 								"
@@ -715,23 +767,29 @@
 							</div>
 
 							<div
-								class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+								class="one-forth d-flex  align-items-center ftco-animate"
 								data-scrollax=" properties: { translateY: '70%' }"
 							>
-								<div class="numbertext">Transportation</div>
-								<h1
+							<!--	<div class="numbertext">Transportation</div>
+								<!--<h1
 									class="carousel-item-title"
 									data-animation="animated fadeInRight"
 									data-number="06"
-								></h1>
+								></h1>!-->
 
 								<div class="text mt-md-5">
+									<div class="text-2">
+
+ 							      <span class="big">06</span>
+ 							     <h4 class="mb-3">Transportation</h4>
+
 									<h1 class="mb-4">Pearl Cab</h1>
 									<p>
 										accusamus omnis impedit provident fugit. Ducimus dolores
 										quia blanditiis corporis similique., dolor sit amet
 										consectetur.
 									</p>
+								</div>
 									<div class="thumb mt-4 mb-3 d-flex">
 										<a href="#" class="thumb-menu pr-md-4 text-center">
 											<div
@@ -828,12 +886,9 @@
 								reiciendis ut nihil veritatis laboriosam sed. Maxime, voluptas
 								enim.
 							</p>
-							<input
-								type="button"
-								id="weservebtn"
-								class="btn-get-started"
-								value="VIEW MORE"
-							/>
+							 <button id="weservebtn" class="btn-get-started">Hover Me</button>
+
+							
 						</div>
 						<div id="Dmb" class="tabcontent">
 							<br />
@@ -1991,7 +2046,7 @@
 				</a>
 			</div>
 			<div class="section d-flex justify-content-center mt-4">
-				<a href="#" class="btn-get-started"
+                    <a href="#" class="btn-get-started"
 					>VIEW MORE <i class="fas fa-arrow-right"></i
 				></a>
 			</div>
