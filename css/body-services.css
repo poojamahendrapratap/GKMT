@@ -42,29 +42,32 @@ a:hover {
 .second-section .about-us {
 	display: grid;
 	grid-template-columns: 5fr 4fr;
+	text-align: center;
 	grid-template-areas:
 		"about-heading about-image"
 		"about-text about-image";
+	gap: 25px;
 }
 
 .about-us .heading {
 	grid-area: about-heading;
-
+	color: #1e3957;
 	position: relative;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 }
-
-.about-us .heading span {
-	color: #07999f;
+@media screen and (max-width: 420px) {
+	.about-us .heading {
+		font-size: 1rem;
+	}
 }
-
-.about-us .heading span::after {
+.about-us .heading::after {
 	content: "";
 	position: absolute;
-	transform: translate(-230px, 40px);
-	margin-left: 70px;
-	width: 100px;
+	left: 50%;
+	bottom: -10px;
+	transform: translateX(-50%);
+	width: 35vmin;
 	height: 2px;
 	background-color: #07999f;
 }
@@ -74,6 +77,11 @@ a:hover {
 	filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.162));
 }
 
+.about-us .image img {
+	width: 100%;
+	height: auto;
+}
+
 .about-us .text {
 	grid-area: about-text;
 
@@ -81,24 +89,7 @@ a:hover {
 	line-height: 1.3;
 }
 
-.about-us .text div {
-	padding: 5px 0px 5px 0px;
-}
-
-.about-second > div {
-	width: 50%;
-}
-
-.about-second div div {
-	font-size: 0.9rem;
-}
-
-.about-second > div > div > div > svg {
-	height: 50px;
-	width: 50px;
-}
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991px) {
 	.second-section .about-us {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -107,220 +98,22 @@ a:hover {
 			"about-image"
 			"about-text ";
 	}
-
-	.about-us .heading {
-		text-align: center;
-	}
-
-	.about-second > div {
-		width: 100%;
-	}
-
-	.about-second > div > div > div > svg {
-		height: 30px;
-		width: 30px;
-	}
-}
-
-/* *************************** Our Ambition section ************************** */
-
-.third-section {
-	background-color: #1e3957;
-}
-
-.third-section .heading {
-	font-size: 5vmin;
-	color: rgb(255, 255, 255);
-	font-weight: 600;
-}
-
-.third-section .heading span {
-	color: #ff4800;
-}
-
-.third-section .heading span::after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, 6.5vmin);
-	width: 15vmin;
-	height: 2px;
-	background-color: white;
-}
-
-.ambition-div {
-	width: 33.33%;
-	background-color: white;
-	color: black;
-	transition: all 200ms ease;
-}
-
-.ambition-div:nth-child(odd) {
-	background-color: #ff4800;
-	color: white;
-}
-
-.ambition-div:hover {
-	position: relative;
-	z-index: 10;
-	color: white;
-	/* transform: scale(1.03); */
-	background-color: #1e3957;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.63);
-}
-
-.ambition-div .ambition-icon i {
-	font-size: 3rem;
-}
-
-.ambition-div:nth-child(odd) .ambition-icon svg {
-	fill: white;
-}
-
-.ambition-heading {
-	margin-top: 10px;
-	font-size: 1.2rem;
-}
-
-.ambition-div::before {
-	content: "";
-	position: absolute;
-	transform: translate(-69px, 108px);
-	margin-left: 70px;
-	width: 50px;
-	height: 2px;
-	background-color: black;
-}
-
-.ambition-div:hover:before {
-	background-color: white;
-}
-
-.ambition-div:nth-child(odd):before {
-	background-color: white;
-}
-
-.ambition-text {
-	margin-top: 30px;
-	font-size: 0.7rem;
-}
-
-@media screen and (max-width: 991px) {
-	.ambition-div {
-		width: 50%;
-		background-color: white;
-	}
-
-	.ambition-div:nth-child(2),
-	.ambition-div:nth-child(3),
-	.ambition-div:nth-child(6) {
-		background-color: white;
-		color: black;
-	}
-
-	.ambition-div:nth-child(1),
-	.ambition-div:nth-child(4),
-	.ambition-div:nth-child(5) {
-		background-color: #ff4800;
-		color: white;
-	}
-
-	.ambition-div:nth-child(2)::before,
-	.ambition-div:nth-child(3)::before,
-	.ambition-div:nth-child(6)::before {
-		background-color: black;
-	}
-
-	.ambition-div:nth-child(1)::before,
-	.ambition-div:nth-child(4)::before,
-	.ambition-div:nth-child(5)::before {
-		background-color: white;
-	}
-
-	.ambition-div:nth-child(1) .ambition-icon svg,
-	.ambition-div:nth-child(4) .ambition-icon svg,
-	.ambition-div:nth-child(5) .ambition-icon svg {
-		fill: white;
-	}
-
-	.ambition-div:nth-child(2) .ambition-icon svg,
-	.ambition-div:nth-child(3) .ambition-icon svg,
-	.ambition-div:nth-child(6) .ambition-icon svg {
-		fill: black;
-	}
-	.ambition-div:hover {
-		position: relative;
-		z-index: 10;
-		color: white;
-		/* transform: scale(1.1); */
-		background-color: #1e3957;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-	}
-
-	.ambition-div:hover:before {
-		background-color: white;
-	}
-}
-
-@media screen and (max-width: 576px) {
-	.ambition-div {
-		width: 100%;
-	}
-
-	.ambition-div:nth-child(odd) {
-		background-color: #ff4800;
-		color: white;
-	}
-
-	.ambition-div:nth-child(even) {
-		background-color: white;
-		color: black;
-	}
-
-	.ambition-div .ambition-icon svg {
-		width: 60px;
-		height: 60px;
-	}
-
-	.ambition-div:nth-child(odd) .ambition-icon svg {
-		fill: white;
-	}
-
-	.ambition-div:nth-child(even) .ambition-icon svg {
-		fill: black;
-	}
-
-	.ambition-heading {
-		margin-top: 10px;
-		font-size: 1.2rem;
-	}
-
-	.ambition-div:nth-child(odd):before {
-		background-color: white;
-	}
-
-	.ambition-div:nth-child(even):before {
-		background-color: black;
-	}
-	.ambition-div:hover {
-		position: relative;
-		z-index: 10;
-		color: white;
-		/* transform: scale(1.1); */
-		background-color: #1e3957;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-	}
-
-	.ambition-div:hover:before {
-		background-color: white;
+	.about-us .image img {
+		max-width: 300px;
+		min-width: 200px;
+		height: auto;
 	}
 }
 
 /* *************************** Industries we Serve section ************************** */
 
+.fourth-section {
+	background-color: #1e3957;
+}
+
 .fourth-section .heading {
 	font-size: 1.8rem;
-	color: #1e3957;
+	color: white;
 }
 
 .fourth-section .heading span {
@@ -494,10 +287,6 @@ a:hover {
 }
 
 /* *************************** Our clients section ************************** */
-
-.fifth-section {
-	background-color: #1e3957;
-}
 
 #ourclients .heading {
 	position: relative;
