@@ -133,6 +133,116 @@ a:hover {
 	}
 }
 
+/* ************************** Web Development Services *********************************** */
+
+.web-services {
+	background-color: #1e3957;
+}
+
+.web-services h2 {
+	color: #ff4800;
+}
+
+.web-services h2 span {
+	color: white;
+}
+
+.web-services .container-fluid {
+	display: grid !important;
+	grid-template-columns: 350px 5fr 350px;
+	justify-items: center;
+}
+
+.web-services .content {
+	grid-column-start: 2;
+	background-color: white;
+	width: 100%;
+	height: auto;
+	max-width: 750px;
+	border-radius: 50px;
+}
+
+.web-services .content h4 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	color: #1e3957;
+}
+
+.web-services .content p {
+	font-size: 0.9rem;
+}
+
+.web-services .tab-wheel {
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+}
+
+.web-services .tab-wheel .main-wheel {
+	width: 350px;
+	height: 350px;
+	position: relative;
+	left: 52%;
+	border: 1px dashed white;
+	border-radius: 50%;
+	transform: rotate(0deg);
+	transition: all 400ms ease-in-out;
+}
+
+.web-services .tab-wheel .main-wheel .wball {
+	width: 50px;
+	height: 50px;
+	background-color: #1e3957;
+	border: 1px solid white;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-family: "Raleway", sans-serif;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: -25px;
+	transform-origin: 200px;
+	cursor: pointer;
+}
+
+.web-services .tab-wheel .main-wheel .wball:hover,
+.web-services .tab-wheel .main-wheel .active {
+	background-color: #ff4800;
+	border: 1px solid #ff4800;
+}
+
+.web-services .tab-wheel .main-wheel .wball1 {
+	transform: translateY(-50%) rotateZ(0deg);
+}
+
+.web-services .tab-wheel .main-wheel .wball2 {
+	transform: translateY(-50%) rotateZ(51.43deg);
+}
+
+.web-services .tab-wheel .main-wheel .wball3 {
+	transform: translateY(-50%) rotateZ(102.86deg);
+}
+
+.web-services .tab-wheel .main-wheel .wball4 {
+	transform: translateY(-50%) rotateZ(154.29deg);
+}
+
+.web-services .tab-wheel .main-wheel .wball5 {
+	transform: translateY(-50%) rotateZ(205.71deg);
+}
+
+.web-services .tab-wheel .main-wheel .wball6 {
+	transform: translateY(-50%) rotateZ(257.14deg);
+}
+
+.web-services .tab-wheel .main-wheel .wball7 {
+	transform: translateY(-50%) rotateZ(308.57deg);
+}
+
 /* *************************** Industries we Serve section ************************** */
 
 .fourth-section {
