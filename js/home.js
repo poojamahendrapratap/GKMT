@@ -1,11 +1,11 @@
 $(document).ready(function () {
 	var scroll = $(window).scrollTop();
-	if (scroll > 100 && $(window).width() > 600) {
+	if (scroll > 80 && $(window).width() > 600) {
 		$("nav").css({
 			"background-color": "rgb(30, 57, 87)",
 			"box-shadow": "0px 0px 10px rgba(0,0,0,0.5)",
 		});
-	} else {
+	} else if (scroll < 80 && $(window).width() > 600) {
 		$("nav").css({
 			background: "rgba(0,0,0,0)",
 			"box-shadow": "0px 0px 0px rgba(255,255,255,0)",
@@ -14,12 +14,12 @@ $(document).ready(function () {
 
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
-		if (scroll > 100 && $(window).width() > 600) {
+		if (scroll > 80 && $(window).width() > 600) {
 			$("nav").css({
 				"background-color": "rgb(30, 57, 87)",
 				"box-shadow": "0px 0px 10px rgba(0,0,0,0.5)",
 			});
-		} else {
+		} else if (scroll < 80 && $(window).width() > 600) {
 			$("nav").css({
 				background: "rgba(0,0,0,0)",
 				"box-shadow": "0px 0px 0px rgba(255,255,255,0)",
@@ -38,7 +38,7 @@ function scrollFunction() {
 		document.getElementById("navbar").style.height = "60px";
 		document.getElementById("logo").style.height = "50px";
 	} else {
-		document.getElementById("navbar").style.height = "auto";
-		document.getElementById("logo").style.height = "90%";
+		document.getElementById("navbar").style.height = "70px";
+		document.getElementById("logo").style.height = "60px";
 	}
 }
