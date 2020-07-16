@@ -299,20 +299,41 @@ a:hover {
 	transform: translateY(-50%) rotateZ(308.57deg);
 }
 
+@media screen and (max-width: 991px) {
+	.web-services .container-fluid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 350px;
+	}
+	.web-services .content {
+		grid-column-start: 1;
+	}
+	.web-services .tab-wheel {
+		transform: rotate(90deg);
+	}
+	.web-services .tab-wheel .main-wheel .wball p {
+		transform: translate(-10%, 30%) rotate(-90deg);
+	}
+}
+
+
 /* *************************** Grid Section ********************* */
 
 .grid-container{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
-	grid-auto-flow: row dense;
 }
-
-.grid-container img {
+ .grid-container img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  }
+  } /* This works perfectly on FireFox but not on chrome */
+
+/*.grid-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  } */
 
 .grid-img{
 	max-width: 100%;
@@ -330,44 +351,31 @@ a:hover {
 	grid-column: 2/3;
 	grid-row: 1/2;
 	width:100%;
-	max-height: 100%;
+	height: auto;
 }
 
 .grid-img-3{
 	grid-column: 2/3;
 	grid-row: 2/4;
 	width:100%;
-	max-height: 100%;
+	height: auto;
 }
 
 .grid-img-4{
 	grid-column: 3/4;
-	grid-row: -2/3;
+	grid-row: 1/3;
 	width:100%;
-	max-height: 100%;
+	height: 100%;
 }
 
 .grid-img-5{
 	grid-column: 3/4;
 	grid-row: 3/4;
 	width:100%;
-	max-height: 100%;
-}
-@media screen and (max-width: 991px) {
-	.web-services .container-fluid {
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 350px;
-	}
-	.web-services .content {
-		grid-column-start: 1;
-	}
-	.web-services .tab-wheel {
-		transform: rotate(90deg);
-	}
-	.web-services .tab-wheel .main-wheel .wball p {
-		transform: translate(-10%, 30%) rotate(-90deg);
-	}
-}
+	height: 100%;
+} 
+
+
 
 /* *************************** Industries we Serve section ************************** */
 
