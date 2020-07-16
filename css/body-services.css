@@ -139,18 +139,31 @@ a:hover {
 	background-color: #1e3957;
 }
 
-.web-services h2 {
+.web-services h3 {
+	position: relative;
 	color: #ff4800;
 }
 
-.web-services h2 span {
+.web-services h3 span {
 	color: white;
+}
+
+.web-services h3::before {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 35vmin;
+	height: 2px;
+	background-color: white;
 }
 
 .web-services .container-fluid {
 	display: grid !important;
-	grid-template-columns: 350px 5fr 350px;
+	grid-template-columns: 1fr 5fr minmax(350px, 1fr);
 	justify-items: center;
+	overflow: hidden;
 }
 
 .web-services .content {
@@ -175,18 +188,58 @@ a:hover {
 .web-services .tab-wheel {
 	width: 350px;
 	height: 350px;
-	overflow: hidden;
+	position: relative;
 }
 
 .web-services .tab-wheel .main-wheel {
 	width: 350px;
 	height: 350px;
-	position: relative;
-	left: 52%;
+	position: absolute;
+	left: 60%;
+	top: 50%;
 	border: 1px dashed white;
 	border-radius: 50%;
-	transform: rotate(0deg);
+	transform: rotate(0deg) translateY(-50%);
 	transition: all 400ms ease-in-out;
+}
+
+.web-services .tab-wheel .big-ball {
+	width: 80px;
+	height: 80px;
+	background-color: #ff4800;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.web-services .tab-wheel .big-ball img {
+	height: 50%;
+	width: 50%;
+}
+
+.web-services .tab-wheel .big-ball::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 90px;
+	width: 30px;
+	height: 3px;
+	background-color: #ff4800;
+}
+.web-services .tab-wheel .big-ball::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	transform: translateY(-50%);
+	width: 60px;
+	height: 60px;
+	border-right: 2px solid #ff4800;
+	border-radius: 50%;
 }
 
 .web-services .tab-wheel .main-wheel .wball {
@@ -197,7 +250,7 @@ a:hover {
 	color: white;
 	font-size: 1.2rem;
 	font-weight: 600;
-	font-family: "Raleway", sans-serif;
+	font-family: "Jost", sans-serif;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -207,6 +260,9 @@ a:hover {
 	left: -25px;
 	transform-origin: 200px;
 	cursor: pointer;
+}
+.web-services .tab-wheel .main-wheel .wball p {
+	transform: translate(-10%, 30%) rotate(0deg);
 }
 
 .web-services .tab-wheel .main-wheel .wball:hover,
@@ -296,6 +352,21 @@ a:hover {
 	grid-row: 3/4;
 	width:100%;
 	max-height: 100%;
+}
+@media screen and (max-width: 991px) {
+	.web-services .container-fluid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 350px;
+	}
+	.web-services .content {
+		grid-column-start: 1;
+	}
+	.web-services .tab-wheel {
+		transform: rotate(90deg);
+	}
+	.web-services .tab-wheel .main-wheel .wball p {
+		transform: translate(-10%, 30%) rotate(-90deg);
+	}
 }
 
 /* *************************** Industries we Serve section ************************** */
