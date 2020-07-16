@@ -299,6 +299,23 @@ a:hover {
 	transform: translateY(-50%) rotateZ(308.57deg);
 }
 
+@media screen and (max-width: 991px) {
+	.web-services .container-fluid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 350px;
+	}
+	.web-services .content {
+		grid-column-start: 1;
+	}
+	.web-services .tab-wheel {
+		transform: rotate(90deg);
+	}
+	.web-services .tab-wheel .main-wheel .wball p {
+		transform: translate(-10%, 30%) rotate(-90deg);
+	}
+}
+
+
 /* *************************** Grid Section ********************* */
 
 .grid-container{
@@ -353,21 +370,7 @@ a:hover {
 	width:100%;
 	max-height: 100%;
 }
-@media screen and (max-width: 991px) {
-	.web-services .container-fluid {
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 350px;
-	}
-	.web-services .content {
-		grid-column-start: 1;
-	}
-	.web-services .tab-wheel {
-		transform: rotate(90deg);
-	}
-	.web-services .tab-wheel .main-wheel .wball p {
-		transform: translate(-10%, 30%) rotate(-90deg);
-	}
-}
+
 
 /* *************************** Industries we Serve section ************************** */
 
