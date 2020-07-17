@@ -75,7 +75,8 @@ header {
     font-size: 44px;
     font-weight: 500;
     background: linear-gradient(to right, #494964, #6f6f89);
-    -webkit-background-clip: text;
+	-webkit-background-clip: text;
+	background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .intro-text p {
@@ -188,7 +189,7 @@ header {
 }
 
 /* ************************************** JOB_CARDS *****************/
-.job-logo-cards{
+.jobs-logo-cards{
 	position:absolute;
 	top: 80%;
 	right: 130px;
@@ -205,7 +206,7 @@ header {
 	background-color: #494964;
 }
 
-.job-logo-cards{
+.jobs-logo-cards{
 	display:grid;
 	grid-template-columns: 30px 300px 30px 30px 300px 30px 30px 300px 30px;
 	grid-template-rows: 100px 100px 100px 100px 40px 60px 40px 100px 100px 100px 100px;
