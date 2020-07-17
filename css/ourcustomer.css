@@ -1,6 +1,21 @@
 #ourclients {
 	height: 600px;
 }
+#ourclients .row h4 {
+	position: relative;
+}
+
+#ourclients .row h4::before {
+	content: "";
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	height: 2px;
+	background-color: #07999f;
+}
+
 #egg {
 	position: relative;
 	margin-top: 10px;
@@ -109,7 +124,6 @@
 }
 @media only screen and (max-width: 789px) {
 	#ourclients {
-		margin-top: 300px;
 		height: 600px;
 	}
 
