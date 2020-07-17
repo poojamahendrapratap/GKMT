@@ -728,38 +728,20 @@ a:hover {
 }
 
 /* *************************** Our clients section ************************** */
-
-#ourclients .heading {
+#ourclients .row h4 {
 	position: relative;
-	font-size: 1.8rem;
-	color: #ffffff;
 }
 
-#ourclients .heading span {
-	color: #ff4800;
-}
-
-#ourclients .heading::after {
+#ourclients .row h4::before {
 	content: "";
 	position: absolute;
+	bottom: -8px;
 	left: 50%;
-	transform: translate(-50%, 35px);
+	transform: translateX(-50%);
 	width: 100px;
 	height: 2px;
-	background-color: #ffffff;
+	background-color: #07999f;
 }
-
-@media screen and (max-width: 576px) {
-	.fifth-section .heading {
-		font-size: 1.5rem !important;
-	}
-
-	.fifth-section .heading span::after {
-		width: 70px;
-		transform: translate(-190px, 35px);
-	}
-}
-
 /* *************************** our blog section ************************** */
 
 .sixth-section .heading {
