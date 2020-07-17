@@ -38,114 +38,110 @@ a:hover {
 }
 
 /* ******************career fisrt  section ****************** */
-            * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: "Raleway", sans-serif;
-;
-}
- 
-header {
-    display: flex;
-    width: 90%;
-    height: 10vh;
-    margin: auto;
-    align-items: center;
+	font-family: "Raleway", sans-serif;
 }
 
- nav {
-    flex: 2;
-} 
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+nav {
+	flex: 2;
+}
 
 .presentation {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    min-height: 80vh;
-    align-items: center;
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
 }
 .introduction {
-    flex: 1;
+	flex: 1;
 }
 .intro-text h1 {
-    font-size: 44px;
-    font-weight: 500;
-    background: linear-gradient(to right, #494964, #6f6f89);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .intro-text p {
-    margin-top: 5px;
-    font-size: 22px;
-    color: #585772;
-} 
- 
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+}
 
 .cover {
-    flex: -4;
-    display: flex;
-    justify-content: center;
-    height: 60vh;
-
-
+	flex: -4;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
 }
 .cover img {
-    height: 100%;
-    filter: drop-shadow(0px 5px 3px black);
-    animation: drop 1.5s ease;
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
 }
 
 .big-circle {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-    opacity: 9.5;
-    height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 9.5;
+	height: 100%;
 }
- 
+
 @keyframes drop {
-    0% {
-        opacity: 0;
-        transform: translateY(-80px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 @media screen and (max-width: 1024px) {
-    .presentation {
-        flex-direction: column;
-    }
-    .introduction {
-        margin-top: 5vh;
-        text-align: center;
-    }
-    .intro-text h1 {
-        font-size: 30px;
-    }
-    .intro-text p {
-        font-size: 18px;
-    }
-     
-    .cover img {
-        height: 80%;
-    }
-     .big-circle {
-        opacity: 90.2;
-    }
+	.presentation {
+		flex-direction: column;
+	}
+	.introduction {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-text h1 {
+		font-size: 30px;
+	}
+	.intro-text p {
+		font-size: 18px;
+	}
+
+	.cover img {
+		height: 80%;
+	}
+	.big-circle {
+		opacity: 90.2;
+	}
 }
 
 /*****************************JOBS SEction css****************************************/
 
-
-	.presen {
+.presen {
 	display: flex;
 	width: 90%;
 	margin: auto;
@@ -155,13 +151,12 @@ header {
 .second {
 	flex: 1;
 }
- 
+
 .jobs {
 	flex: 1;
 	display: flex;
- 	height: 60vh;
-		right: 100%;
-
+	height: 60vh;
+	right: 100%;
 }
 .jobs img {
 	height: 100%;
@@ -175,21 +170,77 @@ header {
 	right: 99px;
 	z-index: -1;
 	opacity: 50.5;
-	height: 80%;
+	height: 100%;
 }
 
 .medium-shape {
 	position: absolute;
 	top: 80%;
-	left:  0px;
+	left: 0px;
 	z-index: -1;
-	opacity: 50.5;
-	height: 99%;
+	opacity: 45;
+	height: 130%;
 }
-/*
+
+.job-card-logo{
+	display: grid;
+	grid-template-columns: 20px 150px 20px 20px 150px 20px 20px 150px 20px;
+	grid-template-rows: 50px 50px 50px 50px 17px 25px 17px 50px 50px 50px 50px;
+	position: absolute;
+	top: 93%;
+	right: 160px;
+}
+
+.card-1{
+	grid-row:1/4;
+	grid-column: 1/3;
+	width:150px;
+	height:150px;
+	background-color: #ff4800;
+}
+
+.card-2{
+	grid-row:2/5;
+	grid-column: 4/6;
+	width:150px;
+	height:150px;
+	background-color: #ff4800
+}
+
+.card-3{
+	grid-row:3/7;
+	grid-column: 7/9;
+	width:150px;
+	height:150px;
+	background-color: #ff4800
+}
+
+.card-4{
+	grid-row:6/10;
+	grid-column: 2/4;
+	width:150px;
+	height:150px;
+	background-color: #ff4800
+}
+
+.card-5{
+	grid-row:8/11;
+	grid-column: 5/7;
+	width:150px;
+	height:150px;
+	background-color: #ff4800
+}
+
+.card-6{
+	grid-row: 9/12;
+	grid-column: 8/10;
+	width:150px;
+	height:150px;
+	background-color: #ff4800
+}
 
 
-.laptop-select {
+/*.laptop-select {
 	width: 15%;
 	display: flex;
 	justify-content: space-around;
@@ -234,23 +285,23 @@ header {
 	.jobs img {
 		height: 80%;
 	}
- 	.medium-shape,
+	.medium-shape,
 	.med-circle {
 		opacity: 0.2;
 	}
 }
 
- .tab-title {
+.tab-title {
 	font-size: 1.6rem;
-	top: -2.4rem; 
-    right: 20%;
+	top: -2.4rem;
+	right: 20%;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
 	color: #efefef;
 	position: relative;
 }
 
- .tab-title::before {
+.tab-title::before {
 	content: "";
 	position: absolute;
 	top: 2.4rem;
@@ -259,12 +310,9 @@ header {
 	background-color: #efefef;
 }
 
-
 /**/
 
-/* *************************** Our Ambition section **************************  */ 
-
- 
+/* *************************** Our Ambition section **************************  */
 
 /* *************************** clutch a coffee section ************************** */
 
@@ -272,15 +320,29 @@ header {
 	position: relative;
 }
 
-.sixth-section .container .contact-image img,
-.sixth-section .container .contact-form {
-	box-shadow: 0px 0px 10px #1e39577e;
+.sixth-section .coffee-div .contact-image {
+	position: relative;
+	z-index: 10;
+	box-shadow: 0px 0px 10px #000000bd;
+}
+.coffee-div {
+	width: 60vw;
+	box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.438);
+}
+@media screen and (max-width: 576px) {
+	.coffee-div {
+		width: 90vw;
+	}
 }
 
 .contact-form {
 	background-color: white;
 }
-
+.input-container {
+	width: 75%;
+	position: relative;
+	margin: auto;
+}
 .contact-form .contact-heading {
 	color: #1e3957;
 	font-size: 1.6rem;
@@ -291,29 +353,33 @@ header {
 .contact-form .form-control {
 	position: relative;
 	font-size: 0.7rem;
-	padding: 20px;
+	height: 41px;
 	text-align: center;
 	border-bottom: 0px;
 	border-right: 0px;
 	border-left: 0px;
 	border-radius: 0px;
-	width: 92%;
+	width: 100%;
 	margin: auto;
 	resize: none;
+}
+.contact-form .form-control::placeholder {
+	color: rgb(201, 201, 201);
 }
 
 .contact-form .form-control:focus {
 	box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
 	border-color: #ced4da;
 }
-.left-half,
-.right-half,
-.textarea-right-half {
+.contact-form .left-half,
+.contact-form .right-half,
+.contact-form .textarea-right-half {
 	position: relative;
 }
 .contact-form .left-half::before {
 	content: "";
 	position: absolute;
+	left: -30px;
 	transform: translate(0px, 0px);
 	height: 42px;
 	width: 30px;
@@ -326,7 +392,7 @@ header {
 .contact-form .right-half::before {
 	content: "";
 	position: absolute;
-	right: 0;
+	right: -30px;
 	transform: translate(0px, 0px);
 	height: 42px;
 	width: 30px;
@@ -338,18 +404,19 @@ header {
 
 .contact-form .input-container textarea {
 	height: 60px;
+	padding: 20px;
 }
 .contact-form .textarea-right-half::before {
 	content: "";
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -30px;
 	transform: translate(0px, 0px);
 	border-radius: 0px 50px 50px 0px;
 	border: 1px solid #ced4da;
 	border-left: 0px;
 	height: 60px;
-	width: 40px;
+	width: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -359,22 +426,22 @@ header {
 	.contact-form .textarea-right-half::before {
 		transform: translateY(0px) translateX(1px);
 		height: 60px;
-		width: 25px;
+		width: 40px;
 	}
 }
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
 	.contact-form .textarea-right-half::before,
 	.contact-form .right-half::before {
-		transform: translateX(10px);
+		/* transform: translateX(10px); 
 	}
-	.contact-form .left-half::before {
-		transform: translateX(-10px);
-	}
-}
+	/* .contact-form .left-half::before {
+		/* transform: translateX(-10px); }*/
+	 
+/* } */
 
 .contact-form .file-input input {
 	display: none;
-}
+} 
 
 .contact-form .file-input label {
 	width: 130px;
