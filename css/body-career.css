@@ -182,7 +182,7 @@ nav {
 	height: 130%;
 }
 
-.job-card-logo{
+.job-card-logo {
 	display: grid;
 	grid-template-columns: 20px 150px 20px 20px 150px 20px 20px 150px 20px;
 	grid-template-rows: 50px 50px 50px 50px 17px 25px 17px 50px 50px 50px 50px;
@@ -191,54 +191,53 @@ nav {
 	right: 160px;
 }
 
-.card-1{
-	grid-row:1/4;
+.card-1 {
+	grid-row: 1/4;
 	grid-column: 1/3;
-	width:150px;
-	height:150px;
+	width: 150px;
+	height: 150px;
 	background-color: #ff4800;
 }
 
-.card-2{
-	grid-row:2/5;
+.card-2 {
+	grid-row: 2/5;
 	grid-column: 4/6;
-	width:150px;
-	height:150px;
-	background-color: #ff4800
+	width: 150px;
+	height: 150px;
+	background-color: #ff4800;
 }
 
-.card-3{
-	grid-row:3/7;
+.card-3 {
+	grid-row: 3/7;
 	grid-column: 7/9;
-	width:150px;
-	height:150px;
-	background-color: #ff4800
+	width: 150px;
+	height: 150px;
+	background-color: #ff4800;
 }
 
-.card-4{
-	grid-row:6/10;
+.card-4 {
+	grid-row: 6/10;
 	grid-column: 2/4;
-	width:150px;
-	height:150px;
-	background-color: #ff4800
+	width: 150px;
+	height: 150px;
+	background-color: #ff4800;
 }
 
-.card-5{
-	grid-row:8/11;
+.card-5 {
+	grid-row: 8/11;
 	grid-column: 5/7;
-	width:150px;
-	height:150px;
-	background-color: #ff4800
+	width: 150px;
+	height: 150px;
+	background-color: #ff4800;
 }
 
-.card-6{
+.card-6 {
 	grid-row: 9/12;
 	grid-column: 8/10;
-	width:150px;
-	height:150px;
-	background-color: #ff4800
+	width: 150px;
+	height: 150px;
+	background-color: #ff4800;
 }
-
 
 /*.laptop-select {
 	width: 15%;
@@ -312,7 +311,261 @@ nav {
 
 /**/
 
-/* *************************** Our Ambition section **************************  */
+/* *************************** Our Ambition section ************************** */
+
+.third-section {
+	background-image: url("images/career/shapeintern.png");
+}
+
+.third-section .heading {
+	font-size: 5vmin;
+	color: #ff4800;
+	font-weight: 600;
+}
+
+.third-section .heading span {
+	color: #1e3957;
+}
+
+.third-section .heading span::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 6.5vmin);
+	width: 15vmin;
+	height: 2px;
+	background-color: blue;
+}
+
+.ambition-div {
+	width: 33.33%;
+	background-color: white;
+	color: black;
+	/* transition:  ; */
+}
+
+.ambition-div:nth-child(odd) {
+	background-color: white;
+	color: black;
+}
+
+.ambition-div:hover {
+	position: relative;
+	z-index: 10;
+	color: white;
+	transform: scale(1.1);
+	background-color: #ff4800;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.445);
+}
+
+.ambition-div .ambition-icon i {
+	font-size: 3rem;
+}
+
+.ambition-div:nth-child(odd) .ambition-icon svg {
+	fill: white;
+}
+
+.ambition-heading {
+	margin-top: 10px;
+	font-size: 1.2rem;
+}
+
+.ambition-div::before {
+	content: "";
+	position: absolute;
+	transform: translate(-69px, 108px);
+	margin-left: 70px;
+	width: 0px;
+	height: 2px;
+	background-color: black;
+}
+
+.ambition-div:hover:before {
+	background-color: white;
+}
+
+.ambition-div:nth-child(odd):before {
+	background-color: white;
+}
+
+.ambition-text {
+	margin-top: 30px;
+	font-size: 0.7rem;
+}
+
+@media screen and (max-width: 991px) {
+	.ambition-div {
+		width: 50%;
+		background-color: white;
+	}
+
+	.ambition-div:nth-child(2),
+	.ambition-div:nth-child(3),
+	.ambition-div:nth-child(6) {
+		background-color: white;
+		color: black;
+	}
+
+	.ambition-div:nth-child(1),
+	.ambition-div:nth-child(4),
+	.ambition-div:nth-child(5) {
+		background-color: #ff4800;
+		color: white;
+	}
+
+	.ambition-div:nth-child(2)::before,
+	.ambition-div:nth-child(3)::before,
+	.ambition-div:nth-child(6)::before {
+		background-color: black;
+	}
+
+	.ambition-div:nth-child(1)::before,
+	.ambition-div:nth-child(4)::before,
+	.ambition-div:nth-child(5)::before {
+		background-color: white;
+	}
+
+	.ambition-div:nth-child(1) .ambition-icon svg,
+	.ambition-div:nth-child(4) .ambition-icon svg,
+	.ambition-div:nth-child(5) .ambition-icon svg {
+		fill: white;
+	}
+
+	.ambition-div:nth-child(2) .ambition-icon svg,
+	.ambition-div:nth-child(3) .ambition-icon svg,
+	.ambition-div:nth-child(6) .ambition-icon svg {
+		fill: black;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.ambition-div {
+		width: 100%;
+	}
+
+	.ambition-div:nth-child(odd) {
+		background-color: white;
+		color: black;
+	}
+
+	.ambition-div:nth-child(even) {
+		background-color: white;
+		color: black;
+	}
+
+	.ambition-div .ambition-icon svg {
+		width: 60px;
+		height: 60px;
+	}
+
+	.ambition-div:nth-child(odd) .ambition-icon svg {
+		fill: white;
+	}
+
+	.ambition-div:nth-child(even) .ambition-icon svg {
+		fill: black;
+	}
+
+	.ambition-heading {
+		margin-top: 10px;
+		font-size: 1.2rem;
+	}
+
+	.ambition-div:nth-child(odd):before {
+		background-color: white;
+	}
+
+	.ambition-div:nth-child(even):before {
+		background-color: black;
+	}
+	.ambition-div:hover {
+		position: relative;
+		z-index: 10;
+		color: white;
+		transform: scale(1.1);
+		background-color: #ff4800;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+	}
+}
+
+/* **************************** Get JOBS TEAM ***************************** */
+
+.get-job-team {
+	position: relative;
+	background-color: rgb(240, 240, 240);
+	height: 200px;
+}
+
+.get-job-team .container div {
+	position: relative;
+	z-index: 100;
+	font-family: "Jost", sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	color: #1e3957;
+	outline: 0px;
+	border: 0px;
+}
+
+.get-job-team .container button {
+	background-color: #1e3957;
+	position: relative;
+	z-index: 100;
+	border: 0px;
+	color: #fff;
+	font-family: "Jost", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	border-radius: 6px;
+}
+
+.get-job-team .container button:hover {
+	border: 1px solid black;
+	/* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.519); */
+}
+
+.get-job-team .right-div {
+	position: absolute;
+	width: 35%;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background-color: #ff6300;
+	outline: 0px;
+}
+
+.get-job-team .right-div::before {
+	content: "";
+	position: absolute;
+	left: -100px;
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid #ff6300;
+	outline: 0px;
+	border-right: 0px solid #ff6300;
+	border-left: 100px solid transparent;
+}
+
+@media screen and (max-width: 576px) {
+	.get-job-team {
+		position: relative;
+		background-color: lightgray;
+		height: 150px;
+	}
+
+	.get-job-team .right-div::before {
+		border-bottom: 150px solid #ff6300;
+	}
+
+	.get-job-team .container div {
+		font-size: 1rem;
+	}
+
+	.get-job-team .container button {
+		font-size: 0.8rem;
+	}
+}
 
 /* *************************** clutch a coffee section ************************** */
 
@@ -436,12 +689,12 @@ nav {
 	}
 	/* .contact-form .left-half::before {
 		/* transform: translateX(-10px); }*/
-	 
+
 /* } */
 
 .contact-form .file-input input {
 	display: none;
-} 
+}
 
 .contact-form .file-input label {
 	width: 130px;
