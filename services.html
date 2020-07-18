@@ -100,8 +100,8 @@
 								<a class="nav-link" href="#">CONTACT US</a>
                             </li>
                             
-                            <li class="nav-item d-none d-lg-block d-md-none d-sm-none ml-2">
-                                <div class="get-free-quote order-1 order-lg-2">
+                            <li class="nav-item ml-2">
+                                <div class="get-free-quote">
                                     <a href="#" class="btn-get-started">GET FREE QUOTE</a>
                                 </div>
                             </li>
@@ -213,7 +213,7 @@
 				</div>
 
 				<div class="wds content-two contentwds d-none p-4">
-					<h4> Digital Content </h4>>
+					<h4> Digital Content </h4>
 					<p> Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -228,7 +228,7 @@
 				</div>
 
 				<div class="wds content-three contentwds d-none p-4">
-					<h4> Services </h4>>
+					<h4> Services </h4>
 					<p> Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -243,7 +243,7 @@
 				</div>
 
 				<div class="wds content-four contentwds d-none p-4">
-					<h4> Web Development </h4>>
+					<h4> Web Development </h4>
 					<p> Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -258,7 +258,7 @@
 				</div>
 
 				<div class="wds content-five contentwds d-none p-4">
-					<h4> Education </h4>>
+					<h4> Education </h4>
 					<p> Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -274,7 +274,7 @@
 
 				
 				<div class="wds content-six contentwds d-none p-4">
-					<h4> Something </h4>>
+					<h4> Something </h4>
 					<p> Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -289,7 +289,7 @@
 				</div>
 
 				<div class="wds content-seven contentwds d-none p-4">
-					<h4> Something Else </h4>>
+					<h4> Something Else </h4>
 					<p> Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -312,13 +312,13 @@
 
                     <div class="main-wheel">
 
-                        <div class="wball wball1 active" name="0"><p>1</p></div>
-                        <div class="wball wball2" name="1"><p>2</p></div>
-                        <div class="wball wball3" name="2"><p>3</p></div>
-                        <div class="wball wball4" name="3"><p>4</p></div>
-                        <div class="wball wball5" name="4"><p>5</p></div>
-                        <div class="wball wball6" name="5"><p>6</p></div>
-                        <div class="wball wball7" name="6"><p>7</p></div>
+                        <div class="wball wball1 active" name="0" id="content-one"><p>1</p></div>
+                        <div class="wball wball2" name="1" id="content-two"><p>2</p></div>
+                        <div class="wball wball3" name="2" id="content-three"><p>3</p></div>
+                        <div class="wball wball4" name="3" id="content-four"><p>4</p></div>
+                        <div class="wball wball5" name="4" id="content-five"><p>5</p></div>
+                        <div class="wball wball6" name="5" id="content-six"><p>6</p></div>
+                        <div class="wball wball7" name="6" id="content-seven"><p>7</p></div>
     
                     </div>
     
@@ -360,6 +360,13 @@
                     currentBall = nextBall;
                     $('.wball').removeClass('active');
                     $(this).addClass('active');
+
+					var web_id = $(this).attr('id');
+
+					$('.contentwds').removeClass('d-block');
+					$('.contentwds').addClass('d-none');
+					$('.'+web_id).removeClass('d-none');
+					$('.'+web_id).addClass('d-block');
                 });
             });
 
