@@ -1,5 +1,6 @@
 #ourclients {
 	height: 600px;
+	background-color: #1e3957;
 }
 #egg {
 	position: relative;
@@ -9,6 +10,7 @@
 	margin-left: 150px;
 	display: block;
 	border-radius: 70% 80% 90% 60% / 80% 80% 70% 60%;
+	background-color:white;
 }
 #cloudimg {
 	margin-top: 40px;
