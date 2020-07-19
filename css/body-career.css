@@ -38,114 +38,111 @@ a:hover {
 }
 
 /* ******************career fisrt  section ****************** */
-            * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: "Raleway", sans-serif;
-;
-}
- 
-header {
-    display: flex;
-    width: 90%;
-    height: 10vh;
-    margin: auto;
-    align-items: center;
+	font-family: "Raleway", sans-serif;
 }
 
- nav {
-    flex: 2;
-} 
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+nav {
+	flex: 2;
+}
 
 .presentation {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    min-height: 80vh;
-    align-items: center;
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
 }
 .introduction {
-    flex: 1;
+	flex: 1;
 }
 .intro-text h1 {
-    font-size: 44px;
-    font-weight: 500;
-    background: linear-gradient(to right, #494964, #6f6f89);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .intro-text p {
-    margin-top: 5px;
-    font-size: 22px;
-    color: #585772;
-} 
- 
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+}
 
 .cover {
-    flex: -4;
-    display: flex;
-    justify-content: center;
-    height: 60vh;
-
-
+	flex: -4;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
 }
 .cover img {
-    height: 100%;
-    filter: drop-shadow(0px 5px 3px black);
-    animation: drop 1.5s ease;
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
 }
 
 .big-circle {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-    opacity: 9.5;
-    height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 9.5;
+	height: 100%;
 }
- 
+
 @keyframes drop {
-    0% {
-        opacity: 0;
-        transform: translateY(-80px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 @media screen and (max-width: 1024px) {
-    .presentation {
-        flex-direction: column;
-    }
-    .introduction {
-        margin-top: 5vh;
-        text-align: center;
-    }
-    .intro-text h1 {
-        font-size: 30px;
-    }
-    .intro-text p {
-        font-size: 18px;
-    }
-     
-    .cover img {
-        height: 80%;
-    }
-     .big-circle {
-        opacity: 90.2;
-    }
+	.presentation {
+		flex-direction: column-center;
+
+	}
+	.introduction {
+		margin-top: -20vh;
+		text-align: center;
+	}
+	.intro-text h1 {
+		font-size: 30px;
+	}
+	.intro-text p {
+		font-size: 18px;
+	}
+
+	.cover img {
+		height: 80%;
+	}
+	.big-circle {
+		opacity: 90.2;
+	}
 }
 
 /*****************************JOBS SEction css****************************************/
 
-
-	.presen {
+.presen {
 	display: flex;
 	width: 90%;
 	margin: auto;
@@ -155,13 +152,12 @@ header {
 .second {
 	flex: 1;
 }
- 
+
 .jobs {
 	flex: 1;
 	display: flex;
- 	height: 60vh;
-		right: 100%;
-
+	height: 60vh;
+	right: 100%;
 }
 .jobs img {
 	height: 100%;
@@ -172,24 +168,193 @@ header {
 .med-circle {
 	position: absolute;
 	top: 80%;
-	right: 99px;
+	right: 60px;
 	z-index: -1;
 	opacity: 50.5;
-	height: 80%;
+	height: 110%;
 }
 
 .medium-shape {
 	position: absolute;
 	top: 80%;
-	left:  0px;
+	left: 0px;
 	z-index: -1;
-	opacity: 50.5;
-	height: 99%;
+	opacity: 45;
+	height: 130%;
 }
-/*
+
+/*.job-card-logo {
+	display: grid;
+	grid-template-columns: 20px 150px 20px 20px 150px 20px 20px 150px 20px;
+	grid-template-rows: 50px 50px 50px 50px 17px 25px 17px 50px 50px 50px 50px;
+	position: absolute;
+	top: 93%;
+	right: 130px;
+}
+
+.job-card{
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.job-card-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Raleway','sans-serif';
+}
+
+.card-1 {
+	grid-row: 1/4;
+	grid-column: 1/3;
+	width: 155px;
+	height: 155px;
+	background-color: #fff;
+}
+
+.card-1:hover,.card-2:hover, .card-3:hover,.card-4:hover, .card-5:hover, .card-6:hover{
+	background-color: #ff4800;
+	color:white;
+}
+
+.card-2 {
+	grid-row: 2/5;
+	grid-column: 4/6;
+	width: 155px;
+	height: 155px;
+	background-color: #fff;
+}
+
+.card-3 {
+	grid-row: 3/7;
+	grid-column: 7/9;
+	width: 155px;
+	height: 155px;
+	background-color: #fff;
+}
+
+.card-4 {
+	grid-row: 6/10;
+	grid-column: 2/4;
+	width: 155px;
+	height: 155px;
+	background-color: #fff;
+}
+
+.card-5 {
+	grid-row: 8/11;
+	grid-column: 5/7;
+	width: 155px;
+	height: 155px;
+	background-color: #fff;
+}
+
+.card-6 {
+	grid-row: 9/12;
+	grid-column: 8/10;
+	width: 155px;
+	height: 155px;
+	background-color: #fff;
+} */
+
+.job-card-logo {
+	display: grid;
+	grid-template-columns: 15px 130px 15px 15px 130px 15px 15px 130px 15px 15px 130px 15px;
+	grid-template-rows: 40px 40px 40px 40px 15px 15px 15px 15px 15px 40px 40px 40px 40px;
+	position: absolute;
+	top: 99%;
+	right: 80px;
+}
+
+.job-card{
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.job-card-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+	font-family: 'Raleway','sans-serif';
+}
+
+.card-1 {
+	grid-row: 1/4;
+	grid-column: 1/3;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-1:hover,.card-2:hover, .card-3:hover,.card-4:hover, .card-5:hover, .card-6:hover,.card-7:hover, .card-8:hover{
+	background-color: #ff4800;
+	color:white;
+}
+
+.card-2 {
+	grid-row: 2/5;
+	grid-column: 4/6;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-3 {
+	grid-row: 3/7;
+	grid-column: 7/9;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-4 {
+	grid-row: 4/9;
+	grid-column: 10/12;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-5 {
+	grid-row: 6/11;
+	grid-column: 2/4;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-6 {
+	grid-row: 8/12;
+	grid-column: 5/7;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-7 {
+	grid-row: 10/13;
+	grid-column: 8/10;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
+
+.card-8 {
+	grid-row: 11/14;
+	grid-column: 11/13;
+	width: 125px;
+	height: 125px;
+	background-color: #fff;
+}
 
 
-.laptop-select {
+/*.laptop-select {
 	width: 15%;
 	display: flex;
 	justify-content: space-around;
@@ -207,6 +372,8 @@ header {
 		transform: translateY(0px);
 	}
 }
+
+
 
 @media screen and (max-width: 1024px) {
 	.presen {
@@ -232,25 +399,175 @@ header {
 		transform: translate(50%, 5%);
 	}
 	.jobs img {
-		height: 80%;
+		height: 90%;
 	}
- 	.medium-shape,
+	.medium-shape,
 	.med-circle {
 		opacity: 0.2;
 	}
+
 }
 
- .tab-title {
+@media screen and (max-width:1025px){
+	.job-card-logo {
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-template-rows: repeat(2,1fr);
+		grid-row-gap: 30px;
+		grid-column-gap: 50px;
+		position: absolute;
+		top: 130%;
+		left: 100px;
+	}
+
+	.card-1{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-2{
+		grid-row: 1/2;
+		grid-column: 2/3;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-3{
+		grid-row: 1/2;
+		grid-column: 3/4;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-4{
+		grid-row: 1/2;
+		grid-column: 4/5;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-5{
+		grid-row: 2/3;
+		grid-column: 1/2;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-6{
+		grid-row: 2/3;
+		grid-column: 2/3;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-7{
+		grid-row: 2/3;
+		grid-column:3/4;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-8{
+		grid-row: 2/3;
+		grid-column: 4/5;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+
+}
+
+@media screen and (max-width:819px){
+	.job-card-logo {
+		position: absolute;
+		top: 130%;
+		left: 50px;
+	}
+}
+
+@media screen and (max-width:727px){
+	.job-card-logo {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(4,1fr);
+		grid-row-gap: 50px;
+		grid-column-gap: 30px;
+		position: absolute;
+		top: 130%;
+		left: 100px;
+	}
+
+	.card-1{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-2{
+		grid-row: 1/2;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-3{
+		grid-row: 2/3;
+		grid-column: 1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-4{
+		grid-row: 2/3;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-5{
+		grid-row: 3/4;
+		grid-column: 1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-6{
+		grid-row: 3/4;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-7{
+		grid-row: 4/5;
+		grid-column:1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-8{
+		grid-row: 4/5;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+}
+
+.tab-title {
 	font-size: 1.6rem;
-	top: -2.4rem; 
-    right: 20%;
+	top: -2.4rem;
+	right: 20%;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
 	color: #efefef;
 	position: relative;
 }
 
- .tab-title::before {
+.tab-title::before {
 	content: "";
 	position: absolute;
 	top: 2.4rem;
@@ -260,11 +577,264 @@ header {
 }
 
 
+
 /**/
 
-/* *************************** Our Ambition section **************************  */ 
+/* *************************** Our Ambition section ************************** */
 
- 
+.third-section {
+	background-image: url("images/career/shapeintern.png");
+}
+
+.third-section .heading {
+	font-size: 5vmin;
+	color: #ff4800;
+	font-weight: 600;
+}
+
+.third-section .heading span {
+	color: #1e3957;
+}
+
+.third-section .heading span::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 6.5vmin);
+	width: 15vmin;
+	height: 2px;
+	background-color: blue;
+}
+
+.ambition-div {
+	width: 33.33%;
+	background-color: white;
+	color: black;
+	/* transition:  ; */
+}
+
+.ambition-div:nth-child(odd) {
+	background-color: white;
+	color: black;
+}
+
+.ambition-div:hover {
+	position: relative;
+	z-index: 10;
+	color: white;
+	transform: scale(1.1);
+	background-color: #ff4800;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.445);
+}
+
+.ambition-div .ambition-icon i {
+	font-size: 3rem;
+}
+
+.ambition-div:nth-child(odd) .ambition-icon svg {
+	fill: white;
+}
+
+.ambition-heading {
+	margin-top: 10px;
+	font-size: 1.2rem;
+}
+
+.ambition-div::before {
+	content: "";
+	position: absolute;
+	transform: translate(-69px, 108px);
+	margin-left: 70px;
+	width: 0px;
+	height: 2px;
+	background-color: black;
+}
+
+.ambition-div:hover:before {
+	background-color: white;
+}
+
+.ambition-div:nth-child(odd):before {
+	background-color: white;
+}
+
+.ambition-text {
+	margin-top: 30px;
+	font-size: 0.7rem;
+}
+
+@media screen and (max-width: 991px) {
+	.ambition-div {
+		width: 50%;
+		background-color: white;
+	}
+
+	.ambition-div:nth-child(2),
+	.ambition-div:nth-child(3),
+	.ambition-div:nth-child(6) {
+		background-color: white;
+		color: black;
+	}
+
+	.ambition-div:nth-child(1),
+	.ambition-div:nth-child(4),
+	.ambition-div:nth-child(5) {
+		background-color: #ff4800;
+		color: white;
+	}
+
+	.ambition-div:nth-child(2)::before,
+	.ambition-div:nth-child(3)::before,
+	.ambition-div:nth-child(6)::before {
+		background-color: black;
+	}
+
+	.ambition-div:nth-child(1)::before,
+	.ambition-div:nth-child(4)::before,
+	.ambition-div:nth-child(5)::before {
+		background-color: white;
+	}
+
+	.ambition-div:nth-child(1) .ambition-icon svg,
+	.ambition-div:nth-child(4) .ambition-icon svg,
+	.ambition-div:nth-child(5) .ambition-icon svg {
+		fill: white;
+	}
+
+	.ambition-div:nth-child(2) .ambition-icon svg,
+	.ambition-div:nth-child(3) .ambition-icon svg,
+	.ambition-div:nth-child(6) .ambition-icon svg {
+		fill: black;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.ambition-div {
+		width: 100%;
+	}
+
+	.ambition-div:nth-child(odd) {
+		background-color: white;
+		color: black;
+	}
+
+	.ambition-div:nth-child(even) {
+		background-color: white;
+		color: black;
+	}
+
+	.ambition-div .ambition-icon svg {
+		width: 60px;
+		height: 60px;
+	}
+
+	.ambition-div:nth-child(odd) .ambition-icon svg {
+		fill: white;
+	}
+
+	.ambition-div:nth-child(even) .ambition-icon svg {
+		fill: black;
+	}
+
+	.ambition-heading {
+		margin-top: 10px;
+		font-size: 1.2rem;
+	}
+
+	.ambition-div:nth-child(odd):before {
+		background-color: white;
+	}
+
+	.ambition-div:nth-child(even):before {
+		background-color: black;
+	}
+	.ambition-div:hover {
+		position: relative;
+		z-index: 10;
+		color: white;
+		transform: scale(1.1);
+		background-color: #ff4800;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+	}
+}
+
+/* **************************** Get JOBS TEAM ***************************** */
+
+.get-job-team {
+	position: relative;
+	background-color: rgb(240, 240, 240);
+	height: 200px;
+}
+
+.get-job-team .container div {
+	position: relative;
+	z-index: 100;
+	font-family: "Jost", sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	color: #1e3957;
+	outline: 0px;
+	border: 0px;
+}
+
+.get-job-team .container button {
+	background-color: #1e3957;
+	position: relative;
+	z-index: 100;
+	border: 0px;
+	color: #fff;
+	font-family: "Jost", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	border-radius: 6px;
+}
+
+.get-job-team .container button:hover {
+	border: 1px solid black;
+	/* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.519); */
+}
+
+.get-job-team .right-div {
+	position: absolute;
+	width: 35%;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background-color: #ff6300;
+	outline: 0px;
+}
+
+.get-job-team .right-div::before {
+	content: "";
+	position: absolute;
+	left: -100px;
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid #ff6300;
+	outline: 0px;
+	border-right: 0px solid #ff6300;
+	border-left: 100px solid transparent;
+}
+
+@media screen and (max-width: 576px) {
+	.get-job-team {
+		position: relative;
+		background-color: lightgray;
+		height: 150px;
+	}
+
+	.get-job-team .right-div::before {
+		border-bottom: 150px solid #ff6300;
+	}
+
+	.get-job-team .container div {
+		font-size: 1rem;
+	}
+
+	.get-job-team .container button {
+		font-size: 0.8rem;
+	}
+}
 
 /* *************************** clutch a coffee section ************************** */
 
@@ -272,15 +842,29 @@ header {
 	position: relative;
 }
 
-.sixth-section .container .contact-image img,
-.sixth-section .container .contact-form {
-	box-shadow: 0px 0px 10px #1e39577e;
+.sixth-section .coffee-div .contact-image {
+	position: relative;
+	z-index: 10;
+	box-shadow: 0px 0px 10px #000000bd;
+}
+.coffee-div {
+	width: 60vw;
+	box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.438);
+}
+@media screen and (max-width: 576px) {
+	.coffee-div {
+		width: 90vw;
+	}
 }
 
 .contact-form {
 	background-color: white;
 }
-
+.input-container {
+	width: 75%;
+	position: relative;
+	margin: auto;
+}
 .contact-form .contact-heading {
 	color: #1e3957;
 	font-size: 1.6rem;
@@ -291,29 +875,33 @@ header {
 .contact-form .form-control {
 	position: relative;
 	font-size: 0.7rem;
-	padding: 20px;
+	height: 41px;
 	text-align: center;
 	border-bottom: 0px;
 	border-right: 0px;
 	border-left: 0px;
 	border-radius: 0px;
-	width: 92%;
+	width: 100%;
 	margin: auto;
 	resize: none;
+}
+.contact-form .form-control::placeholder {
+	color: rgb(201, 201, 201);
 }
 
 .contact-form .form-control:focus {
 	box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
 	border-color: #ced4da;
 }
-.left-half,
-.right-half,
-.textarea-right-half {
+.contact-form .left-half,
+.contact-form .right-half,
+.contact-form .textarea-right-half {
 	position: relative;
 }
 .contact-form .left-half::before {
 	content: "";
 	position: absolute;
+	left: -30px;
 	transform: translate(0px, 0px);
 	height: 42px;
 	width: 30px;
@@ -326,7 +914,7 @@ header {
 .contact-form .right-half::before {
 	content: "";
 	position: absolute;
-	right: 0;
+	right: -30px;
 	transform: translate(0px, 0px);
 	height: 42px;
 	width: 30px;
@@ -338,18 +926,19 @@ header {
 
 .contact-form .input-container textarea {
 	height: 60px;
+	padding: 20px;
 }
 .contact-form .textarea-right-half::before {
 	content: "";
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -30px;
 	transform: translate(0px, 0px);
 	border-radius: 0px 50px 50px 0px;
 	border: 1px solid #ced4da;
 	border-left: 0px;
 	height: 60px;
-	width: 40px;
+	width: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -359,18 +948,18 @@ header {
 	.contact-form .textarea-right-half::before {
 		transform: translateY(0px) translateX(1px);
 		height: 60px;
-		width: 25px;
+		width: 40px;
 	}
 }
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
 	.contact-form .textarea-right-half::before,
 	.contact-form .right-half::before {
-		transform: translateX(10px);
+		/* transform: translateX(10px); 
 	}
-	.contact-form .left-half::before {
-		transform: translateX(-10px);
-	}
-}
+	/* .contact-form .left-half::before {
+		/* transform: translateX(-10px); }*/
+
+/* } */
 
 .contact-form .file-input input {
 	display: none;
