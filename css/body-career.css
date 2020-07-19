@@ -373,6 +373,8 @@ nav {
 	}
 }
 
+
+
 @media screen and (max-width: 1024px) {
 	.presen {
 		flex-direction: column;
@@ -403,6 +405,156 @@ nav {
 	.med-circle {
 		opacity: 0.2;
 	}
+
+}
+
+@media screen and (max-width:1025px){
+	.job-card-logo {
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-template-rows: repeat(2,1fr);
+		grid-row-gap: 30px;
+		grid-column-gap: 50px;
+		position: absolute;
+		top: 130%;
+		left: 100px;
+	}
+
+	.card-1{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-2{
+		grid-row: 1/2;
+		grid-column: 2/3;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-3{
+		grid-row: 1/2;
+		grid-column: 3/4;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-4{
+		grid-row: 1/2;
+		grid-column: 4/5;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-5{
+		grid-row: 2/3;
+		grid-column: 1/2;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-6{
+		grid-row: 2/3;
+		grid-column: 2/3;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-7{
+		grid-row: 2/3;
+		grid-column:3/4;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+	.card-8{
+		grid-row: 2/3;
+		grid-column: 4/5;
+		width: 125px;
+	    height: 125px;
+	    background-color: #fff;
+	}
+
+}
+
+@media screen and (max-width:819px){
+	.job-card-logo {
+		position: absolute;
+		top: 130%;
+		left: 50px;
+	}
+}
+
+@media screen and (max-width:727px){
+	.job-card-logo {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(4,1fr);
+		grid-row-gap: 50px;
+		grid-column-gap: 30px;
+		position: absolute;
+		top: 130%;
+		left: 100px;
+	}
+
+	.card-1{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-2{
+		grid-row: 1/2;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-3{
+		grid-row: 2/3;
+		grid-column: 1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-4{
+		grid-row: 2/3;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-5{
+		grid-row: 3/4;
+		grid-column: 1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-6{
+		grid-row: 3/4;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-7{
+		grid-row: 4/5;
+		grid-column:1/2;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
+	.card-8{
+		grid-row: 4/5;
+		grid-column: 2/3;
+		width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	}
 }
 
 .tab-title {
@@ -423,6 +575,8 @@ nav {
 	width: 70px;
 	background-color: #efefef;
 }
+
+
 
 /**/
 
