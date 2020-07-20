@@ -164,7 +164,7 @@
 
 @media only screen and (max-width: 500px) {
 	#ourclients {
-		margin-top: 300px;
+	    margin-top:-25px;
 		height: 860px;
 	}
 	#egg {
@@ -310,4 +310,4 @@
 		margin-top: -700px;
 	}
 }
-}
+
