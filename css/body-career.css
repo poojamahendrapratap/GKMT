@@ -408,7 +408,7 @@ nav {
 
 }
 
-@media screen and (max-width:1025px){
+@media screen and (max-width:1031px){
 	.job-card-logo {
 		display: grid;
 		grid-template-columns: repeat(4,1fr);
@@ -416,7 +416,7 @@ nav {
 		grid-row-gap: 30px;
 		grid-column-gap: 50px;
 		position: absolute;
-		top: 130%;
+		top: 190%;
 		left: 100px;
 	}
 
@@ -482,7 +482,7 @@ nav {
 @media screen and (max-width:819px){
 	.job-card-logo {
 		position: absolute;
-		top: 130%;
+		top: 190%;
 		left: 50px;
 	}
 }
@@ -495,64 +495,64 @@ nav {
 		grid-row-gap: 50px;
 		grid-column-gap: 30px;
 		position: absolute;
-		top: 130%;
+		top: 190%;
 		left: 100px;
 	}
 
 	.card-1{
 		grid-row: 1/2;
 		grid-column: 1/2;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-2{
 		grid-row: 1/2;
 		grid-column: 2/3;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-3{
 		grid-row: 2/3;
 		grid-column: 1/2;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-4{
 		grid-row: 2/3;
 		grid-column: 2/3;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-5{
 		grid-row: 3/4;
 		grid-column: 1/2;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-6{
 		grid-row: 3/4;
 		grid-column: 2/3;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-7{
 		grid-row: 4/5;
 		grid-column:1/2;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 	.card-8{
 		grid-row: 4/5;
 		grid-column: 2/3;
-		width: 150px;
-	    height: 150px;
+		width: 180px;
+	    height: 180px;
 	    background-color: #fff;
 	}
 }
@@ -576,7 +576,13 @@ nav {
 	background-color: #efefef;
 }
 
-
+@media screen and (max-width:819px){
+	.job-card-logo {
+		position: absolute;
+		top: 200%;
+		left: 50px;
+	}
+}
 
 /**/
 
