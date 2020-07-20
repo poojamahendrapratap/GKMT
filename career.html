@@ -603,10 +603,11 @@
 
             <div class="contact-form col-12 col-lg-8 col-md-8 p-3">
                 <div class="contact-heading py-3">CLUTCH A COFFEE</div>
-                <form class="form-group">
+                <form class="form-group" id="frmUser" method="POST" enctype="multipart/form-data" onsubmit="return false">
                     <div class="input-container right-half">
                         <input
                             type="text"
+                            name="name"
                             class="form-control name"
                             placeholder="Full Name"
                         />
@@ -614,6 +615,7 @@
                     <div class="input-container left-half">
                         <input
                             type="tel"
+                            name="contactno"
                             class="form-control phone"
                             placeholder="Contact Number"
                         />
@@ -621,12 +623,13 @@
                     <div class="input-container right-half">
                         <input
                             type="email"
+                            name="emailid"
                             class="form-control email"
                             placeholder="Email Address"
                         />
                     </div>
                     <div class="input-container left-half">
-                        <select class="form-control budget">
+                        <select class="form-control budget" name="budget">
                             <option value="">-- Choose Plan --</option>
                             <option value="Basic Stationary For Your Digital World">Basic Stationary For Your Digital World</option>
                             <option value="Digital Branding">Digital Branding</option>
@@ -635,16 +638,15 @@
                     </div>
                     <div class="input-container textarea-right-half">
                         <textarea
+                            name="message"
                             placeholder="Message"
                             rows="2"
                             class="form-control message border-bottom"
                         ></textarea>
                     </div>
                     <div class="file-input d-flex justify-content-center mt-4">
-                        <label for="upload-file"
-                            ><i class="fas fa-cloud-download-alt"></i> Choose File</label
-                        >
-                        <input type="file" id="upload-file" class="form-control-file" />
+                        <label for="upload-file"><i class="fas fa-cloud-download-alt"></i> Choose File</label>
+                        <input type="file" name="file1" id="upload-file" class="form-control-file" />
                     </div>
                     <div
                         class="recaptcha-div mt-3 px-4 py-3 d-flex justify-content-start align-items-center"
@@ -652,9 +654,7 @@
                         <input type="checkbox" class="m-2" /> I'm not a robot
                         <img src="images/recaptcha.png" class="ml-auto" height="30px" />
                     </div>
-                    <button
-                        class="form-control mt-4 mb-4 get-quote d-flex align-items-center justify-content-center"
-                    >
+                    <button id="upload" class="form-control mt-4 mb-4 get-quote d-flex align-items-center justify-content-center">
                         GET A QUOTE
                     </button>
                 </form>
@@ -664,6 +664,40 @@
     </div>
     <!-- script for changing the height of th coffee image with respect to the form -->
     <script>
+        $('#upload-file').change(function() {
+				var i = $(this).prev('label').clone();
+				var file = $('#upload-file')[0].files[0].name;
+				$(this).prev('label').text(file);
+				});
+
+			$('#upload').on('click', function() 
+			{
+				var file_data = $('#upload-file').prop('files')[0];   
+				var form_data = new FormData();
+				
+				form_data.append('file',file_data); 
+				form_data.append('name',$(".name").val());
+				form_data.append('contactno',$(".phone").val());
+				form_data.append('emailid',$(".email").val());
+				form_data.append('budget',$(".budget").val());
+				form_data.append('message',$(".message").val());
+
+				$.ajax({
+					url: 'form.php', // point to server-side PHP script 
+					dataType: 'text',  // what to expect back from the PHP script, if anything
+					cache: false,
+					contentType: false,
+					processData: false,
+					data: form_data,                    
+					type: 'post',
+					success: function(result){
+						alert(result); // display response from the PHP script, if any
+						document.getElementById("frmUser").reset();
+						$("#upload-file").prev('label').text('Choose File');
+					}
+				});
+			});
+
         $(document).ready(function () {
             var h = $(".contact-form").height() + 32;
             $("#form-image-lg").height(h);
@@ -684,10 +718,32 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ea possimus distinctio
                         suscipit voluptatum iste laborum repellendus Quis, dolor voluptas.
                     </div>
-                    <form class="mt-4 p-2">
-                        <input type="email" placeholder="Enter your email here">
-                        <button class="py-1">SUBSCRIBE</button>
+                    <form class="mt-4 p-2" id="form2" method="POST" onsubmit="return false">
+                        <input type="email" name="email" class="email" placeholder="Enter your email here">
+                        <button id="button2" class="py-1">SUBSCRIBE</button>
                     </form>
+                    <script>
+                        $('#button2').on('click', function() 
+                        {   
+                            var form_data = new FormData();
+                            
+                            form_data.append('email',$(".email").val());
+
+                            $.ajax({
+                                url: 'subscribe.php', // point to server-side PHP script 
+                                dataType: 'text',  // what to expect back from the PHP script, if anything
+                                cache: false,
+                                contentType: false,
+                                processData: false,
+                                data: form_data,                    
+                                type: 'post',
+                                success: function(result){
+                                    alert(result); // display response from the PHP script, if any
+                                    document.getElementById("form2").reset();
+                                }
+                            });
+                        });
+                </script>
                 </div>
                 <div class="quick-links p-3">
                     <div class="quick-links-title">QUICK LINKS</div>
