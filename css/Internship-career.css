@@ -1,0 +1,176 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+	font-family: "Jost Sans", sans-serif;
+	color: #444444;
+}
+
+a {
+	color: #47b2e4;
+}
+
+a:hover {
+	color: #73c5eb;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Jost", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+.section-bg {
+	background-color: #;
+}
+
+.section-title {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.section-title h2 {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	color: #37517e;
+}
+
+.section-title h2::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 120px;
+	height: 1px;
+	background: #ddd;
+	bottom: 1px;
+	left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 3px;
+	background: #47b2e4;
+	bottom: 0;
+	left: calc(50% - 20px);
+}
+
+.section-title p {
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# INTERNSHIP Team
+--------------------------------------------------------------*/
+.team .member {
+	position: relative;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	border-radius: 5px;
+	background: white;
+	background: ;
+	transition: 0.5s;
+}
+
+/*.team .member: {
+	background-color: #ff3600;
+	color: white;
+}
+
+div .col-md-4: hover {
+	background-color: #ff3600;
+	color: white;
+}
+
+
+div .member .d-flex .align-items-start : hover{
+
+	background-color: #ff3600;
+	color: white;
+
+}
+*/
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+
+
+/*.team .member .pic {
+  overflow: hidden;
+  width: 180px;
+
+  border-radius: 50%;
+}*/
+
+/*.team .member .pic img {
+  transition: ease-in-out 0.3s;
+font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+*/
+.team .member:hover {
+	transform: translateY(-10px);
+	background-color: #ff4800;
+	color: white;
+	transition: ease-in all 0.5s
+}
+
+.team .member .member-info {
+	padding-left: px;
+}
+
+.team .member h4 {
+	font-weight: ;
+	margin-bottom: 0px;
+	font-size: px;
+	color: #37517e;
+}
+
+.team .member span {
+	display: block;
+	font-size: 15px;
+	padding-bottom: 10px;
+	position: relative;
+	font-weight: 500;
+}
+
+.team .member span::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 1px;
+	background: #cbd6e9;
+	bottom: 0;
+	left: 0;
+}
+
+.team .member p {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+}

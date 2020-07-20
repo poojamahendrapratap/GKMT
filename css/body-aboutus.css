@@ -494,42 +494,20 @@ a:hover {
 }
 
 /* *************************** Our clients section ************************** */
-
-.fifth-section {
-	background-color: #1e3957;
-}
-
-#ourclients .heading {
+#ourclients .row h4 {
 	position: relative;
-	font-size: 1.8rem;
-	color: #ffffff;
 }
 
-#ourclients .heading span {
-	color: #ff4800;
-}
-
-#ourclients .heading::after {
+#ourclients .row h4::before {
 	content: "";
 	position: absolute;
+	bottom: -8px;
 	left: 50%;
-	transform: translate(-50%, 35px);
+	transform: translateX(-50%);
 	width: 100px;
 	height: 2px;
-	background-color: #ffffff;
+	background-color: white;
 }
-
-@media screen and (max-width: 576px) {
-	.fifth-section .heading {
-		font-size: 1.5rem !important;
-	}
-
-	.fifth-section .heading span::after {
-		width: 70px;
-		transform: translate(-190px, 35px);
-	}
-}
-
 /* *************************** our blog section ************************** */
 
 .sixth-section .heading {
@@ -655,6 +633,11 @@ a:hover {
 	width: 60vw;
 	box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.438);
 }
+@media screen and (max-width: 576px) {
+	.coffee-div {
+		width: 90vw;
+	}
+}
 
 .contact-form {
 	background-color: white;
@@ -737,7 +720,7 @@ a:hover {
 	border: 1px solid #ced4da;
 	border-left: 0px;
 	height: 60px;
-	width: 40px;
+	width: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -747,16 +730,16 @@ a:hover {
 	.contact-form .textarea-right-half::before {
 		transform: translateY(0px) translateX(1px);
 		height: 60px;
-		width: 25px;
+		width: 40px;
 	}
 }
 @media (max-width: 450px) {
 	.contact-form .textarea-right-half::before,
 	.contact-form .right-half::before {
-		transform: translateX(10px);
+		/* transform: translateX(10px); */
 	}
 	.contact-form .left-half::before {
-		transform: translateX(-10px);
+		/* transform: translateX(-10px); */
 	}
 }
 
