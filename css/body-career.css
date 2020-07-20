@@ -583,7 +583,7 @@ nav {
 	width: 70px;
 	background-color: #efefef;
 }
-
+/*test */
 @media screen and (max-width:819px){
 	.job-card-logo {
 		position: absolute;
