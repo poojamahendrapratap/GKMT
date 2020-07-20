@@ -44,12 +44,11 @@
 
           #talkbubble {
                             width:220px;
-                            height: 26px;
+                            height: 35px;
+                            margin-top:-6px;
                             background-color:#ff4800 ;
-                            position: relative;
-                            -moz-border-radius: 10px;
-                            -webkit-border-radius: 10px;
-                            border-radius: 10px;
+                            
+                            
                             opacity:1;
                             position: absolute;
                             
@@ -58,7 +57,7 @@
                             content: "";
                             position: absolute;
                             right:-7%;
-                            top: 3px;
+                            top: 7px;
                             width: 0;
                             height: 0;
                             border-top: 10px solid transparent;
@@ -68,12 +67,12 @@
                           }
                           #talkbubble1 {
                             width:220px;
-                            height: 26px;
+                            height: 35px;
+                            margin-top:-6px;
+                            margin-top:-6px;
                             background-color:#ff4800 ;
-                            position: relative;
-                            -moz-border-radius: 10px;
-                            -webkit-border-radius: 10px;
-                            border-radius: 10px;
+                            
+                            
                             opacity:0;
                             position: absolute;
                             
@@ -82,7 +81,7 @@
                             content: "";
                             position: absolute;
                             right:-7%;
-                            top: 3px;
+                            top: 7px;
                             width: 0;
                             height: 0;
                             border-top: 10px solid transparent;
@@ -92,12 +91,11 @@
                           }
                           #talkbubble2 {
                             width:220px;
-                            height: 26px;
+                            height: 35px;
+                            margin-top:-6px;
                             background-color:#ff4800 ;
-                            position: relative;
-                            -moz-border-radius: 10px;
-                            -webkit-border-radius: 10px;
-                            border-radius: 10px;
+                            
+                            
                             opacity:0;
                             position: absolute;
                             
@@ -106,7 +104,7 @@
                             content: "";
                             position: absolute;
                             right:-7%;
-                            top: 3px;
+                            top: 7px;
                             width: 0;
                             height: 0;
                             border-top: 10px solid transparent;
@@ -116,12 +114,11 @@
                           }
                           #talkbubble3 {
                             width:220px;
-                            height: 26px;
+                            height: 35px;
+                            margin-top:-6px;
                             background-color:#ff4800 ;
-                            position: relative;
-                            -moz-border-radius: 10px;
-                            -webkit-border-radius: 10px;
-                            border-radius:10px;
+                            
+                           
                             opacity:0;
                             position: absolute;
                             
@@ -130,7 +127,7 @@
                             content: "";
                             position: absolute;
                             right:-7%;
-                            top: 3px;
+                            top: 7px;
                             width: 0;
                             height: 0;
                             border-top: 10px solid transparent;
@@ -138,10 +135,41 @@
                             border-bottom: 10px solid transparent;
                             
                           }
-                          .abc{
-                            cursor:pointer;
+                          #talkbubble4 {
+                            width:220px;
+                            height: 35px;
+                            margin-top:-6px;
+                            background-color:#ff4800 ;
+                            
+                           
+                            opacity:0;
+                            position: absolute;
+                            
+                          }
+                          #talkbubble4:after {
+                            content: "";
+                            position: absolute;
+                            right:-7%;
+                            top: 7px;
+                            width: 0;
+                            height: 0;
+                            border-top: 10px solid transparent;
+                           border-left: 20px solid#ff4800 ;
+                            border-bottom: 10px solid transparent;
+                            
                           }
                           
+                          @media only screen and (min-width:1000px){
+                            #roww1{
+                                
+                               margin-top:40px;
+                            }
+                            @media only screen and (max-width:500px){
+                            #roww1{
+                                
+                               margin-top:40px;
+                            }
+                          }
 
 
             .shape-intern {
@@ -300,6 +328,8 @@
         </main>
          </div>
 
+         
+
         
         <!-- ******************************CURRENT Section ******************************** -->
 
@@ -397,22 +427,23 @@
        
                 
         <div class="container-fluid">
-            <div class="row" style="height:50px;">
+            <br>
+            <div class="row" style="height:30px;">
                 <div class="col-lg-12" >
                    <center> <span style="color:#ff4800;font-family:Jost, sans-serif;font-size:25px;"><strong > CURRENT </span> <span style="color:#07999f;font-family:Jost, sans-serif;font-size:25px;"> OPENINGS </strong></span></center>
-
+                 <center> <hr style="width:120px;border: 1px solid #07999f;;margin-top:-1px;"> </center>
                    
                 </div>
             </div>
-            <br><br>
-            <div class="row">
+            <br>
+            <div class="row" id="roww1" >
                 <div class="col-lg-3" ></div>
                 <div class="col-lg-3">
                     <div>
                     <div id="talkbubble">
                         
                     </div>
-                    <p id="w1" style="position:relative;margin-left:38px;cursor: pointer;color:white" onclick="hh()">
+                    <p id="w1" style="position: relative;margin-left:38px;cursor: pointer;color:white;" onclick="hh()">
                          WEB DESIGNER
                     </p>
                     </div>
@@ -446,27 +477,86 @@
                             </p>
                             </div>
                             <hr style="width:205px;margin-top:-15px;margin-left:7px;">
+                            <div>
+                                <div id="talkbubble4">
+                                    
+                                </div>
+                                <p id="w5" style="position:relative;margin-left:20px;cursor: pointer;" onclick="hh4()">
+                                    ANDROID DEVELOPER
+                                </p>
+                                </div>
+                                <hr style="width:205px;margin-top:-15px;margin-left:7px;">
                 </div>
                     <div class="col-lg-4">
                         <div id="p1">
                       <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, modi dicta dolore facere cum ex ullam pariatur reiciendis nesciunt accusamus molestias amet eius tenetur aperiam placeat ipsa repellat error aut!
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+
                       </p>
+                      <p>
+                        <h5>
+                            Major Duties & Responsibility</h5>
+                        </p>
+                        <p style="font-size:13px;margin-top:-6px;"> WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
                         </div>
                       <div id="p2" style="display:none;">
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.1
+
+                      </p>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis odit dolorem quidem soluta consequuntur est, aut, quis reiciendis doloremque eos, enim excepturi voluptas tempora tempore minus! Optio, totam aperiam.
-                    </p>
+                        <h5>
+                            Major Duties & Responsibility</h5>
+                        </p>
+                        <p style="font-size:13px;margin-top:-6px;"> WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
                     </div>
                     <div id="p3" style="display:none;">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque doloribus nihil tempora? Ducimus impedit veniam, laboriosam iste eum eaque fuga, cumque dolorum veritatis mollitia magni repudiandae, in adipisci earum?
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.2 
+
                       </p>
+                      <p>
+                        <h5>
+                            Major Duties & Responsibility</h5>
+                        </p>
+                        <p style="font-size:13px;margin-top:-6px;"> WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
                       </div>
                       <div id="p4" style="display:none;">
                         <p>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, ratione ab impedit, non alias, saepe a minus corrupti amet mollitia eius inventore sapiente nulla veniam? Nostrum voluptate placeat facere impedit.
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.3
+
                       </p>
+                      <p>
+                        <h5>
+                            Major Duties & Responsibility</h5>
+                        </p>
+                        <p style="font-size:13px;margin-top:-6px;"> WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                      </div>
+                      <div id="p5" style="display:none;">
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.4
+
+                      </p>
+                      <p>
+                        <h5>
+                            Major Duties & Responsibility</h5>
+                        </p>
+                        <p style="font-size:13px;margin-top:-6px;"> WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
+                        <p style="font-size:13px;margin-top:-6px;">WEB Design</p>
                       </div>
 
                     </div>
@@ -480,57 +570,87 @@
                         document.getElementById("talkbubble1").style.opacity=0;
                         document.getElementById("talkbubble2").style.opacity=0;
                         document.getElementById("talkbubble3").style.opacity=0;
+                        document.getElementById("talkbubble4").style.opacity=0;
                         document.getElementById("p1").style.display="block";
                         document.getElementById("p2").style.display="none";
                         document.getElementById("p3").style.display="none";
                         document.getElementById("p4").style.display="none";
+                        document.getElementById("p5").style.display="none";
                         document.getElementById("w1").style.color="white";
                         document.getElementById("w2").style.color="black";
                         document.getElementById("w3").style.color="black";
                         document.getElementById("w4").style.color="black";
+                        document.getElementById("w5").style.color="black";
                     }
                     function hh1(){
                         document.getElementById("talkbubble1").style.opacity=1;
                         
                         document.getElementById("talkbubble2").style.opacity=0;
                         document.getElementById("talkbubble3").style.opacity=0;
+                        document.getElementById("talkbubble4").style.opacity=0;
                         document.getElementById("talkbubble").style.opacity=0;
                         document.getElementById("p1").style.display="none";
                         document.getElementById("p2").style.display="block";
                         document.getElementById("p3").style.display="none";
                         document.getElementById("p4").style.display="none";
+                        document.getElementById("p5").style.display="none";
                         document.getElementById("w1").style.color="black";
                         document.getElementById("w2").style.color="white";
                         document.getElementById("w3").style.color="black";
                         document.getElementById("w4").style.color="black";
+                        document.getElementById("w5").style.color="black";
                         }
                         function hh2(){
                         document.getElementById("talkbubble2").style.opacity=1;
                         document.getElementById("talkbubble").style.opacity=0;
                         document.getElementById("talkbubble1").style.opacity=0;
                         document.getElementById("talkbubble3").style.opacity=0;
+                        document.getElementById("talkbubble4").style.opacity=0;
                         document.getElementById("p1").style.display="none";
                         document.getElementById("p3").style.display="block";
                         document.getElementById("p4").style.display="none";
+                        document.getElementById("p5").style.display="none";
                         document.getElementById("p2").style.display="none";
                         document.getElementById("w1").style.color="black";
                         document.getElementById("w2").style.color="black";
                         document.getElementById("w3").style.color="white";
                         document.getElementById("w4").style.color="black";
+                        document.getElementById("w5").style.color="black";
                         }
                         function hh3(){
                         document.getElementById("talkbubble3").style.opacity=1;
                         document.getElementById("talkbubble").style.opacity=0;
                         document.getElementById("talkbubble2").style.opacity=0;
                         document.getElementById("talkbubble1").style.opacity=0;
+                        document.getElementById("talkbubble4").style.opacity=0;
                         document.getElementById("p1").style.display="none";
                         document.getElementById("p4").style.display="block";
                         document.getElementById("p3").style.display="none";
                         document.getElementById("p2").style.display="none";
+                        document.getElementById("p5").style.display="none";
                         document.getElementById("w1").style.color="black";
                         document.getElementById("w2").style.color="black";
                         document.getElementById("w3").style.color="black";
                         document.getElementById("w4").style.color="white";
+                        document.getElementById("w5").style.color="black";
+                        }
+                        function hh4(){
+                        document.getElementById("talkbubble3").style.opacity=0;
+                        document.getElementById("talkbubble4").style.opacity=1;
+                        document.getElementById("talkbubble").style.opacity=0;
+                        document.getElementById("talkbubble2").style.opacity=0;
+                        document.getElementById("talkbubble1").style.opacity=0;
+                        document.getElementById("p5").style.display="block";
+                        document.getElementById("p1").style.display="none";
+                        document.getElementById("p4").style.display="none";
+                        document.getElementById("p3").style.display="none";
+                        document.getElementById("p2").style.display="none";
+                        
+                        document.getElementById("w1").style.color="black";
+                        document.getElementById("w2").style.color="black";
+                        document.getElementById("w3").style.color="black";
+                        document.getElementById("w4").style.color="black";
+                        document.getElementById("w5").style.color="white";
                         }
 
 

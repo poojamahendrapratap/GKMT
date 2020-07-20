@@ -1,5 +1,6 @@
 #ourclients {
 	height: 600px;
+	
 	background-color: #1e3957;
 }
 
@@ -17,10 +18,7 @@
 	margin-top: 40px;
 }
 
-#ourclients {
-	margin: 0;
-	padding: 20px;
-}
+
 .customerimg:hover {
 	opacity: 0.5;
 }
@@ -164,7 +162,7 @@
 
 @media only screen and (max-width: 500px) {
 	#ourclients {
-		
+	    margin-top:-25px;
 		height: 860px;
 	}
 	#egg {
@@ -228,7 +226,7 @@
 		margin-top: 10px;
 	}
 	#customerimg1 {
-		margin-left: 110px;
+		margin-left: 130px;
 		margin-top: -410px;
 	}
 	#customerimg2 {
@@ -244,20 +242,20 @@
 		margin-top: -340px;
 	}
 	#customerimg5 {
-		margin-left: 165px;
+		margin-left: 200px;
 		margin-top: -480px;
 	}
 	#customerimg6 {
-		margin-left: 270px;
-		margin-top: -450px;
+		margin-left: 280px;
+		margin-top: -460px;
 	}
 
 	#customerimg7 {
 		margin-left: 140px;
-		margin-top: -440px;
+		margin-top: -460px;
 	}
 	#customerimg8 {
-		margin-left: 35px;
+		margin-left: 50px;
 		margin-top: -80px;
 		margin-top: -700px;
 	}
