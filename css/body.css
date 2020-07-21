@@ -419,20 +419,22 @@
 	.hex3 {
 		grid-row: 4/5;
 		grid-column: 1/2;
-
 		justify-self: center;
+		
 	}
 
 	.hex4 {
 		grid-row: 5/6;
 		grid-column: 1/2;
 		justify-self: center;
+		margin-left: 30px;
 	}
 
 	.gai {
 		grid-row: 6/7;
 		grid-column: 1/2;
 	}
+
 }
 
 /* ******************************** On demand Ecommerce ************************** */
