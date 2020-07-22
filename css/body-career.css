@@ -135,10 +135,18 @@ nav {
 	.cover img {
 		height: 80%;
 	}
-	.big-circle {
+	.big-circle .{
 		opacity: 90.2;
 	}
 }
+
+/*@media screen and (min-width: 660px){
+	.shape-intern{
+		background-size: 50%;
+
+	}
+
+}*/
 
 /*****************************JOBS SEction css****************************************/
 
@@ -608,7 +616,7 @@ nav {
 }
 
 .third-section .heading span {
-	color: #1e3957;
+	color: #07999f;
 }
 
 .third-section .heading span::after {
@@ -618,7 +626,7 @@ nav {
 	transform: translate(-50%, 6.5vmin);
 	width: 15vmin;
 	height: 2px;
-	background-color: blue;
+	background-color: #07999f;
 }
 
 .ambition-div {
