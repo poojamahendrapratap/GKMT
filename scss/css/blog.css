@@ -2810,6 +2810,8 @@ a.badge-dark:focus {
 	}
 }
 
+
+
 .progress-bar-striped {
 	background-image: -webkit-linear-gradient(
 		45deg,
@@ -8812,7 +8814,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-	padding: 7em 0;
+	padding: 2em 0;
 	position: relative;
 }
 
