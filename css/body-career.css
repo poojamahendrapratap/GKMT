@@ -412,6 +412,15 @@ nav {
 	.medium-shape,
 	.med-circle {
 		opacity: 0.2;
+		height: 100%;}
+
+	.shape-intern {
+		position: relative;
+        opacity: 0.8;
+        width: 80%;
+        bottom: -615px;
+    }
+
 		
 	}
 
