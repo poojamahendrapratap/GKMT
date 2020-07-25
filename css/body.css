@@ -1842,5 +1842,8 @@
 
 	.join-our-team .container button {
 		font-size: 0.8rem;
+		right: 40%;
+		width: 70%;
+		
 	}
 }
