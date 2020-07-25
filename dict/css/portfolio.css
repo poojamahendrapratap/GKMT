@@ -99,11 +99,12 @@ ol li {
 	padding: 30px 20px;
 	border-left: 3px solid #ff6300;
 	background-color: rgba(24, 24, 24, 0.54);
-	top: -10px;
+	top: -50px;
 }
 @media only screen and (max-width: 767px) {
 	.hero-slides .single-hero-slide .hero-slides-content {
 		padding: 30px 20px;
+		top: -33px;
 	}
 }
 .hero-slides .single-hero-slide .hero-slides-content h2 {

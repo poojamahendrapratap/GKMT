@@ -380,7 +380,7 @@
               padding: 1em; 
               height: 85vh;} }
           @media (min-width: 992px) {
-            .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
+            .owl-carousel.home-slider .slider-item .slider-text .one-forth .text  {
               position: absolute;
               top: 50%;
               left: 0;
