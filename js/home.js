@@ -36,9 +36,9 @@ window.onscroll = function () {
 function scrollFunction() {
 	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 		document.getElementById("navbar").style.height = "60px";
-		document.getElementById("logo").style.height = "50px";
+		document.getElementById("logo").style.height = "40px";
 	} else {
 		document.getElementById("navbar").style.height = "70px";
-		document.getElementById("logo").style.height = "60px";
+		document.getElementById("logo").style.height = "45px";
 	}
 }
