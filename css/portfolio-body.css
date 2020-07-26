@@ -8,7 +8,7 @@ a:hover {
 	background-image: url("../images/banner.jpg");
 	background-size: cover;
 	background-position: center left;
-	height: 90vh;
+	height: 100vh;
 	max-height: 50rem;
 }
 
