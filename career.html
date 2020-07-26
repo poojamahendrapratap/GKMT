@@ -36,7 +36,7 @@
         <script src="js/ourclientjs.js" type="text/javascript"></script>
         <link href="css/ourcustomer.css" rel="stylesheet" type="text/css"/>
         <!-- Industry we serve css and js -->
-        <link href="css/industry.css" rel="stylesheet" type="text/css"/>
+       <!-- <link href="css/industry.css" rel="stylesheet" type="text/css"/> -->
         <script src="js/industryweserve.js" type="text/javascript"></script>
      
         <title>career</title>
@@ -307,6 +307,7 @@
                                 
                                margin-top:40px;
                             }
+                          }
                             @media only screen and (max-width:500px){
                             #roww1{
                                 
@@ -1073,11 +1074,11 @@
         <!-- ****************************** Clutch a coffee Section ******************************** -->
 
         <div
-        class="sixth-section container-fluid mt-4 py-3 px-0 p-lg-4 d-flex flex-column align-items-center justify-content-lg-center"
+        class="sixth-section container-fluid mt-4 py-3 px-0 p-lg-4 d-flex flex-column justify-content-lg-center"
         id="contact-form"
     >
         <div
-            class="coffee-div d-flex flex-column flex-lg-row flex-md-row flex-wrap  justify-content-center align-items-center"
+            class="coffee-div d-flex flex-column flex-lg-row flex-md-row flex-wrap  justify-content-center "
         >
             <div class="contact-image col-12 col-lg-4 col-md-4 p-0">
                 <img
@@ -1109,7 +1110,7 @@
                     </div>
                     <div class="input-container left-half">
                         <input
-                            type="tel"
+                            type="number"
                             name="contactno"
                             class="form-control phone"
                             placeholder="Contact Number"
@@ -1218,32 +1219,21 @@
             Exercitationem ea possimus distinctio suscipit voluptatum iste
             laborum repellendus Quis, dolor voluptas.
           </div>
-          <form class="mt-4 p-2" id="form2" method="POST" onsubmit="return false">
-            <input type="email" name="email" class="email" placeholder="Enter your email here" />
-            <button id="button2" class="py-1">SUBSCRIBE</button>
-          </form>
-          <script>
-            $('#button2').on('click', function() 
-            {   
-              var form_data = new FormData();
-              
-              form_data.append('email',$(".email").val());
-
-              $.ajax({
-                url: 'subscribe.php', // point to server-side PHP script 
-                dataType: 'text',  // what to expect back from the PHP script, if anything
-                cache: false,
-                contentType: false,
-                processData: false,
-                data: form_data,                    
-                type: 'post',
-                success: function(result){
-                  alert(result); // display response from the PHP script, if any
-                  document.getElementById("form2").reset();
-                }
-              });
-            });
-        </script>
+          <div class="social-icons d-flex justify-content-start mt-4">
+            <a href="https://www.instagram.com/gkmt_it/" target="_blank" 
+              > <img src="images/instagram-logo.png"
+            /></a>
+            <a href="https://www.facebook.com/GKMTIT/"
+            target="_blank" ><img src="images/facebook-logo.png"
+            /></a>
+            <a href="https://www.linkedin.com/company/glickmet/"
+            target="_blank" ><img src="images/linkedin-logo.png"
+            /></a>
+            <a href="https://twitter.com/GkmtIt" target="_blank" ><img src="images/twitter-logo.png" /></a>
+            <a href="https://www.behance.net/user/?username=gkmt"
+            target="_blank" ><img src="images/behance-logo.png"
+            /></a>
+          </div>
         </div>
         <div class="quick-links p-3">
           <div class="quick-links-title">QUICK LINKS</div>
@@ -1305,21 +1295,34 @@
               <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gkmt.social@gmail.com" target="_blank" class="ml-1">gkmt.social@gmail.com</a>
             </div>
           </div>
-          <div class="social-icons d-flex justify-content-start mt-4">
-            <a href="https://www.instagram.com/gkmt_it/" target="_blank" 
-              > <img src="images/instagram-logo.png"
-            /></a>
-            <a href="https://www.facebook.com/GKMTIT/"
-            target="_blank" ><img src="images/facebook-logo.png"
-            /></a>
-            <a href="https://www.linkedin.com/company/glickmet/"
-            target="_blank" ><img src="images/linkedin-logo.png"
-            /></a>
-            <a href="https://twitter.com/GkmtIt" target="_blank" ><img src="images/twitter-logo.png" /></a>
-            <a href="https://www.behance.net/user/?username=gkmt"
-            target="_blank" ><img src="images/behance-logo.png"
-            /></a>
-          </div>
+          <div class="subscribe-div d-flex flex-column">
+						<form class="mt-4 p-2" id="form2" method="POST" onsubmit="return false">
+							<input type="email" name="email" class="email" placeholder="Enter your email here" />
+							<button id="button2" class="py-1">SUBSCRIBE</button>
+						</form>
+						<script>
+							$('#button2').on('click', function() 
+							{   
+								var form_data = new FormData();
+								
+								form_data.append('email',$(".email").val());
+	
+								$.ajax({
+									url: 'subscribe.php', // point to server-side PHP script 
+									dataType: 'text',  // what to expect back from the PHP script, if anything
+									cache: false,
+									contentType: false,
+									processData: false,
+									data: form_data,                    
+									type: 'post',
+									success: function(result){
+										alert(result); // display response from the PHP script, if any
+										document.getElementById("form2").reset();
+									}
+								});
+							});
+						</script>
+					</div>
         </div>
       </div>
     </footer>

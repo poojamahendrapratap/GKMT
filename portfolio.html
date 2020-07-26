@@ -421,10 +421,10 @@
 		<!-- **************************** Footer ***************************** -->
 
 		<footer
-			class="container-fluid d-flex flex-wrap justify-content-center align-items-center py-5"
+			class="container-fluid d-flex flex-wrap justify-content-center  py-5"
 		>
 			<div
-				class="container d-flex flex-column flex-lg-row flex-md-row justify-content-between align-items-center"
+				class="container d-flex flex-column flex-lg-row flex-md-row justify-content-between "
 			>
 				<div class="subscribe-div d-flex flex-column p-3">
 					<img src="images/logo.png" height="40px" width="100px" />
@@ -433,10 +433,25 @@
 						Exercitationem ea possimus distinctio suscipit voluptatum iste
 						laborum repellendus Quis, dolor voluptas.
 					</div>
-					<form class="mt-4 p-2">
-						<input type="email" placeholder="Enter your email here" />
-						<button class="py-1">SUBSCRIBE</button>
-					</form>
+					<div class="social-icons d-flex justify-content-start mt-4">
+						<a href="https://www.instagram.com/gkmt_it/" target="_blank">
+							<img src="images/instagram-logo.png"
+						/></a>
+						<a href="https://www.facebook.com/GKMTIT/" target="_blank"
+							><img src="images/facebook-logo.png"
+						/></a>
+						<a href="https://www.linkedin.com/company/glickmet/" target="_blank"
+							><img src="images/linkedin-logo.png"
+						/></a>
+						<a href="https://twitter.com/GkmtIt" target="_blank"
+							><img src="images/twitter-logo.png"
+						/></a>
+						<a
+							href="https://www.behance.net/user/?username=gkmt"
+							target="_blank"
+							><img src="images/behance-logo.png"
+						/></a>
+					</div>
 				</div>
 				<div class="quick-links p-3">
 					<div class="quick-links-title">QUICK LINKS</div>
@@ -507,24 +522,33 @@
 							>
 						</div>
 					</div>
-					<div class="social-icons d-flex justify-content-start mt-4">
-						<a href="https://www.instagram.com/gkmt_it/" target="_blank">
-							<img src="images/instagram-logo.png"
-						/></a>
-						<a href="https://www.facebook.com/GKMTIT/" target="_blank"
-							><img src="images/facebook-logo.png"
-						/></a>
-						<a href="https://www.linkedin.com/company/glickmet/" target="_blank"
-							><img src="images/linkedin-logo.png"
-						/></a>
-						<a href="https://twitter.com/GkmtIt" target="_blank"
-							><img src="images/twitter-logo.png"
-						/></a>
-						<a
-							href="https://www.behance.net/user/?username=gkmt"
-							target="_blank"
-							><img src="images/behance-logo.png"
-						/></a>
+					<div class="subscribe-div d-flex flex-column">
+						<form class="mt-4 p-2" id="form2" method="POST" onsubmit="return false">
+							<input type="email" name="email" class="email" placeholder="Enter your email here" />
+							<button id="button2" class="py-1">SUBSCRIBE</button>
+						</form>
+						<script>
+							$('#button2').on('click', function() 
+							{   
+								var form_data = new FormData();
+								
+								form_data.append('email',$(".email").val());
+	
+								$.ajax({
+									url: 'subscribe.php', // point to server-side PHP script 
+									dataType: 'text',  // what to expect back from the PHP script, if anything
+									cache: false,
+									contentType: false,
+									processData: false,
+									data: form_data,                    
+									type: 'post',
+									success: function(result){
+										alert(result); // display response from the PHP script, if any
+										document.getElementById("form2").reset();
+									}
+								});
+							});
+						</script>
 					</div>
 				</div>
 			</div>
