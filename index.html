@@ -321,7 +321,20 @@
 				</div>
 			</div>
 		</div>
-
+		<!-- <script>
+			$( document ).ready(function() {
+				/* $(".hex1").hover(function(){
+					$(".hex1 .flip-box-inner").css('transform','rotateY(180deg)');
+				}); */
+				$(".hex1 .flip-box-inner .flip-box-front .content-front").hover(function(){
+					$(".hex1 .flip-box-inner").css('transform','rotateY(180deg)');
+				});
+				$(".hex1 .flip-box-inner .flip-box-back .content-back").mouseleave(function(){
+					$(".hex1 .flip-box-inner").css('transform','rotateY(0deg)');
+				});
+				
+			});
+		</script> -->
 		<div class="container-fluid bluebg mt-3 p-5 d-flex justify-content-center">
 			<div class="container d-flex justify-content-center">
 				<div
