@@ -437,6 +437,57 @@
 
 }
 
+@media (max-width: 500px) {
+	.hex-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 100px repeat(5, 250px);
+	}
+
+	.wutext {
+		grid-row: 1/2;
+		grid-column: 1/2;
+		font-size: 1.5em;
+	}
+
+	.hex1 {
+		grid-row: 2/3;
+		grid-column: 1/2;
+		justify-self: center;
+		margin:0 auto;
+	}
+
+	.hex2 {
+		grid-row: 3/4;
+		grid-column: 1/2;
+		justify-self: center;
+		margin:0 auto;
+	}
+
+	.hex3 {
+		grid-row: 4/5;
+		grid-column: 1/2;
+		justify-self: center;
+		margin:0 auto;
+		
+	}
+
+	.hex4 {
+		grid-row: 5/6;
+		grid-column: 1/2;
+		justify-self: center;
+		margin-left: 30px;
+		margin:0 auto;
+	}
+
+	.gai {
+		grid-row: 6/7;
+		grid-column: 1/2;
+		margin:0 auto;
+	}
+
+}
+
 /* ******************************** On demand Ecommerce ************************** */
 
 #hero {
