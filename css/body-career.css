@@ -17,8 +17,9 @@ a:hover {
 .first-section .container div {
 	font-size: 2.3rem;
 	font-weight: 600;
-	line-height: 1.2;
+	line-height: 2.2;
 	font-family: "Raleway", sans-serif;
+
 }
 
 @media screen and (max-width: 991px) {
@@ -36,6 +37,17 @@ a:hover {
 		font-size: 1.4rem;
 	}
 }
+
+div .container .third-section{
+	max-width: 950px;
+}
+
+@media (min-width: 768px){
+	div .container .third-section{
+	max-width: 900px;
+}
+}
+
 
 /* ******************career fisrt  section ****************** */
 * {
@@ -619,10 +631,18 @@ nav {
 }
 
 .third-section .heading {
-	font-size: 5vmin;
+	font-size: 25px;
 	color: #ff4800;
 	font-weight: 600;
+	padding-bottom: 20px; 
+
 }
+
+/*@media screen and (max-width: 960px){
+	.third-section .heading span .mt-2 .p-3 {
+	font-size: 19px;
+ }
+}*/
 
 .third-section .heading span {
 	color: #07999f;
@@ -873,6 +893,7 @@ nav {
 
 /* *************************** clutch a coffee section ************************** */
 
+
 .sixth-section {
 	position: relative;
 }
@@ -986,15 +1007,15 @@ nav {
 		width: 40px;
 	}
 }
-/* @media (max-width: 450px) {
+@media (max-width: 450px) {
 	.contact-form .textarea-right-half::before,
 	.contact-form .right-half::before {
-		/* transform: translateX(10px); 
+		/* transform: translateX(10px); */
 	}
-	/* .contact-form .left-half::before {
-		/* transform: translateX(-10px); }*/
-
-/* } */
+	.contact-form .left-half::before {
+		/* transform: translateX(-10px); */
+	}
+}
 
 .contact-form .file-input input {
 	display: none;
