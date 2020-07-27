@@ -1,0 +1,158 @@
+#servicep11{
+    color:white;
+}
+#weserveh61{
+color:white;
+}
+#serviceh44{
+font-weight:bold;
+font-size:20px;
+}
+@media only screen and (max-width:1400px){
+.tab{
+  margin-left:160px;
+}
+}
+@media only screen and (max-width:780px){
+#weserveh61{
+
+  margin-left:-50px;
+}
+.tab{
+  margin-left:70px;
+}
+#servicep11{
+
+  margin-left:-50px;
+
+}
+#weserveicons1{
+  height:80px;
+  margin-left:-65px;
+}
+#weserveicons2{
+
+height:75px;
+margin-left:-65px;
+}
+
+#weserveicons3{
+width:75px;
+height:75px;
+margin-left:-65px;
+}
+#weserveicons4{
+height:90px;
+margin-left:-65px;
+}
+#weserveicons5{
+height:80px;
+margin-left:-65px;
+}
+#weserveicons6{
+height:90px;
+margin-left:-65px;
+}
+#weservebtn{
+margin-left:-53px;
+}
+}
+@media only screen and (max-width: 500px){
+#img11{
+    height:320px;
+}
+
+#weserveh61{
+  font-size:15px;
+  margin-left:-10px;
+}
+.tab{
+  margin-left:65px;
+}
+#servicep11{
+  font-size:10px;
+  margin-left:-10px;
+
+}
+#weserveicons1{
+         height:45px;
+         margin-left:-20px;
+}
+#weserveicons2{
+  height:43px;
+  margin-left:-15px;
+}
+#weserveicons3{
+width:45px;
+height:45px;
+margin-left:-15px;
+}
+#weserveicons4{
+height:55px;
+margin-left:-15px;
+}
+#weserveicons5{
+height:50px;
+margin-left:-20px;
+}
+#weserveicons6{
+height:55px;
+margin-left:-15px;
+}
+#weservebtn{
+margin-left:-10px;
+} }
+@media only screen and (max-width:380px){
+  #img11{
+      height:302px;
+}
+#servicep11{
+  font-size:10px;
+  margin-left:-12px;
+  margin-top:10px;
+
+}
+.tab{
+  margin-left:47px;
+}
+
+}
+@media only screen and (max-width:320px){
+  #img11{
+      height:260px;
+}
+.tab{
+  margin-left:28px;
+}
+#servicep11{
+  font-size:9px;
+  margin-left:-12px;
+  margin-top:10px;
+
+}
+#weserveicons1{
+  height:45px;
+  margin-left:-20px;
+}
+#weserveicons2{
+height:37px;
+margin-left:-12px;
+}
+#weserveicons3{
+width:37px;
+height:37px;
+margin-left:-15px;
+}
+#weserveicons4{
+height:45px;
+margin-left:-15px;
+}
+#weserveicons5{
+height:45px;
+margin-left:-20px;
+}
+#weserveicons6{
+height:45px;
+margin-left:-15px;
+}
+}
