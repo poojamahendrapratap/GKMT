@@ -1,0 +1,1616 @@
+
+
+REMOVE OLD FULL CODE FROM ABOUT US PAGE AND ADD THIS CODE. AND DO IT SAME IN SERIVCE PAGE. 
+
+
+<!-- ******************************our clients Section ******************************** -->
+        <div class="container-fluid" id="ourclients">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 " >
+                    <br>
+                    <center> <h4 style="letter-spacing:1px" class="heading">
+                            <span style="color:white" ><strong> OUR </span> <span style="color:#ff4800">CLIENTS</strong></span>
+                        </h4>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <img src="images/shape.png" id="egg" width="400px" height="400px" style="position:absolute;"/>
+                        <div id="content" style="display:inline-block; position: inherit; margin-left: 60px; margin-top: 23px;">
+                                <br>
+                                <i class='fas fa-quote-right' id="ocq"></i>
+                                
+                                <p id="ocp" >A person is a being that has <br>certain
+                                capacities  or attributes <br> such as reason,
+                                morality,<br> consciousness or self-consciousness,
+                                <br>and being a part of a culturally <br> established 
+                                form of social <br> relations such as kinship, 
+                                ownership <br> of property,
+							</p>
+							     
+								<span  id="ocn">Mr Satish Sharma</span>
+							
+                            <img src="icons/customerimg1.jpg"  id="ocimg" id="ocimg" alt=""/>
+                        </div>
+                        <div id="content2" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+                            <br>
+                            <i class='fas fa-quote-right' id="ocq"></i>
+                            
+                            <p  id="ocp"> A person is a being that has <br>certain
+                                capacities  or attributes <br> such as reason,
+                                morality,<br> consciousness or self-consciousness,
+                                <br>and being a part of a culturally <br> established 
+                                form of social <br> relations such as kinship, 
+                                ownership <br> of property,
+							</p>
+							     <span  id="ocn">Mr Satish Sharma</span>
+                            <img src="images/aboutus/ourclient.png" id="ocimg" id="ocimg" alt=""/>
+                        </div>
+                        <div id="content3" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+                            <br>
+                            <i class='fas fa-quote-right' style="color: #ff4800; font-size: 20px;margin-left:50px;"></i>
+                            <br>
+                            <p  id="ocp">A person is a being that has <br>certain
+                            capacities  or attributes <br> such as reason,
+                            morality,<br> consciousness or self-consciousness,
+                            <br>and being a part of a culturally <br> established 
+                            form of social <br> relations such as kinship, 
+                            ownership <br> of property,
+						</p>
+						<span style="margin-left:110px;color:#ff4800">Mr Satish Sharma</span>
+                        <img src="icons/customerimg3.jpg" id="ocimg" id="ocimg"   alt=""/>
+                    </div>
+                    <div id="content4" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+                        <br>
+                        <i class='fas fa-quote-right' id="ocq"></i>
+                        <br>
+                        <p  id="ocp">A person is a being that has <br>certainsss
+                        capacities  or attributes <br> such as reason,
+                        morality,<br> consciousness or self-consciousness,
+                        <br>and being a part of a culturally <br> established 
+                        form of social <br> relations such as kinship, 
+                        ownership <br> of property,
+					</p>
+					<span id="ocn">Mr Satish Sharma</span>
+                    <img src="icons/customerimg4.jpg" id="ocimg" id="ocimg" alt=""/>
+                </div>
+                <div id="content5" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+                    <br>
+                    <i class='fas fa-quote-right' id="ocq"></i>
+                    <br>
+                    <p  id="ocp">A person is a being that has <br>certain
+                    capacities  or attributes <br> such as reason,
+                    morality,<br> consciousness or self-consciousness,
+                    <br>and being a part of a culturally <br> established 
+                    form of social <br> relations such as kinship, 
+                    ownership <br> of property,
+				</p>
+				<span  id="ocn">Mr Satish Sharma</span>
+                <img src="icons/customerimg5.jpg" id="ocimg" id="ocimg" alt=""/>
+            </div>
+            <div id="content6" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+                <br>
+                <i class='fas fa-quote-right' id="ocq"></i>
+                <br>
+                <p  id="ocp">A person is a being that has <br>certain
+                capacities  or attributes <br> such as reason,
+                morality,<br> consciousness or self-consciousness,
+                <br>and being a part of a culturally <br> established 
+                form of social <br> relations such as kinship, 
+                ownership <br> of property,
+			</p>
+			<span  id="ocn">Mr Satish Sharma</span>
+            <img src="icons/customerimg6.jpg" id="ocimg" id="ocimg" alt=""/>
+        </div>
+        <div id="content7" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+            <br>
+            <i class='fas fa-quote-right' id="ocq"></i>
+            <br>
+            <p  id="ocp">A person is a being that has <br>certain
+            capacities  or attributes <br> such as reason,
+            morality,<br> consciousness or self-consciousness,
+            <br>and being a part of a culturally <br> established 
+            form of social <br> relations such as kinship, 
+            ownership <br> of property,
+		</p>
+		<span  id="ocn">Mr Satish Sharma</span>
+        <img src="icons/customerimg7.jpg" id="ocimg"  alt=""/>
+    </div>
+    <div id="content8" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+        <br>
+        <i class='fas fa-quote-right' id="ocq"></i>
+        <br>
+        <p  id="ocp">A person is a being that has <br>certain
+        capacities  or attributes <br> such as reason,
+        morality,<br> consciousness or self-consciousness,
+        <br>and being a part of a culturally <br> established 
+        form of social <br> relations such as kinship, 
+        ownership <br> of property,
+	</p>
+	<span  id="ocn">Mr Satish Sharma</span>
+    <img src="icons/customerimg3.jpg" id="ocimg"  alt=""/>
+</div>
+<div id="content9" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+	<br>
+	<i class='fas fa-quote-right' id="ocq"></i>
+	<br>
+	<p  id="ocp">A person is a being that has <br>certain
+	capacities  or attributes <br> such as reason,
+	morality,<br> consciousness or self-consciousness,
+	<br>and being a part of a culturally <br> established 
+	form of social <br> relations such as kinship, 
+	ownership <br> of property,
+</p>
+<span  id="ocn">Mr Satish Sharma</span>
+<img src="icons/customerimg6.jpg" id="ocimg" alt=""/>
+</div>
+<div id="content10" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+	<br>
+	<i class='fas fa-quote-right' id="ocq"></i>
+	<br>
+	<p  id="ocp">A person is a being that has <br>certain
+	capacities  or attributes <br> such as reason,
+	morality,<br> consciousness or self-consciousness,
+	<br>and being a part of a culturally <br> established 
+	form of social <br> relations such as kinship, 
+	ownership <br> of property,
+</p>
+<span  id="ocn" >Mr Satish Sharma</span>
+<img src="icons/customerimg1.jpg" id="ocimg"  alt=""/>
+</div>
+<div id="content11" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+	<br>
+	<i class='fas fa-quote-right' id="ocq"></i>
+	<br>
+	<p  id="ocp">A person is a being that has <br>certain
+	capacities  or attributes <br> such as reason,
+	morality,<br> consciousness or self-consciousness,
+	<br>and being a part of a culturally <br> established 
+	form of social <br> relations such as kinship, 
+	ownership <br> of property,
+</p>
+<span id="ocn" >Mr Satish Sharma</span>
+<img src="icons/customerimg4.jpg" id="ocimg"  alt=""/>
+</div>
+<div id="content12" style="display:none; position: inherit; margin-left: 60px; margin-top: 23px;">
+	<br>
+	<i class='fas fa-quote-right' id="ocq"></i>
+	<br>
+	<p  id="ocp">A person is a being that has <br>certain
+	capacities  or attributes <br> such as reason,
+	morality,<br> consciousness or self-consciousness,
+	<br>and being a part of a culturally <br> established 
+	form of social <br> relations such as kinship, 
+	ownership <br> of property,
+</p>
+<span id="ocn"  >Mr Satish Sharma</span>
+<img src="icons/customerimg3.jpg" id="ocimg"   alt=""/>
+</div>
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img src="images/dash.png" id="dashed"/>
+                    
+                    <div class="ourclientdiv2 ourclientimg" onclick="show()">
+                        <img src="icons/customerimg1.jpg" class="customerimg" id="customerimg1" width="50px" height="50px" style="border: 2px solid #ff4800;opacity:0.6;" alt=""/>
+                    </div>
+                    
+                    <div class="ourclientdiv3 ourclientimg" onclick="show2()">
+                        <img src="images/aboutus/ourclient.png" class="customerimg" id="customerimg2" width="50px" height="50px" style="border: 2px solid white;z-index:100;" alt=""/>
+                    </div>
+                    <div class="ourclientdiv4 ourclientimg" onclick="show3()">
+                        <img src="icons/customerimg3.jpg" class="customerimg" id="customerimg3" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+                    </div>
+                    <div class="ourclientdiv5 ourclientimg" onclick="show4()">
+                        <img src="icons/customerimg4.jpg" class="customerimg" id="customerimg4" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+                    </div>
+                    <div class="ourclientdiv6 ourclientimg" onclick="show5()">
+                        <img src="icons/customerimg5.jpg" class="customerimg" id="customerimg5" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+                    </div>
+                    <div class="ourclientdiv7 ourclientimg" onclick="show6()">
+                        <img src="icons/customerimg6.jpg" class="customerimg" id="customerimg6" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+                    </div>
+                    <div class="ourclientdiv8 ourclientimg" onclick="show7()">
+                        <img src="icons/customerimg7.jpg" class="customerimg" id="customerimg7" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+                    </div>
+                    <div class="ourclientdiv9 ourclientimg" onclick="show8()">
+                        <img src="icons/customerimg3.jpg" class="customerimg" id="customerimg8" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+					</div>
+					<div class="ourclientdiv10 ourclientimg" onclick="show9()">
+                        <img src="icons/customerimg1.jpg" class="customerimg" id="customerimg9" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+					</div>
+					<div class="ourclientdiv10 ourclientimg" onclick="show10()">
+                        <img src="icons/customerimg6.jpg" class="customerimg" id="customerimg10" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+					</div>
+					<div class="ourclientdiv11 ourclientimg" onclick="show11()">
+                        <img src="icons/customerimg4.jpg" class="customerimg" id="customerimg11" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+					</div>
+					<div class="ourclientdiv12 ourclientimg" onclick="show12()">
+                        <img src="icons/customerimg3.jpg" class="customerimg" id="customerimg12" width="50px" height="50px" style="border: 2px solid white;" alt=""/>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+    FINISH
+
+REMOVE ALL CSS CODE FROM OUR CUSTOMER.CSS AND ADD THIS CODE.
+
+#ourclients {
+	height: 550px;
+	background-color:#1e3957;
+}
+#dashed{
+	width:500px;
+	height:300px;
+	filter:brightness(800%);
+	position: absolute;
+	margin-top:50px;
+}
+#ocq{
+	color: #ff4800; font-size: 20px;margin-left:50px;
+}
+#ocn{
+	margin-left:110px;color:#ff4800;
+}
+#ocp{
+	margin-top:30px;
+}
+#ocimg{
+	border-radius:50%; border: 2px solid #ff4800;margin-left:40px;margin-top:-30px;
+	width:60px;
+	height:60px;
+}
+
+
+
+.customerimg:hover {
+	opacity: 0.5;
+}
+#customerimg1 {
+	position: relative;
+	margin-top:98px;
+	margin-left:-20px;
+}
+#customerimg2 {
+	position: relative;
+	margin-top:40px;
+	margin-left:40px;
+
+}
+#customerimg3 {
+	position: relative;
+	margin-top:40px;
+	margin-left:125px;
+}
+#customerimg4 {
+	position: relative;
+	margin-top:-20px;
+	margin-left:295px;
+}
+#customerimg5 {
+	position: relative;
+	margin-top:-290px;
+	margin-left:215px;
+}
+#customerimg6 {
+	position: relative;
+	margin-left: 400px;
+	margin-top: -600px;
+}
+
+#customerimg7 {
+	position: relative;
+	margin-left: 300px;
+	margin-top: -500px;
+}
+#customerimg8 {
+	position: relative;
+	margin-left: 50px;
+	
+	margin-top: -790px;
+}
+#customerimg9 {
+	position: relative;
+	margin-left: 230px;
+	
+	margin-top: -790px;
+}
+#customerimg10 {
+	position: relative;
+	margin-left: 130px;
+	
+	margin-top: -680px;
+}
+#customerimg11 {
+	position: relative;
+	margin-left: 470px;
+	
+	margin-top: -680px;
+}
+#customerimg12 {
+	position: relative;
+	margin-left: 390px;
+	
+	margin-top: -550px;
+}
+.customerimg {
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1089px) {
+	#egg {
+		margin-left: 30px;
+		margin-top: 5px;
+		width: 300px;
+		height: 400px;
+	}
+	#dashed{
+		width:480px;
+		height:300px;
+		margin-left:-20px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-20px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:40px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:40px;
+		margin-left:125px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-20px;
+		margin-left:295px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-290px;
+		margin-left:215px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 400px;
+		margin-top: -600px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left: 300px;
+		margin-top: -500px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -790px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 230px;
+		
+		margin-top: -790px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 130px;
+		
+		margin-top: -680px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 410px;
+		
+		margin-top: -680px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 390px;
+		
+		margin-top: -550px;
+	}
+	.customerimg {
+		border-radius: 30px;
+		cursor: pointer;
+	}
+	
+	
+}
+@media only screen and (max-width: 789px) {
+	
+
+	#egg {
+		margin-left: 20px;
+		margin-top: 5px;
+		width: 300px;
+		height: 400px;
+	}
+	#dashed{
+		width:400px;
+		height:300px;
+		margin-left:-20px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-20px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:40px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:40px;
+		margin-left:125px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-20px;
+		margin-left:295px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-290px;
+		margin-left:215px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 300px;
+		margin-top: -600px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left: 300px;
+		margin-top: -500px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -790px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 230px;
+		
+		margin-top: -790px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 130px;
+		
+		margin-top: -680px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 320px;
+		
+		margin-top: -680px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 320px;
+		
+		margin-top: -550px;
+	}
+	.customerimg {
+		border-radius:30px;
+		cursor: pointer;
+	}
+	
+}
+
+@media only screen and (max-width: 500px) {
+	#ourclients {
+		
+		height: 700px;
+	}
+	#egg {
+		margin-left:35px;
+		margin-top:10px;
+		width: 310px;
+		height: 300px;
+	}
+	#ocimg{
+		width:50px;
+		height:50px;
+	}
+	#ocn{
+		margin-left:70px;
+	}
+	#ocp{
+		margin-top:10px;
+		font-size:12px;
+		margin-left:10px;
+	}
+
+	#eimg{
+		margin-right:20px;
+	}
+	#dashed{
+		width:360px;
+		height:250px;
+		margin-left:15px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-10px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:30px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:50px;
+		margin-left:100px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-55px;
+		margin-left:220px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-260px;
+		margin-left:165px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 280px;
+		margin-top: -540px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left:220px;
+		margin-top: -470px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -710px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 165px;
+		
+		margin-top: -720px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 110px;
+		
+		margin-top: -650px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 345px;
+		
+		margin-top: -630px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 270px;
+		
+		margin-top: -560px;
+	}
+	.customerimg {
+		border-radius:100px;
+		cursor: pointer;
+		height:40px;
+		width:40px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	#ourclients {
+		
+		height: 670px;
+	}
+	#egg {
+		margin-left:10px;
+		margin-top:10px;
+		width: 320px;
+		height: 300px;
+	}
+	#ocimg{
+		width:50px;
+		height:50px;
+	}
+	#ocn{
+		margin-left:55px;
+	}
+	#ocp{
+		margin-top:10px;
+		font-size:12px;
+	}
+	#dashed{
+		width:340px;
+		height:250px;
+		margin-left:10px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-10px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:30px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:50px;
+		margin-left:100px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-55px;
+		margin-left:210px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-260px;
+		margin-left:150px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 270px;
+		margin-top: -540px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left:210px;
+		margin-top: -470px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -710px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 165px;
+		
+		margin-top: -720px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 100px;
+		
+		margin-top: -650px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 315px;
+		
+		margin-top: -630px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 270px;
+		
+		margin-top: -560px;
+	}
+	.customerimg {
+		border-radius:100px;
+		cursor: pointer;
+		height:40px;
+		width:40px;
+	}
+}
+
+@media only screen and (max-width: 322px){
+	#egg {
+		margin-left:0px;
+		margin-top:10px;
+		width: 280px;
+		height: 270px;
+	}
+
+	
+	#ocimg{
+		width:40px;
+		height:40px;
+	}
+	#ocn{
+		margin-left:10px;
+	}
+	#ocp{
+		margin-top:10px;
+		font-size:11px;
+	}
+	#dashed{
+		width:300px;
+		height:210px;
+		margin-left:1px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-10px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:20px;
+		margin-left:30px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:40px;
+		margin-left:90px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-40px;
+		margin-left:180px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-210px;
+		margin-left:130px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 220px;
+		margin-top: -460px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left:180px;
+		margin-top: -410px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 40px;
+		
+		margin-top: -610px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 135px;
+		
+		margin-top: -630px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 90px;
+		
+		margin-top: -580px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left:260px;
+		
+		margin-top: -630px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 220px;
+		
+		margin-top: -560px;
+	}
+	.customerimg {
+		border-radius:100px;
+		cursor: pointer;
+		height:32px;
+		width:32px;
+	}
+}
+
+   FINISH
+
+
+  MAKE A FILE IN CSS. FILE NAME -ourcustomerservice.css and copy this code.
+
+#ourclients {
+	height: 550px;
+	background-color:#1e3957;
+}
+#dashed{
+	width:500px;
+	height:300px;
+	filter:brightness(800%);
+	position: absolute;
+	margin-top:50px;
+}
+#ocq{
+	color: #ff4800; font-size: 20px;margin-left:50px;
+}
+#ocn{
+	margin-left:110px;color:#ff4800;
+}
+#ocp{
+	margin-top:30px;
+}
+#ocimg{
+	border-radius:50%; border: 2px solid #ff4800;margin-left:40px;margin-top:-30px;
+	width:60px;
+	height:60px;
+}
+
+
+
+.customerimg:hover {
+	opacity: 0.5;
+}
+#customerimg1 {
+	position: relative;
+	margin-top:98px;
+	margin-left:-20px;
+}
+#customerimg2 {
+	position: relative;
+	margin-top:40px;
+	margin-left:40px;
+
+}
+#customerimg3 {
+	position: relative;
+	margin-top:40px;
+	margin-left:125px;
+}
+#customerimg4 {
+	position: relative;
+	margin-top:-20px;
+	margin-left:295px;
+}
+#customerimg5 {
+	position: relative;
+	margin-top:-290px;
+	margin-left:215px;
+}
+#customerimg6 {
+	position: relative;
+	margin-left: 400px;
+	margin-top: -600px;
+}
+
+#customerimg7 {
+	position: relative;
+	margin-left: 300px;
+	margin-top: -500px;
+}
+#customerimg8 {
+	position: relative;
+	margin-left: 50px;
+	
+	margin-top: -790px;
+}
+#customerimg9 {
+	position: relative;
+	margin-left: 230px;
+	
+	margin-top: -790px;
+}
+#customerimg10 {
+	position: relative;
+	margin-left: 130px;
+	
+	margin-top: -680px;
+}
+#customerimg11 {
+	position: relative;
+	margin-left: 470px;
+	
+	margin-top: -680px;
+}
+#customerimg12 {
+	position: relative;
+	margin-left: 390px;
+	
+	margin-top: -550px;
+}
+.customerimg {
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1089px) {
+	#egg {
+		margin-left: 30px;
+		margin-top: 5px;
+		width: 370px;
+		height: 400px;
+	}
+	#dashed{
+		width:480px;
+		height:300px;
+		margin-left:-20px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-20px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:40px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:40px;
+		margin-left:125px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-20px;
+		margin-left:270px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-290px;
+		margin-left:215px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 350px;
+		margin-top: -600px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left: 275px;
+		margin-top: -500px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -790px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 190px;
+		
+		margin-top: -790px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 130px;
+		
+		margin-top: -680px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 420px;
+		
+		margin-top: -680px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 350px;
+		
+		margin-top: -550px;
+	}
+	.customerimg {
+		border-radius: 30px;
+		cursor: pointer;
+	}
+	
+	
+}
+@media only screen and (max-width: 789px) {
+	
+
+	#egg {
+		margin-left: 20px;
+		margin-top: 5px;
+		width: 300px;
+		height: 400px;
+	}
+	#dashed{
+		width:400px;
+		height:300px;
+		margin-left:-20px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-20px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:40px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:40px;
+		margin-left:125px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-20px;
+		margin-left:295px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-290px;
+		margin-left:215px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 300px;
+		margin-top: -600px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left: 300px;
+		margin-top: -500px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -790px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 230px;
+		
+		margin-top: -790px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 130px;
+		
+		margin-top: -680px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 320px;
+		
+		margin-top: -680px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 320px;
+		
+		margin-top: -550px;
+	}
+	.customerimg {
+		border-radius:30px;
+		cursor: pointer;
+	}
+	
+}
+
+@media only screen and (max-width: 500px) {
+	#ourclients {
+		
+		height: 700px;
+	}
+	#egg {
+		margin-left:35px;
+		margin-top:10px;
+		width: 310px;
+		height: 300px;
+	}
+	#ocimg{
+		width:50px;
+		height:50px;
+	}
+	#ocn{
+		margin-left:70px;
+	}
+	#ocp{
+		margin-top:10px;
+		font-size:12px;
+		margin-left:10px;
+	}
+
+	#eimg{
+		margin-right:20px;
+	}
+	#dashed{
+		width:360px;
+		height:250px;
+		margin-left:15px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-10px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:30px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:50px;
+		margin-left:100px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-55px;
+		margin-left:220px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-260px;
+		margin-left:165px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 280px;
+		margin-top: -540px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left:220px;
+		margin-top: -470px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -710px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 165px;
+		
+		margin-top: -720px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 110px;
+		
+		margin-top: -650px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 345px;
+		
+		margin-top: -630px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 270px;
+		
+		margin-top: -560px;
+	}
+	.customerimg {
+		border-radius:100px;
+		cursor: pointer;
+		height:40px;
+		width:40px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	#ourclients {
+		
+		height: 600px;
+	}
+	#egg {
+		margin-left:10px;
+		margin-top:10px;
+		width: 320px;
+		height: 300px;
+	}
+	#ocimg{
+		width:50px;
+		height:50px;
+	}
+	#ocn{
+		margin-left:55px;
+	}
+	#ocp{
+		margin-top:10px;
+		font-size:12px;
+	}
+	#dashed{
+		width:340px;
+		height:250px;
+		margin-left:10px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-10px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:30px;
+		margin-left:40px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:50px;
+		margin-left:100px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-55px;
+		margin-left:210px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-260px;
+		margin-left:150px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 270px;
+		margin-top: -540px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left:210px;
+		margin-top: -470px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 50px;
+		
+		margin-top: -710px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 165px;
+		
+		margin-top: -720px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 100px;
+		
+		margin-top: -650px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left: 315px;
+		
+		margin-top: -630px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 270px;
+		
+		margin-top: -560px;
+	}
+	.customerimg {
+		border-radius:100px;
+		cursor: pointer;
+		height:40px;
+		width:40px;
+	}
+}
+
+@media only screen and (max-width: 322px){
+	#egg {
+		margin-left:0px;
+		margin-top:10px;
+		width: 280px;
+		height: 270px;
+	}
+
+	
+	#ocimg{
+		width:40px;
+		height:40px;
+	}
+	#ocn{
+		margin-left:10px;
+	}
+	#ocp{
+		margin-top:10px;
+		font-size:11px;
+	}
+	#dashed{
+		width:300px;
+		height:210px;
+		margin-left:1px;
+		filter:brightness(800%);
+		position: absolute;
+		margin-top:50px;
+	}
+	#customerimg1 {
+		position: relative;
+		margin-top:98px;
+		margin-left:-10px;
+	}
+	#customerimg2 {
+		position: relative;
+		margin-top:20px;
+		margin-left:30px;
+	
+	}
+	#customerimg3 {
+		position: relative;
+		margin-top:40px;
+		margin-left:90px;
+	}
+	#customerimg4 {
+		position: relative;
+		margin-top:-40px;
+		margin-left:180px;
+	}
+	#customerimg5 {
+		position: relative;
+		margin-top:-210px;
+		margin-left:130px;
+	}
+	#customerimg6 {
+		position: relative;
+		margin-left: 220px;
+		margin-top: -460px;
+	}
+	
+	#customerimg7 {
+		position: relative;
+		margin-left:180px;
+		margin-top: -410px;
+	}
+	#customerimg8 {
+		position: relative;
+		margin-left: 40px;
+		
+		margin-top: -610px;
+	}
+	#customerimg9 {
+		position: relative;
+		margin-left: 135px;
+		
+		margin-top: -630px;
+	}
+	#customerimg10 {
+		position: relative;
+		margin-left: 90px;
+		
+		margin-top: -580px;
+	}
+	#customerimg11 {
+		position: relative;
+		margin-left:260px;
+		
+		margin-top: -630px;
+	}
+	#customerimg12 {
+		position: relative;
+		margin-left: 220px;
+		
+		margin-top: -560px;
+	}
+	.customerimg {
+		border-radius:100px;
+		cursor: pointer;
+		height:32px;
+		width:32px;
+	}
+}
+
+ FINISH
+
+REMOVE WHOLE CODE FROM serviceweoffer.css and add this new code.
+
+
+#servicep11{
+          color:white;
+}
+#weserveh61{
+    color:white;
+}
+#serviceh44{
+    font-weight:bold;
+    font-size:20px;
+}
+@media only screen and (max-width:1400px){
+    .tab{
+        margin-left:160px;
+    }
+}
+@media only screen and (max-width:780px){
+    #weserveh61{
+    
+        margin-left:-50px;
+    }
+    .tab{
+        margin-left:70px;
+    }
+    #servicep11{
+    
+        margin-left:-50px;
+
+    }
+    #weserveicons1{
+        height:80px;
+        margin-left:-65px;
+}
+#weserveicons2{
+
+    height:75px;
+ margin-left:-65px;
+}
+
+#weserveicons3{
+    width:75px;
+    height:75px;
+    margin-left:-65px;
+}
+#weserveicons4{
+    height:90px;
+    margin-left:-65px;
+}
+#weserveicons5{
+    height:80px;
+    margin-left:-65px;
+}
+#weserveicons6{
+    height:90px;
+    margin-left:-65px;
+}
+#weservebtn{
+    margin-left:-53px;
+}
+}
+@media only screen and (max-width: 500px){
+    #img11{
+          height:320px;
+    }
+    
+    #weserveh61{
+        font-size:15px;
+        margin-left:-10px;
+    }
+    .tab{
+        margin-left:65px;
+    }
+    #servicep11{
+        font-size:10px;
+        margin-left:-10px;
+
+    }
+    #weserveicons1{
+               height:45px;
+               margin-left:-20px;
+    }
+    #weserveicons2{
+        height:43px;
+        margin-left:-15px;
+}
+#weserveicons3{
+    width:45px;
+    height:45px;
+    margin-left:-15px;
+}
+#weserveicons4{
+    height:55px;
+    margin-left:-15px;
+}
+#weserveicons5{
+    height:50px;
+    margin-left:-20px;
+}
+#weserveicons6{
+    height:55px;
+    margin-left:-15px;
+}
+#weservebtn{
+    margin-left:-10px;
+} }
+    @media only screen and (max-width:380px){
+        #img11{
+            height:302px;
+      }
+      #servicep11{
+        font-size:10px;
+        margin-left:-12px;
+        margin-top:10px;
+
+    }
+    .tab{
+        margin-left:47px;
+    }
+
+    }
+    @media only screen and (max-width:320px){
+        #img11{
+            height:260px;
+      }
+      .tab{
+        margin-left:28px;
+    }
+      #servicep11{
+        font-size:9px;
+        margin-left:-12px;
+        margin-top:10px;
+
+    }
+    #weserveicons1{
+        height:45px;
+        margin-left:-20px;
+}
+#weserveicons2{
+ height:37px;
+ margin-left:-12px;
+}
+#weserveicons3{
+width:37px;
+height:37px;
+margin-left:-15px;
+}
+#weserveicons4{
+height:45px;
+margin-left:-15px;
+}
+#weserveicons5{
+height:45px;
+margin-left:-20px;
+}
+#weserveicons6{
+height:45px;
+margin-left:-15px;
+}
+    }
+
+
+FINISH
+
+
+
+
