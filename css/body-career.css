@@ -424,7 +424,7 @@ nav {
 	.medium-shape,
 	.med-circle {
 		opacity: 0.2;
-		height: 100%;}
+		height: 70%;}
 
 	.shape-intern {
 		position: relative;
@@ -598,7 +598,7 @@ nav {
 .tab-title {
 	font-size: 1.6rem;
 	top: -2.4rem;
-	right: 20%;
+	right: 65%;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
 	color: #efefef;
@@ -646,6 +646,14 @@ nav {
 
 .third-section .heading span {
 	color: #07999f;
+}
+
+.mt-2, .my-2{
+	margin-top:-3.1rem!important;
+}
+
+.p-3{
+	padding: 2rem!important;
 }
 
 .third-section .heading span::after {
