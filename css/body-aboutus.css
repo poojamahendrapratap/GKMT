@@ -734,13 +734,13 @@ a:hover {
 	}
 }
 @media (max-width: 450px) {
-	.contact-form .textarea-right-half::before,
+	/* .contact-form .textarea-right-half::before,
 	.contact-form .right-half::before {
-		/* transform: translateX(10px); */
-	}
-	.contact-form .left-half::before {
+		 transform: translateX(10px); 
+	}*/
+	/* .contact-form .left-half::before {
 		/* transform: translateX(-10px); */
-	}
+	/* } */
 }
 
 .contact-form .file-input input {
